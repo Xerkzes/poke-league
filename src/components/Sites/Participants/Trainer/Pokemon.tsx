@@ -24,12 +24,13 @@ export const Pokemon: React.FC<PokemonProps> = ({ pokemon }) => {
           }
         }
       );
+
       // set Sprite Url
       const suffix =
-        pokemonData[0].spriteSuffix === undefined
+        pokemonData[0]?.spriteSuffix === undefined
           ? ""
           : pokemonData[0].spriteSuffix;
-      setImgUrl("sprites/normal/" + pokemonData[0].dexNr + suffix + ".png");
+      setImgUrl("sprites/normal/" + pokemonData[0]?.dexNr + suffix + ".png");
     }
     loadPokemons();
   }, []);
