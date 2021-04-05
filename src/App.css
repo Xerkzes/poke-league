@@ -302,9 +302,9 @@ h1 {
   }
 
   .team {
-    width: 25vw;
+    width: 12rem;
+    font-size: 1rem;
     align-self: center;
-    font-size: 0.7rem;
   }
 
   .team-left {
@@ -337,11 +337,6 @@ h1 {
 
   .trainer-header:hover {
     background-color: #ff8181;
-  }
-
-  .team {
-    width: 15rem;
-    font-size: 1rem;
   }
 }
 
