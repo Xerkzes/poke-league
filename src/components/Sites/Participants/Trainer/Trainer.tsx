@@ -20,24 +20,31 @@ export const Trainer: React.FC<TrainerProps> = ({
   idx,
 }) => {
   const [expanded, setExpanded] = useState<boolean>(false);
+  const [contentLoaded, setContentLoaded] = useState<boolean>(false);
 
   const headerWasClicked = () => {
     setExpanded(!expanded);
+    setContentLoaded(true);
 
     const newArray = [...trainers];
     newArray[idx].expanded = !expanded;
     setTrainers(newArray);
+
+    console.log(trainers.length);
+    console.log(idx + 1);
+    console.log(idx + 1 === trainers.length);
   };
 
   return (
+    // header
     <div
       className={
         "trainer-container" + (expanded ? " trainer-container-expanded" : "")
       }
       style={
-        trainers[idx]?.expanded || idx + 1 === trainers.length
+        trainers[idx]?.expanded
           ? {}
-          : trainers[idx + 1]?.expanded
+          : trainers[idx + 1]?.expanded || idx + 1 === trainers.length
           ? { borderBottom: "none" }
           : {
               borderBottom: "0.3px solid rgba(0, 0, 0, 0.4)",
@@ -51,6 +58,7 @@ export const Trainer: React.FC<TrainerProps> = ({
         </p>
       </div>
 
+      {/* content */}
       <div
         className={
           "trainer-content" + (expanded ? " trainer-content-expanded" : "")
@@ -70,7 +78,7 @@ export const Trainer: React.FC<TrainerProps> = ({
             "trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")
           }
         >
-          {expanded &&
+          {contentLoaded &&
             trainer.pokemons.map((pokemon: TrainerPokemonInterface) => {
               return <Pokemon key={pokemon.name} pokemon={pokemon} />;
             })}

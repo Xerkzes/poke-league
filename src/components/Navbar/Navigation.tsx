@@ -14,8 +14,7 @@ export const Navigation: React.FC<NavigationProps> = ({
   return (
     <div
       className={
-        "navbar-container cNavbar" +
-        (navbarOutwards ? " navbar-container-maximum" : "")
+        "navbar-container" + (navbarOutwards ? " navbar-container-maximum" : "")
       }
     >
       <div className="navbar-btn-expand-div">

@@ -19,7 +19,7 @@
   padding: 0;
   --navbar-max: 10rem;
   --color-background: rgb(245, 245, 245);
-  /* --color-navbar: rgb(24, 25, 28); */
+  --color-navbar: rgb(24, 25, 28);
   --color-participants: rgb(243, 195, 195);
 }
 
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  background-color: rgb(245, 254, 245);
+  background-color: var(--color-background);
 }
 
 h1 {
@@ -36,18 +36,6 @@ h1 {
   font-size: 4rem;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-}
-
-.cBackground {
-  background-color: rgb(245, 254, 245);
-}
-
-.cNavbar {
-  background-color: rgb(24, 25, 28);
-}
-
-.cParticipants {
-  background-color: rgb(243, 195, 195);
 }
 
 /* ===============
@@ -81,7 +69,7 @@ h1 {
 
   /* navbar */
   .navbar-container {
-    /* background-color: var(--color-navbar); */
+    background-color: var(--color-navbar);
     color: white;
     min-width: 3rem;
     width: 3rem;
@@ -194,6 +182,8 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .trainer-pokemons-expanded {

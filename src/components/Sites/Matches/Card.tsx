@@ -19,9 +19,11 @@ export const Card: React.FC<CardProps> = ({
   index,
 }) => {
   const [expanded, setExpanded] = useState<boolean>(false);
+  const [contentLoaded, setContentLoaded] = useState<boolean>(false);
 
   const headerWasClicked = () => {
     setExpanded(!expanded);
+    setContentLoaded(true);
 
     const newArray = [...matchesData];
     newArray[index].expanded = !expanded;
@@ -29,14 +31,15 @@ export const Card: React.FC<CardProps> = ({
   };
 
   return (
+    // header
     <div
       className={
         "trainer-container" + (expanded ? " trainer-container-expanded" : "")
       }
       style={
-        matchesData[index]?.expanded || index + 1 === matchesData.length
+        matchesData[index]?.expanded
           ? {}
-          : matchesData[index + 1]?.expanded
+          : matchesData[index + 1]?.expanded || index + 1 === matchesData.length
           ? { borderBottom: "none" }
           : {
               borderBottom: "0.3px solid rgba(0, 0, 0, 0.4)",
@@ -50,6 +53,7 @@ export const Card: React.FC<CardProps> = ({
         </p>
       </div>
 
+      {/* content */}
       <div
         className={
           "trainer-content" + (expanded ? " trainer-content-expanded" : "")
@@ -69,7 +73,7 @@ export const Card: React.FC<CardProps> = ({
             "trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")
           }
         >
-          {expanded &&
+          {contentLoaded &&
             matchData.matches.map((match: MatchInterface) => {
               return (
                 <div key={match.name1 + match.name2} className="match">
