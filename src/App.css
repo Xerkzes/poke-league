@@ -44,6 +44,11 @@ h1 {
   font-size: 0.8rem;
 }
 
+.rooster-divisions-container {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+}
+
 /* still being able to scroll in the navbar 
   even when it's not expanded but it doesn't show the scrollbar */
 .navbar.content-container::-webkit-scrollbar {
@@ -360,10 +365,6 @@ h1 {
 }
 
 @media (min-width: 900px) {
-  .rooster-divisions-container {
-    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
-  }
 }
 
 /* 'laptop': '1024px', */
@@ -377,7 +378,5 @@ h1 {
 @media (min-width: 1400px) {
   .rooster-divisions-container {
     font-size: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
   }
 }
