@@ -89,6 +89,10 @@ h1 {
     color: white;
   }
 
+  .navbar-btn-expand-div > button:focus {
+    outline: none;
+  }
+
   .navbar-container-maximum {
     min-width: var(--navbar-max);
     overflow-y: auto;
@@ -184,10 +188,6 @@ h1 {
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .trainer-pokemons-expanded {
-    margin: 1rem 0;
   }
 
   .trainer-pokemon {
