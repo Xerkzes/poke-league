@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import TrainerData from "../../../Data/TrainerData.json";
 import { TrainerInterface } from "../../../Interfaces/interface";
 import { Trainer } from "./Trainer";
@@ -43,7 +43,7 @@ export const Divisions: React.FC<DivisionsProps> = () => {
 
     // puts the trainer into the their rooster
     data.forEach((trainer: TrainerInterface) => {
-      divisions.forEach((obj) => {
+      divisions.filter((obj) => {
         if (obj.name.toLocaleLowerCase() === trainer.division)
           obj.pushArray((oldArray) => [...oldArray, trainer]);
       });

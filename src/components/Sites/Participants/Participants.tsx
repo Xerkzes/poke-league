@@ -5,11 +5,11 @@ import { TrainerExpandedInterface } from "../../../Interfaces/interface";
 
 interface ParticipantsProps {}
 
-export const Participants: React.FC<ParticipantsProps> = () => {
+export const Participants: React.FC<ParticipantsProps> = ({}) => {
   const [trainers, setTrainers] = useState<TrainerExpandedInterface[]>([]);
 
   useEffect(() => {
-    TrainerData.forEach((trainer) => {
+    TrainerData.map((trainer) => {
       const expandTrainer: TrainerExpandedInterface = {
         ...trainer,
         expanded: false,
