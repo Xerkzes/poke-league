@@ -1,9 +1,20 @@
 import React, { useEffect, useState } from "react";
 import TrainerData from "../../../Data/TrainerData.json";
-import { Trainer } from "./Trainer/Trainer";
-import { TrainerExpandedInterface } from "../../../Interfaces/interface";
+import {
+  TrainerExpandedInterface,
+  TrainerInterface,
+  TrainerPokemonInterface,
+} from "../../../Interfaces/interface";
+import { Accordion } from "../../Accordion/Accordion";
+import { Pokemon } from "./Trainer/Pokemon";
 
 interface ParticipantsProps {}
+
+const pokemonsContent = (trainer: TrainerInterface) => {
+  return trainer.pokemons.map((pokemon: TrainerPokemonInterface) => {
+    return <Pokemon key={pokemon.name} pokemon={pokemon} />;
+  });
+};
 
 export const Participants: React.FC<ParticipantsProps> = ({}) => {
   const [trainers, setTrainers] = useState<TrainerExpandedInterface[]>([]);
@@ -24,14 +35,15 @@ export const Participants: React.FC<ParticipantsProps> = ({}) => {
       <h1>Participants</h1>
 
       <div className="participants-participants">
-        {TrainerData.map((trainer, idx) => {
+        {TrainerData.map((trainer: TrainerInterface, idx) => {
           return (
-            <Trainer
-              key={trainer.name}
-              trainer={trainer}
-              trainers={trainers}
-              setTrainers={setTrainers}
-              idx={idx}
+            <Accordion
+              key={trainer.team}
+              array={trainers}
+              setArray={setTrainers}
+              header={trainer.name}
+              content={pokemonsContent(trainer)}
+              index={idx}
             />
           );
         })}

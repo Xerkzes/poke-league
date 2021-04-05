@@ -1,23 +1,19 @@
 import React, { useState } from "react";
-import {
-  TrainerInterface,
-  TrainerExpandedInterface,
-  TrainerPokemonInterface,
-} from "../../../../Interfaces/interface";
-import { Pokemon } from "./Pokemon";
 
-interface TrainerProps {
-  trainer: TrainerInterface;
-  trainers: TrainerExpandedInterface[];
-  setTrainers: React.Dispatch<React.SetStateAction<TrainerExpandedInterface[]>>;
-  idx: number;
+interface AccordionProps {
+  array: any[];
+  setArray: React.Dispatch<React.SetStateAction<any[]>>;
+  header: string;
+  content: JSX.Element[];
+  index: number;
 }
 
-export const Trainer: React.FC<TrainerProps> = ({
-  trainer,
-  trainers,
-  setTrainers,
-  idx,
+export const Accordion: React.FC<AccordionProps> = ({
+  array,
+  setArray,
+  header,
+  content,
+  index,
 }) => {
   const [expanded, setExpanded] = useState<boolean>(false);
   const [contentLoaded, setContentLoaded] = useState<boolean>(false);
@@ -26,9 +22,9 @@ export const Trainer: React.FC<TrainerProps> = ({
     setExpanded(!expanded);
     setContentLoaded(true);
 
-    const newArray = [...trainers];
-    newArray[idx].expanded = !expanded;
-    setTrainers(newArray);
+    const newArray = [...array];
+    newArray[index].expanded = !expanded;
+    setArray(newArray);
   };
 
   return (
@@ -38,9 +34,9 @@ export const Trainer: React.FC<TrainerProps> = ({
         "trainer-container" + (expanded ? " trainer-container-expanded" : "")
       }
       style={
-        trainers[idx]?.expanded
+        array[index]?.expanded
           ? {}
-          : trainers[idx + 1]?.expanded || idx + 1 === trainers.length
+          : array[index + 1]?.expanded || index + 1 === array.length
           ? { borderBottom: "none" }
           : {
               borderBottom: "0.3px solid rgba(0, 0, 0, 0.4)",
@@ -48,7 +44,7 @@ export const Trainer: React.FC<TrainerProps> = ({
       }
     >
       <div className="trainer-header" onClick={() => headerWasClicked()}>
-        <p>{trainer.name}</p>
+        <p>{header}</p>
         <p className={expanded ? "trainer-carrot-up" : "trainer-carrot-down"}>
           v
         </p>
@@ -74,10 +70,7 @@ export const Trainer: React.FC<TrainerProps> = ({
             "trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")
           }
         >
-          {contentLoaded &&
-            trainer.pokemons.map((pokemon: TrainerPokemonInterface) => {
-              return <Pokemon key={pokemon.name} pokemon={pokemon} />;
-            })}
+          {contentLoaded && <div>{content}</div>}
         </div>
       </div>
     </div>

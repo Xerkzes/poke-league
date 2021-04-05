@@ -38,6 +38,12 @@ h1 {
   font-weight: bold;
 }
 
+/* division */
+
+.rooster-divisions-container {
+  font-size: 0.8rem;
+}
+
 /* still being able to scroll in the navbar 
   even when it's not expanded but it doesn't show the scrollbar */
 .navbar.content-container::-webkit-scrollbar {
@@ -125,7 +131,7 @@ h1 {
   }
 
   .navbar-link-active > div {
-    border-right: 5px solid red;
+    border-right: 5px solid rgba(239, 68, 68);
   }
 
   .navbar-item {
@@ -149,7 +155,7 @@ h1 {
   .trainer-container {
     box-shadow: 10px 10px rgba(0, 0, 0, 0.15);
     border-bottom: 7px solid var(--color-participants);
-    transition: 300ms linear 0ms;
+    transition: 200ms linear 0ms;
   }
 
   .trainer-header {
@@ -183,7 +189,7 @@ h1 {
     background-color: white;
     border-left: 7px solid var(--color-participants);
     border-right: 7px solid var(--color-participants);
-    transition: max-height 1000ms linear;
+    transition: max-height 800ms linear;
     overflow-y: hidden;
     overflow-x: hidden;
   }
@@ -231,7 +237,7 @@ h1 {
   .rooster-divisions-container {
     display: grid;
     grid-gap: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .rooster-division {
@@ -352,7 +358,7 @@ h1 {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .rooster-divisions-container {
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
