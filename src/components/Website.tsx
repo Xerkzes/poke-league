@@ -8,7 +8,7 @@ import { Generator as RandoPokeGenerator } from "./Sites/Generator/Generator";
 
 interface WebsiteProps {}
 
-export const Website: React.FC<WebsiteProps> = ({}) => {
+export const Website: React.FC<WebsiteProps> = () => {
   const [navbarOutwards, setNavbarOutwards] = useState<boolean>(true);
 
   return (

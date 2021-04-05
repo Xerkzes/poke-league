@@ -32,7 +32,7 @@ const generatorComponent = () => {
   );
 };
 
-export const Generator: React.FC<GeneratorProps> = ({}) => {
+export const Generator: React.FC<GeneratorProps> = () => {
   const tabs: Tab[] = [
     { name: "Options", component: optionComponent() },
     { name: "Cards", component: cardsComponent() },

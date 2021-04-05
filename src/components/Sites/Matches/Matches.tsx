@@ -8,11 +8,11 @@ import {
 
 interface MatchesProps {}
 
-export const Matches: React.FC<MatchesProps> = ({}) => {
+export const Matches: React.FC<MatchesProps> = () => {
   const [matches, setMatches] = useState<LeagueExpandedInterface[]>([]);
 
   useEffect(() => {
-    MatchesData.map((match) => {
+    MatchesData.forEach((match) => {
       const expandTrainer: LeagueExpandedInterface = {
         ...match,
         expanded: false,
