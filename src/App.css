@@ -112,7 +112,8 @@ h1 {
 
   .navbar-container-maximum {
     min-width: var(--navbar-max);
-    overflow-y: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   .navbar-ul {
