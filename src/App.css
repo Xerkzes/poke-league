@@ -361,7 +361,7 @@ h1 {
 @media (min-width: 900px) {
   .rooster-divisions-container {
     grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
   }
 }
 
@@ -377,6 +377,6 @@ h1 {
   .rooster-divisions-container {
     font-size: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
   }
 }

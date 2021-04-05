@@ -39,6 +39,13 @@ export interface PokemonCardAllTypes {
   type: string;
 }
 
+export interface Division {
+  division: string;
+  header: string;
+  background: string;
+  "border-color": string;
+}
+
 
 export interface TrainerExpandedInterface extends TrainerInterface {
   expanded: boolean;

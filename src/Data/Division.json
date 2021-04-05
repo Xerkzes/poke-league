@@ -1,0 +1,26 @@
+[
+  {
+    "division": "red",
+    "header": "Red Division",
+    "background": "#ffb6c1",
+    "border-color": "#ff0000"
+  },
+  {
+    "division": "blue",
+    "header": "Blue Division",
+    "background": "rgb(191, 219, 228)",
+    "border-color": "rgb(0, 0, 255)"
+  },
+  {
+    "division": "green",
+    "header": "Green Division",
+    "background": "rgb(195, 237, 195)",
+    "border-color": "rgb(63, 235, 63)"
+  },
+  {
+    "division": "yellow",
+    "header": "Yellow Division",
+    "background": "rgb(253, 253, 165)",
+    "border-color": "#ffff00"
+  }
+]

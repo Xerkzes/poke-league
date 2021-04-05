@@ -1,9 +1,17 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
+import DivsionData from "../../../Data/Division.json";
+import { Division, TrainerInterface } from "../../../Interfaces/interface";
+import { Trainer } from "../Divisions/Trainer";
 import TrainerData from "../../../Data/TrainerData.json";
-import { TrainerInterface } from "../../../Interfaces/interface";
-import { Trainer } from "./Trainer";
 
-function sortByValue(prop: any) {
+interface DivisionsProps {}
+
+interface Divisions {
+  division: Division;
+  participants: TrainerInterface[];
+}
+
+const sortByValue = (prop: any) => {
   return function (a: any, b: any) {
     if (a[prop] > b[prop]) {
       return 1;
@@ -12,62 +20,67 @@ function sortByValue(prop: any) {
     }
     return 0;
   };
-}
+};
 
-interface DivisionsProps {}
+const findTrainersInDivisions = (division: string, data: any) => {
+  const trainers: TrainerInterface[] = [];
 
-interface Division {
-  array: TrainerInterface[];
-  name: string;
-  pushArray: React.Dispatch<React.SetStateAction<TrainerInterface[]>>;
-}
+  data.forEach((trainer: TrainerInterface) => {
+    if (trainer.division.toLocaleLowerCase() === division.toLocaleLowerCase()) {
+      trainers.push(trainer);
+    }
+  });
+
+  return trainers;
+};
+
+const createDivisions = (data: any) => {
+  const tempDivisions: Divisions[] = [];
+
+  DivsionData.forEach((el) => {
+    tempDivisions.push({
+      division: el,
+      participants: findTrainersInDivisions(el.division, data),
+    });
+  });
+
+  return tempDivisions;
+};
 
 export const Divisions: React.FC<DivisionsProps> = () => {
-  const [red, setRed] = useState<TrainerInterface[]>([]);
-  const [blue, setBlue] = useState<TrainerInterface[]>([]);
-  const [green, setGreen] = useState<TrainerInterface[]>([]);
-  const [yellow, setYellow] = useState<TrainerInterface[]>([]);
-
-  const divisions: Array<Division> = [
-    { array: red, name: "Red", pushArray: setRed },
-    { array: blue, name: "Blue", pushArray: setBlue },
-    { array: green, name: "Green", pushArray: setGreen },
-    { array: yellow, name: "Yellow", pushArray: setYellow },
-  ];
+  const [division, setDivisions] = useState<Divisions[]>([]);
 
   useEffect(() => {
-    // sort Array by ASC of the team-number
     let data = JSON.parse(JSON.stringify(TrainerData));
     data.sort(sortByValue("team"));
-    // TrainerData.sort(sortByValue("team"));
 
-    // puts the trainer into the their rooster
-    data.forEach((trainer: TrainerInterface) => {
-      divisions.filter((obj) => {
-        if (obj.name.toLocaleLowerCase() === trainer.division)
-          obj.pushArray((oldArray) => [...oldArray, trainer]);
-      });
-    });
+    setDivisions(createDivisions(data));
   }, []);
 
   return (
     <div>
-      <h1>Divisions</h1>
+      <h1>New Divison</h1>
 
       <div className="rooster-divisions-container">
-        {divisions.map((obj, idx) => {
+        {division.map((divi) => {
           return (
             <div
-              key={idx}
-              className={
-                "rooster-division rooster-divison-" + obj.name.toLowerCase()
-              }
+              key={divi.division.header}
+              className="rooster-division"
+              style={{
+                background: divi.division.background,
+                borderWidth: "3px",
+                borderStyle: "solid",
+                borderColor: divi.division["border-color"],
+              }}
             >
-              <h2>{obj.name} Division</h2>
+              <h2>{divi.division.header}</h2>
               <div className="rooster-teams">
-                {obj.array.map((trainer, idx) => {
-                  return <Trainer key={idx} trainer={trainer} index={idx} />;
-                })}
+                {divi.participants.map(
+                  (trainer: TrainerInterface, idx: number) => {
+                    return <Trainer key={idx} trainer={trainer} index={idx} />;
+                  }
+                )}
               </div>
             </div>
           );

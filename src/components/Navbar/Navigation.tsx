@@ -17,7 +17,7 @@ const links = [
     sprite: PokeballImg,
     alt: "generate random Pokemons",
   },
-  { text: "Test Page", location: "/test", icon: "bug_report" },
+  // { text: "Test Page", location: "/test", icon: "bug_report" },
 ];
 
 export const Navigation: React.FC<NavigationProps> = ({
@@ -41,7 +41,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       <ul className="navbar-ul">
         {links.map((link) => {
           return (
-            <li>
+            <li key={link.text}>
               <NavLink
                 exact
                 to={`${link.location}`}
