@@ -29,10 +29,6 @@ export const Trainer: React.FC<TrainerProps> = ({
     const newArray = [...trainers];
     newArray[idx].expanded = !expanded;
     setTrainers(newArray);
-
-    console.log(trainers.length);
-    console.log(idx + 1);
-    console.log(idx + 1 === trainers.length);
   };
 
   return (
