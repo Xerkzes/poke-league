@@ -5,6 +5,7 @@ import { Participants } from "./Sites/Participants/Participants";
 import { Divisions } from "./Sites/Divisions/Divisions";
 import { Matches } from "./Sites/Matches/Matches";
 import { Generator as RandoPokeGenerator } from "./Sites/Generator/Generator";
+import { TestPage } from "./Sites/Test/TestPage";
 
 interface WebsiteProps {}
 
@@ -28,6 +29,7 @@ export const Website: React.FC<WebsiteProps> = ({}) => {
             exact
             component={RandoPokeGenerator}
           />
+          <Route path="/test" exact component={TestPage} />
         </div>
       </Router>
     </div>
