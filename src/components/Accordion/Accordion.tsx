@@ -70,7 +70,7 @@ export const Accordion: React.FC<AccordionProps> = ({
             "trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")
           }
         >
-          {contentLoaded && <div>{content}</div>}
+          {contentLoaded && <>{content}</>}
         </div>
       </div>
     </div>
