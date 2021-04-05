@@ -38,6 +38,17 @@ h1 {
   font-weight: bold;
 }
 
+/* still being able to scroll in the navbar 
+  even when it's not expanded but it doesn't show the scrollbar */
+.navbar.content-container::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar.content-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /* ===============
     media queries
     =============== */
@@ -76,7 +87,7 @@ h1 {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    transition: all 0.2s ease-in-out;
+    transition: min-width 0.2s ease-in-out;
   }
 
   .navbar-btn-expand-div {
@@ -324,7 +335,8 @@ h1 {
 
   /* needs to be in here */
   .navbar-container:not(.navbar-container-maximum) {
-    overflow-y: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   .navbar-container:hover {
