@@ -38,8 +38,153 @@ h1 {
   font-weight: bold;
 }
 
-/* division */
+.content-container {
+  padding: 2rem 1rem;
+}
 
+/* ===============
+    components
+    =============== */
+
+/* navbar */
+.navbar-container {
+  background-color: var(--color-navbar);
+  color: white;
+  width: 100vw;
+}
+
+.navbar-btn-expand-div {
+  display: none;
+}
+
+.navbar-btn-expand-div > button {
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar-btn-expand-div > button:focus {
+  outline: none;
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-ul > li {
+  width: 4rem;
+  height: 3rem;
+  border-right: 2px solid rgb(0, 0, 0);
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-link-active > div {
+  border-bottom: 5px solid rgba(239, 68, 68);
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-icon {
+  height: 35px;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.navbar-item > p {
+  display: none;
+}
+
+/* participants */
+.participants-participants {
+  margin-bottom: 3rem;
+}
+
+/* trainer */
+
+.trainer-container {
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.15);
+  border-bottom: 7px solid var(--color-participants);
+  transition: 200ms linear 0ms;
+}
+
+.trainer-header {
+  display: flex;
+  position: relative;
+}
+
+.trainer-carrot-up,
+.trainer-carrot-down {
+  position: absolute;
+  top: 20%;
+  right: 20px;
+  transition: all 300ms linear;
+}
+
+.trainer-carrot-up {
+  top: 25%;
+  rotate: 180deg;
+}
+
+.trainer-header {
+  background-color: var(--color-participants);
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.trainer-content {
+  background-color: white;
+  border-left: 7px solid var(--color-participants);
+  border-right: 7px solid var(--color-participants);
+  transition: max-height 800ms linear;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.trainer-container-expanded {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.trainer-pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.trainer-pokemon {
+  width: 20rem;
+  display: flex;
+  margin: 0.2rem 0;
+}
+
+.trainer-pokemon-type {
+  width: 5rem;
+  height: 1.6rem;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+
+.trainer-pokemon-img {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+}
+
+.trainer-pokemon-name {
+  align-self: center;
+}
+
+/* division */
 .rooster-divisions-container {
   font-size: 0.8rem;
 }
@@ -47,6 +192,97 @@ h1 {
 .rooster-divisions-container {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(0px, 1fr));
+}
+
+.rooster-divisions-container {
+  display: grid;
+  grid-gap: 1rem;
+  font-size: 1rem;
+}
+
+.rooster-division {
+  width: 100%;
+  height: 100%;
+  margin: 5px 5px;
+  border-radius: 20px;
+}
+
+.rooster-division > h2 {
+  text-align: center;
+  border-bottom: 3px dashed white;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+.rooster-team {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+}
+.rooster-border-top-name {
+  border-top: 1px solid black;
+}
+
+.rooster-team-name {
+  margin: 0;
+  padding: 0;
+}
+
+.rooster-team-scores {
+  display: flex;
+}
+.rooster-team-scores > p {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.rooster-team-scores > p:first-child {
+  border-right: 1px solid black;
+}
+
+.rooster-team-games-won {
+  color: green;
+}
+.rooster-team-games-lost {
+  color: red;
+}
+
+/* matches */
+
+.matches-container {
+  margin: 0 auto;
+}
+
+.match {
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+}
+
+.team {
+  width: 12rem;
+  font-size: 0.8rem;
+  align-self: center;
+}
+
+.team-left {
+  text-align: end;
+}
+
+.vs {
+  margin: auto 1rem;
+}
+
+.match-won {
+  color: green;
+}
+.match-lost {
+  color: red;
+}
+
+.trainer-header:hover {
+  background-color: #ff8181;
 }
 
 /* still being able to scroll in the navbar 
@@ -91,8 +327,6 @@ h1 {
 
   /* navbar */
   .navbar-container {
-    background-color: var(--color-navbar);
-    color: white;
     min-width: 3rem;
     width: 3rem;
     height: 100vh;
@@ -102,17 +336,9 @@ h1 {
   }
 
   .navbar-btn-expand-div {
+    display: block;
     text-align: end;
     margin-right: 10px;
-  }
-
-  .navbar-btn-expand-div > button {
-    font-size: 2rem;
-    color: white;
-  }
-
-  .navbar-btn-expand-div > button:focus {
-    outline: none;
   }
 
   .navbar-container-maximum {
@@ -122,27 +348,34 @@ h1 {
   }
 
   .navbar-ul {
+    display: block;
     width: 100%;
   }
 
   .navbar-ul > li {
     display: block;
     width: 100%;
+    height: auto;
     line-height: 65px;
     font-size: 1.2rem;
     box-sizing: border-box;
     transition: 0.4s;
     border-bottom: 2px solid rgb(0, 0, 0);
     border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-right: none;
+    border-left: none;
   }
 
   .navbar-link-active > div {
     border-right: 5px solid rgba(239, 68, 68);
+    border-bottom: none;
   }
 
   .navbar-item {
     display: flex;
     align-items: center;
+    justify-content: start;
+    height: auto;
   }
 
   .nav-icon {
@@ -153,196 +386,8 @@ h1 {
     margin-left: 5px;
   }
 
-  .participants-participants {
-    margin-bottom: 3rem;
-  }
-
-  /* trainer */
-  .trainer-container {
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.15);
-    border-bottom: 7px solid var(--color-participants);
-    transition: 200ms linear 0ms;
-  }
-
-  .trainer-header {
-    display: flex;
-    position: relative;
-  }
-
-  .trainer-carrot-up,
-  .trainer-carrot-down {
-    position: absolute;
-    top: 20%;
-    right: 20px;
-    transition: all 300ms linear;
-  }
-
-  .trainer-carrot-up {
-    top: 25%;
-    rotate: 180deg;
-  }
-
-  .trainer-header {
-    background-color: var(--color-participants);
-    height: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 1rem;
-  }
-
-  .trainer-content {
-    background-color: white;
-    border-left: 7px solid var(--color-participants);
-    border-right: 7px solid var(--color-participants);
-    transition: max-height 800ms linear;
-    overflow-y: hidden;
-    overflow-x: hidden;
-  }
-
-  .trainer-container-expanded {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .trainer-pokemons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .trainer-pokemon {
-    width: 20rem;
-    display: flex;
-    margin: 0.2rem 0;
-  }
-
-  .trainer-pokemon-type {
-    width: 5rem;
-    height: 1.6rem;
-    color: white;
-    text-align: center;
-    align-self: center;
-  }
-
-  .trainer-pokemon-img {
-    width: 30px;
-    height: 30px;
-    margin: 0 0.5rem;
-  }
-
-  .trainer-pokemon-name {
-    align-self: center;
-  }
-
-  /* ===============
-    division
-    =============== */
-  .rooster-divisions-container {
-    display: grid;
-    grid-gap: 1rem;
-    font-size: 1rem;
-  }
-
-  .rooster-division {
-    width: 100%;
-    height: 100%;
-    margin: 5px 5px;
-    border-radius: 20px;
-  }
-
-  .rooster-division > h2 {
-    text-align: center;
-    border-bottom: 3px dashed white;
-    margin: 0;
-    padding: 0.5rem 0;
-  }
-
-  .rooster-divison-red {
-    border: 3px solid red;
-    background-color: lightpink;
-  }
-  .rooster-divison-blue {
-    border: 3px solid blue;
-    background-color: rgb(191, 219, 228);
-  }
-  .rooster-divison-green {
-    border: 3px solid rgb(63, 235, 63);
-    background-color: rgb(195, 237, 195);
-  }
-  .rooster-divison-yellow {
-    border: 3px solid yellow;
-    background-color: rgb(253, 253, 165);
-  }
-
-  .rooster-team {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    margin: 0 0.5rem;
-  }
-  .rooster-border-top-name {
-    border-top: 1px solid black;
-  }
-
-  .rooster-team-name {
-    margin: 0;
-    padding: 0;
-  }
-
-  .rooster-team-scores {
-    display: flex;
-  }
-  .rooster-team-scores > p {
-    margin: 0;
-    padding: 0 0.5rem;
-  }
-
-  .rooster-team-scores > p:first-child {
-    border-right: 1px solid black;
-  }
-
-  .rooster-team-games-won {
-    color: green;
-  }
-  .rooster-team-games-lost {
-    color: red;
-  }
-
-  /* ===============
-    matches
-    =============== */
-  .matches-container {
-    margin: 0 auto;
-  }
-
-  .match {
-    display: flex;
-    height: 2rem;
-    justify-content: center;
-  }
-
-  .team {
-    width: 12rem;
-    font-size: 1rem;
-    align-self: center;
-  }
-
-  .team-left {
-    text-align: end;
-  }
-
-  .vs {
-    margin: auto 1rem;
-  }
-
-  .match-won {
-    color: green;
-  }
-  .match-lost {
-    color: red;
+  .navbar-item > p {
+    display: block;
   }
 
   /* needs to be in here */
@@ -359,8 +404,11 @@ h1 {
     background-color: rgb(233, 128, 115);
   }
 
-  .trainer-header:hover {
-    background-color: #ff8181;
+  /* ===============
+    matches
+    =============== */
+  .team {
+    font-size: 1rem;
   }
 }
 
