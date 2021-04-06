@@ -32,9 +32,19 @@ export const Navigation: React.FC<NavigationProps> = ({
     >
       <div className="navbar-btn-expand-div">
         {navbarOutwards ? (
-          <button onClick={() => setNavbarOutwards(false)}>&#8592;</button>
+          <span
+            className="material-icons navbar-pin navbar-pin-float"
+            onClick={() => setNavbarOutwards(false)}
+          >
+            push_pin
+          </span>
         ) : (
-          <button onClick={() => setNavbarOutwards(true)}>&#8594;</button>
+          <span
+            className="material-icons navbar-pin navbar-pin-stick"
+            onClick={() => setNavbarOutwards(true)}
+          >
+            push_pin
+          </span>
         )}
       </div>
 

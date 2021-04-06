@@ -57,9 +57,8 @@ h1 {
   display: none;
 }
 
-.navbar-btn-expand-div > button {
-  font-size: 2rem;
-  color: white;
+.navbar-btn-expand-div > span {
+  margin-top: 2rem;
 }
 
 .navbar-btn-expand-div > button:focus {
@@ -96,6 +95,26 @@ h1 {
 
 .navbar-item > p {
   display: none;
+}
+
+.navbar-pin {
+  transition: transform 200ms linear;
+  cursor: pointer;
+  padding: 0.15rem;
+}
+
+.navbar-pin-float {
+  transform: translateY(5px);
+  color: rgba(239, 68, 68);
+}
+
+.navbar-pin-stick {
+  transform: translateY(-5px);
+}
+
+.navbar-pin:hover {
+  background-color: rgb(65, 65, 65);
+  border-radius: 8px;
 }
 
 /* participants */
