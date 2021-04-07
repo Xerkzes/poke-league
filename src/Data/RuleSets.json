@@ -1,0 +1,12 @@
+{
+  "header": "Rule Set",
+  "rules": [
+    { "clause": "Dynamax clause", "rule": "Dynamaxing is disallowed. (Yes Gung)" },
+    { "clause": "Species clause", "rule": "Each Pokémon on a player's team must be of different species or National Pokédex number."},
+    { "clause": "Item clause", "rule": "Each Pokémon on a player's team must be holding different items."},
+    { "clause": "Self-KO clause", "rule": "The player automatically loses if his last Pokémon uses Selfdestruct or Explosion. Destiny Bond and Perish Song also fail when used by the last Pokémon."},
+    { "clause": "Recoil moves clause", "rule": "If both players' last pokémon faints due to a Recoil move, then the win is given to the player whose pokémon used the move. "},
+    { "clause": "Sleep clause", "rule": "Each player can only have one Pokémon asleep at a time (Pokémon that are put to sleep due to Rest do not count). "},
+    { "clause": "Evasion clause", "rule": "Double Team, Minimize, BrightPowder, and Lax Incense are banned."}
+  ]
+}

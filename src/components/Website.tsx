@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Participants } from "./Sites/Participants/Participants";
 import { Divisions } from "./Sites/Divisions/Divisions";
 import { Matches } from "./Sites/Matches/Matches";
+import { Rules } from "./Sites/Rules/Rules";
 import { Generator as RandoPokeGenerator } from "./Sites/Generator/Generator";
 import { TestPage } from "./Sites/Test/TestPage";
 
@@ -24,6 +25,7 @@ export const Website: React.FC<WebsiteProps> = ({}) => {
           <Route path="/" exact component={Participants} />
           <Route path="/divisions" exact component={Divisions} />
           <Route path="/matches" exact component={Matches} />
+          <Route path="/rulesets" exact component={Rules} />
           <Route
             path="/random_pokemon_generator"
             exact

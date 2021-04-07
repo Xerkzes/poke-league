@@ -11,6 +11,7 @@ const links = [
   { text: "Participants", location: "/", icon: "account_circle" },
   { text: "Divisions", location: "/divisions", icon: "table_chart" },
   { text: "Matches", location: "/matches", icon: "sports_esports" },
+  { text: "Rules", location: "/rulesets", icon: "event_note" },
   {
     text: "Generator",
     location: "/random_pokemon_generator",
