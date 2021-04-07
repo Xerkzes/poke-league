@@ -11,7 +11,10 @@ export const Rules: React.FC<RulesProps> = ({}) => {
       <ol>
         {RuleSet.rules.map((rule, idx: number) => {
           return (
-            <li key={idx} className="list-decimal text-xl mb-3 p-2 bg-gray-200">
+            <li
+              key={idx}
+              className="md:list-decimal text-xl mb-3 p-2 bg-gray-200"
+            >
               <p>
                 <span className="font-bold">{rule.clause}:</span> {rule.rule}
               </p>
