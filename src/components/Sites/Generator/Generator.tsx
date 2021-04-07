@@ -1,48 +1,90 @@
 import classNames from "classnames";
 import React, { useState } from "react";
+import { Options } from "./Pages/Options";
+import GeneratorBtnJson from "../../../Data/GeneratorBtn.json";
+
+import {
+  iGeneration,
+  iType,
+  iForm,
+  iCustomOptions,
+} from "../../../Interfaces/interface";
+import {
+  generateGenerationsFromJson,
+  generateTypeCriteriaFromJson,
+  generateTypesFromJson,
+  generateNfeFeFromJson,
+  generateFormsFromJson,
+  generateCustomAmountFromJson,
+} from "../../../Utilities";
 
 interface GeneratorProps {}
 interface Tab {
   name: string;
-  component: JSX.Element;
 }
 
-const optionComponent = () => {
-  return (
-    <div className="text-center">
-      <h2>Options</h2>
-    </div>
-  );
-};
-
-const cardsComponent = () => {
-  return (
-    <div className="text-center">
-      <h2>Cards</h2>
-    </div>
-  );
-};
-
-const generatorComponent = () => {
-  return (
-    <div className="text-center">
-      <h2>Generator</h2>
-      <div></div>
-    </div>
-  );
-};
-
 export const Generator: React.FC<GeneratorProps> = ({}) => {
-  const tabs: Tab[] = [
-    { name: "Options", component: optionComponent() },
-    { name: "Cards", component: cardsComponent() },
-    { name: "Generate", component: generatorComponent() },
-  ];
+  // Options for random generating of the pokemons
+  const [generations, setGenerations] = useState<iGeneration[]>(() =>
+    generateGenerationsFromJson(GeneratorBtnJson)
+  );
+  const [typeCriteria, setTypeCriteria] = useState<string>(() =>
+    generateTypeCriteriaFromJson(GeneratorBtnJson)
+  );
+  const [types, setTypes] = useState<iType[]>(() =>
+    generateTypesFromJson(GeneratorBtnJson)
+  );
+  const [nfeFe, setNfeFe] = useState<boolean[]>(() =>
+    generateNfeFeFromJson(GeneratorBtnJson)
+  );
+  const [forms, setForms] = useState<iForm[]>(() =>
+    generateFormsFromJson(GeneratorBtnJson)
+  );
+  const [amount, setAmount] = useState<number>(6);
+  const [customAmount, setCustomAmount] = useState<iCustomOptions[]>(() =>
+    generateCustomAmountFromJson(GeneratorBtnJson)
+  );
 
+  const tabs: Tab[] = [
+    { name: "Options" },
+    { name: "Cards" },
+    { name: "Generate" },
+  ];
   const [activeComponent, setActiveComponent] = useState<Tab>(tabs[0]);
 
   const updateActiveComponent = (tab: Tab) => {
     setActiveComponent(tab);
+  };
+
+  const renderTab = (tabName: string) => {
+    switch (tabName) {
+      case "Options": {
+        return (
+          <Options
+            generations={generations}
+            setGenerations={setGenerations}
+            typeCriteria={typeCriteria}
+            setTypeCriteria={setTypeCriteria}
+            types={types}
+            setTypes={setTypes}
+            nfeFe={nfeFe}
+            setNfeFe={setNfeFe}
+            forms={forms}
+            setForms={setForms}
+            amount={amount}
+            setAmount={setAmount}
+            customAmount={customAmount}
+            setCustomAmount={setCustomAmount}
+          />
+        );
+      }
+      case "Cards": {
+        return;
+      }
+      case "Generate": {
+        return;
+      }
+    }
   };
 
   return (
@@ -50,12 +92,12 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
       <h1>Rando-Poké-Generator</h1>
 
       {/* navigation */}
-      <div className="max-w-7xl mx-auto my-4 px-2 sm:px-6 lg:px-8">
+      <div className="my-4 ">
         <nav
           className="relative z-0 rounded-lg overflow-hidden 
           shadow flex divide-x divide-gray-800 border-2 border-gray"
         >
-          {tabs.map((tab, tabIdx, list) => {
+          {tabs.map((tab, tabIdx) => {
             return (
               <div
                 onClick={() => updateActiveComponent(tab)}
@@ -66,7 +108,7 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
                 className={classNames(
                   tab.name === activeComponent.name
                     ? "text-gray-100"
-                    : "text-gray-400 hover:text-gray-300",
+                    : "text-gray-300 hover:text-gray-100",
                   "cursor-pointer group relative min-w-0 flex-1 overflow-hidden bg-gray-800 py-4 px-4 text-sm font-medium hover:bg-gray-700 focus:z-10"
                 )}
               >
@@ -90,7 +132,7 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
       </div>
 
       {/* display of settings */}
-      <div>{activeComponent.component}</div>
+      <div>{renderTab(activeComponent.name)}</div>
     </div>
   );
 };

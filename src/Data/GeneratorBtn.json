@@ -1,0 +1,158 @@
+[
+  {
+    "id": "generation",
+    "header": "Generations",
+    "buttons": [
+      {
+          "generation": 1,
+          "name": "RB",
+          "backgroundStyle": "linear-gradient(348deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,255,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 2,
+          "name": "GS",
+          "backgroundStyle": "linear-gradient(348deg, rgba(192,192,192,1) 0%, rgba(255,255,255,1) 50%, rgba(255,215,0,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 3,
+          "name": "RS",
+          "backgroundStyle": "linear-gradient(348deg, rgba(15,82,186,1) 0%, rgba(255,255,255,1) 50%, rgba(224,17,95,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 4,
+          "name": "DP",
+          "backgroundStyle": "linear-gradient(348deg, rgba(234,244,200,1) 0%, rgba(255,255,255,1) 50%, rgba(185,242,255,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 5,
+          "name": "BW",
+          "backgroundStyle": "linear-gradient(348deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 6,
+          "name": "XY",
+          "backgroundStyle": "linear-gradient(348deg, rgba(170,10,51,1) 0%, rgba(255,255,255,1) 50%, rgba(131,255,218,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 7,
+          "name": "SM",
+          "backgroundStyle": "linear-gradient(348deg, rgba(12,9,84,1) 0%, rgba(255,255,255,1) 50%, rgba(255,222,131,1) 100%)",
+          "active": true
+      },
+      {
+          "generation": 8,
+          "name": "SS",
+          "backgroundStyle": "linear-gradient(348deg, rgba(204,243,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,190,205,1) 100%)",
+          "active": true
+      }
+  ]
+  },
+  {
+    "id": "type",
+    "header": "Types",
+    "buttons": {
+      "choices": [
+        {"name": "One Type Each",
+          "active": false},
+        {"name": "Custom",
+          "active": true}
+      ],
+      "types": {
+        "headerBtn": [
+          {"name": "All"},
+          {"name": "None"}
+        ],
+        "typeBtn": [
+          {"name": "bug",
+            "active": true},
+          {"name": "dragon",
+            "active": true},
+          {"name": "fairy",
+            "active": true},
+          {"name": "fire",
+            "active": true},
+          {"name": "ghost",
+            "active": true},
+          {"name": "ground",
+            "active": true},
+          {"name": "normal",
+            "active": true},
+          {"name": "psychic",
+            "active": true},
+          {"name": "steel",
+            "active": true},
+          {"name": "dark",
+            "active": true},
+          {"name": "electric",
+            "active": true},
+          {"name": "fighting",
+            "active": true},
+          {"name": "flying",
+            "active": true},
+          {"name": "grass",
+            "active": true},
+          {"name": "ice",
+            "active": true},
+          {"name": "poison",
+            "active": true},
+          {"name": "rock",
+            "active": true},
+          {"name": "water",
+            "active": true}
+        ]
+      }
+    }
+  },
+  {
+    "id": "nfe / fe",
+    "header": "NFE / FE",
+    "buttons": [
+      {"name": "NFE",
+        "active": true},
+      {"name": "FE",
+        "active": true}
+    ]
+  },
+  {
+    "id": "form",
+    "header": "Forms",
+    "buttons":[
+      {"name": "Mega",
+        "active": true},
+      {"name": "Alolan",
+        "active": true},
+      {"name": "Galar",
+        "active": true},
+      {"name": "Gigantamax",
+        "active": true}
+    ]
+  },
+  {
+    "id": "amount",
+    "header": "Amount",
+    "buttons": [
+      {"name": "Down"},
+      {"name": "Up"}
+    ]
+  },
+  {
+    "id": "custom option",
+    "header": "Custom Options",
+    "buttons": [
+      {"name": "have Mega",
+        "active": false},
+      {"name": "have Alolan",
+        "active": false},
+      {"name": "have Galar",
+        "active": false},
+      {"name": "have Gigantamax",
+        "active": false}
+    ]
+  }
+]

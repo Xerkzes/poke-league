@@ -54,3 +54,34 @@ export interface TrainerExpandedInterface extends TrainerInterface {
 export interface LeagueExpandedInterface extends LeagueInterface {
   expanded: boolean;
 }
+
+// Generator-Options
+export interface iBtn {
+  name: string;
+  active: boolean
+}
+
+export interface iHeaderBtn {
+  name: string;
+}
+
+export interface iGeneration {
+  generation: number;
+  active: boolean;
+}
+
+export interface iType {
+  type: string;
+  active: boolean;
+}
+
+export interface iForm {
+  form: string;
+  active: boolean;
+}
+
+export interface iCustomOptions {
+  criteria: string;
+  active: boolean;
+  amount: number;
+}
