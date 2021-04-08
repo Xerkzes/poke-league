@@ -93,15 +93,17 @@ export const Type: React.FC<TypeProps> = ({
             {/* show types when custom-btn is active */}
             {typeCriteria.toLocaleLowerCase() === "custom" && (
               <div>
-                <div>
+                <div className="mt-5 mb-2">
                   {/* all / none */}
                   {el.buttons.types.headerBtn.map((btn: iHeaderBtn) => {
                     return (
                       <button
                         key={btn.name}
                         onClick={() => allOrNothing(btn)}
-                        className="generator-btn"
-                        style={{ background: "rgb(100, 100, 100)" }}
+                        className="generator-btn btn-click-down-up"
+                        style={{
+                          background: "rgb(100, 100, 100)",
+                        }}
                       >
                         {btn.name}
                       </button>

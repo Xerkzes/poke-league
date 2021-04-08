@@ -1,8 +1,8 @@
 import classNames from "classnames";
 import React, { useState } from "react";
 import { Options } from "./Pages/Options";
+import { Cards } from "./Cards/Cards";
 import GeneratorBtnJson from "../../../Data/GeneratorBtn.json";
-
 import {
   iGeneration,
   iType,
@@ -45,6 +45,10 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
     generateCustomAmountFromJson(GeneratorBtnJson)
   );
 
+  // active card generation
+  const [cardGen, setCardGen] = useState<number>(1);
+
+  // Tabs
   const tabs: Tab[] = [
     { name: "Options" },
     { name: "Cards" },
@@ -79,7 +83,17 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
         );
       }
       case "Cards": {
-        return;
+        return (
+          <Cards
+            generations={generations}
+            typeCriteria={typeCriteria}
+            types={types}
+            nfeFe={nfeFe}
+            forms={forms}
+            cardGen={cardGen}
+            setCardGen={setCardGen}
+          />
+        );
       }
       case "Generate": {
         return;

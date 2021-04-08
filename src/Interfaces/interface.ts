@@ -78,10 +78,19 @@ export interface iType {
 export interface iForm {
   form: string;
   active: boolean;
+  searchCriteria: string;
 }
 
 export interface iCustomOptions {
   criteria: string;
   active: boolean;
   amount: number;
+}
+
+// card
+export interface iCard {
+  imageUrl: string;
+  name: string;
+  type: string[];
+  active: boolean;
 }

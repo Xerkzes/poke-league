@@ -111,11 +111,13 @@
   },
   {
     "id": "nfe / fe",
-    "header": "NFE / FE",
+    "header": "Specials",
     "buttons": [
       {"name": "NFE",
         "active": true},
       {"name": "FE",
+        "active": true},
+      {"name": "Uber", 
         "active": true}
     ]
   },
@@ -124,13 +126,17 @@
     "header": "Forms",
     "buttons":[
       {"name": "Mega",
-        "active": true},
+        "active": true,
+        "searchCriteria": "-mega"},
       {"name": "Alolan",
-        "active": true},
+        "active": true,
+        "searchCriteria": "-alola"},
       {"name": "Galar",
-        "active": true},
+        "active": true,
+        "searchCriteria": "-galar"},
       {"name": "Gigantamax",
-        "active": true}
+        "active": true,
+        "searchCriteria": "-gigantamax"}
     ]
   },
   {

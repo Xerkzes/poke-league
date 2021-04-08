@@ -55,27 +55,6 @@ export const Options: React.FC<OptionsProps> = ({
   customAmount,
   setCustomAmount,
 }) => {
-  // Options for random generating of the pokemons
-  // const [generations, setGenerations] = useState<iGeneration[]>(() =>
-  //   generateGenerationsFromJson(GeneratorBtnJson)
-  // );
-  // const [typeCriteria, setTypeCriteria] = useState<string>(() =>
-  //   generateTypeCriteriaFromJson(GeneratorBtnJson)
-  // );
-  // const [types, setTypes] = useState<iType[]>(() =>
-  //   generateTypesFromJson(GeneratorBtnJson)
-  // );
-  // const [nfeFe, setNfeFe] = useState<boolean[]>(() =>
-  //   generateNfeFeFromJson(GeneratorBtnJson)
-  // );
-  // const [forms, setForms] = useState<iForm[]>(() =>
-  //   generateFormsFromJson(GeneratorBtnJson)
-  // );
-  // const [amount, setAmount] = useState<number>(6);
-  // const [customAmount, setCustomAmount] = useState<iCustomOptions[]>(() =>
-  //   generateCustomAmountFromJson(GeneratorBtnJson)
-  // );
-
   return (
     <div className="text-center option-container">
       <Generation generations={generations} setGenerations={setGenerations} />

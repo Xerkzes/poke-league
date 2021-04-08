@@ -29,7 +29,7 @@ export const Amount: React.FC<AmountProps> = ({
                 <div className="flex items-center justify-center">
                   <button
                     onClick={() => updateAmount(-1)}
-                    className="generator-btn"
+                    className="generator-btn btn-click-down-up"
                   >
                     {el.buttons[0].name}
                   </button>
@@ -43,7 +43,7 @@ export const Amount: React.FC<AmountProps> = ({
 
                   <button
                     onClick={() => updateAmount(1)}
-                    className="generator-btn"
+                    className="generator-btn btn-click-down-up"
                   >
                     {el.buttons[1].name}
                   </button>
