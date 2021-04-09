@@ -59,7 +59,7 @@ export const Divisions: React.FC<DivisionsProps> = () => {
 
   return (
     <div>
-      <h1>New Divison</h1>
+      <h1>Divison</h1>
 
       <div className="rooster-divisions-container">
         {division.map((divi) => {
