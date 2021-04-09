@@ -30,6 +30,7 @@ export const Amount: React.FC<AmountProps> = ({
                   <button
                     onClick={() => updateAmount(-1)}
                     className="generator-btn btn-click-down-up"
+                    style={{ minWidth: "100px" }}
                   >
                     {el.buttons[0].name}
                   </button>
@@ -44,6 +45,7 @@ export const Amount: React.FC<AmountProps> = ({
                   <button
                     onClick={() => updateAmount(1)}
                     className="generator-btn btn-click-down-up"
+                    style={{ minWidth: "100px" }}
                   >
                     {el.buttons[1].name}
                   </button>
