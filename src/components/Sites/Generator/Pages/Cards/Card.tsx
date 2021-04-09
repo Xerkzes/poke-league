@@ -1,5 +1,5 @@
 import React from "react";
-import { iCard } from "../../../../Interfaces/interface";
+import { iCard } from "../../../../../Interfaces/interface";
 
 interface CardProps {
   cardData: iCard;

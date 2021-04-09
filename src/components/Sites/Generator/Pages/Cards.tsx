@@ -4,11 +4,11 @@ import {
   iType,
   iForm,
   iCard,
+  PokemonDataInterface,
 } from "../../../../Interfaces/interface";
 import PokemonData from "../../../../Data/Pokemons.json";
-import { PokemonDataInterface } from "../../../../Interfaces/interface";
 import { isAlive, createImgUrl, createTypeArray } from "../../../../Utilities";
-import { Card } from "./Card";
+import { Card } from "./Cards/Card";
 
 interface CardsProps {
   generations: iGeneration[];
@@ -45,40 +45,47 @@ export const Cards: React.FC<CardsProps> = ({
   // generate Cards
   useEffect(() => {
     setShowPokeCards(false);
+    // debouncing
+    const timeout = setTimeout(() => {
+      const tempCards: iCard[] = [];
 
-    const tempCards: iCard[] = [];
+      PokemonData.forEach((pokemon: PokemonDataInterface) => {
+        if (pokemon.generation != cardGen) return;
 
-    PokemonData.forEach((pokemon: PokemonDataInterface) => {
-      if (pokemon.generation != cardGen) return;
-
-      tempCards.push({
-        imageUrl: createImgUrl(pokemon),
-        name: pokemon.name,
-        type: createTypeArray(pokemon),
-        active: isAlive(
-          pokemon,
-          generations,
-          typeCriteria,
-          types,
-          nfeFe,
-          forms
-        ),
+        tempCards.push({
+          imageUrl: createImgUrl(pokemon),
+          name: pokemon.name,
+          type: createTypeArray(pokemon),
+          active: isAlive(
+            pokemon,
+            generations,
+            typeCriteria,
+            types,
+            nfeFe,
+            forms
+          ),
+        });
       });
-    });
 
-    setCards(tempCards);
+      setCards(tempCards);
+    }, 500);
+
+    return () => {
+      clearTimeout(timeout);
+    };
   }, [cardGen]);
 
   const updateGeneration = (increaseAmount: number) => {
-    if (cardGen + increaseAmount >= 1 && cardGen + increaseAmount <= 8)
+    if (cardGen + increaseAmount >= 1 && cardGen + increaseAmount <= 8) {
       setCardGen(cardGen + increaseAmount);
+      cardsThatAreLoaded.current = 0;
+    }
   };
 
   const imagesAreLoaded = () => {
     cardsThatAreLoaded.current += 1;
-    if (cardsThatAreLoaded.current == cards?.length) {
+    if (cardsThatAreLoaded.current == cards.length) {
       setShowPokeCards(true);
-      cardsThatAreLoaded.current = 0;
     }
   };
 
@@ -95,7 +102,9 @@ export const Cards: React.FC<CardsProps> = ({
         >
           &#60;
         </button>
-        <h2 className="text-4xl mx-6 self-center">Generation {cardGen}</h2>
+        <h2 className="text-4xl mx-6 self-center text-center">
+          Generation {cardGen}
+        </h2>
         <button
           onClick={() => updateGeneration(1)}
           className={
