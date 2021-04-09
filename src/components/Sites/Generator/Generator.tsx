@@ -1,7 +1,8 @@
 import classNames from "classnames";
 import React, { useState } from "react";
 import { Options } from "./Pages/Options";
-import { Cards } from "./Cards/Cards";
+import { Cards } from "./Pages/Cards";
+import { Generate } from "./Pages/Generate";
 import GeneratorBtnJson from "../../../Data/GeneratorBtn.json";
 import {
   iGeneration,
@@ -96,7 +97,17 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
         );
       }
       case "Generate": {
-        return;
+        return (
+          <Generate
+            generations={generations}
+            typeCriteria={typeCriteria}
+            types={types}
+            nfeFe={nfeFe}
+            forms={forms}
+            amount={amount}
+            customAmount={customAmount}
+          />
+        );
       }
     }
   };
