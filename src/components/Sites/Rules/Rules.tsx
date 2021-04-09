@@ -13,11 +13,16 @@ export const Rules: React.FC<RulesProps> = ({}) => {
           return (
             <li
               key={idx}
-              className="md:list-decimal text-xl mb-3 p-2 text-black"
-              style={{ backgroundColor: "rgb(243, 195, 195)" }}
+              className="text-xl mb-5 p-2 text-black border-l-8 shadow-md"
+              style={{
+                backgroundColor: "rgb(243, 195, 195)",
+                borderColor: "rgb(239, 68, 68)",
+              }}
             >
               <p>
-                <span className="font-bold underline">{rule.clause}:</span>{" "}
+                {rule?.clause != "" && (
+                  <span className="font-bold underline">{rule.clause}:</span>
+                )}{" "}
                 {rule.rule}
               </p>
             </li>
