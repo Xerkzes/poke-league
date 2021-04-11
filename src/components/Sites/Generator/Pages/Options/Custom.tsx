@@ -14,7 +14,7 @@ export const Custom: React.FC<CustomProps> = ({
   const updateButton = (btn: iBtn) => {
     setCustomAmount(
       customAmount.map((item: iCustomOptions) => {
-        return item.criteria === btn.name
+        return item.btnName === btn.name
           ? { ...item, active: !item.active }
           : item;
       })
@@ -24,7 +24,7 @@ export const Custom: React.FC<CustomProps> = ({
   const updateAmount = (btn: iBtn, value: number) => {
     setCustomAmount(
       customAmount.map((item: iCustomOptions) => {
-        return item.criteria === btn.name ? { ...item, amount: value } : item;
+        return item.btnName === btn.name ? { ...item, amount: value } : item;
       })
     );
   };

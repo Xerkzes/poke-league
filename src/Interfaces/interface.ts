@@ -82,9 +82,10 @@ export interface iForm {
 }
 
 export interface iCustomOptions {
-  criteria: string;
+  btnName: string;
   active: boolean;
   amount: number;
+  criteria: string
 }
 
 // card

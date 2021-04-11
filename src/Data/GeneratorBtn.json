@@ -152,13 +152,17 @@
     "header": "Custom Options",
     "buttons": [
       {"name": "have Mega",
-        "active": false},
+        "active": false,
+      "criteria": "-mega"},
       {"name": "have Alolan",
-        "active": false},
+        "active": false,
+        "criteria": "-alola"},
       {"name": "have Galar",
-        "active": false},
+        "active": false,
+        "criteria": "-galar"},
       {"name": "have Gigantamax",
-        "active": false}
+        "active": false,
+        "criteria": "-gigantamax"}
     ]
   }
 ]

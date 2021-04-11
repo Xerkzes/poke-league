@@ -8,7 +8,12 @@ import {
   iCustomOptions,
 } from "../../../../Interfaces/interface";
 import PokemonData from "../../../../Data/Pokemons.json";
-import { isAlive, createImgUrl, createTypeArray } from "../../../../Utilities";
+import {
+  isAlive,
+  createImgUrl,
+  createTypeArray,
+  sortByValue,
+} from "../../../../Utilities";
 
 interface GeneratorProps {
   generations: iGeneration[];
@@ -20,7 +25,7 @@ interface GeneratorProps {
   customAmount: iCustomOptions[];
 }
 
-const notEnoughPokemons = (
+const enoughPokemons = (
   availablePokemons: iCard[],
   amount: number,
   customAmount: iCustomOptions[]
@@ -30,9 +35,8 @@ const notEnoughPokemons = (
     return false;
   }
 
-  let possible = false;
-
   // not enough pokemons for custom pokemon
+  let possible = true;
   let customAmountTotal = 0;
   customAmount.forEach((amount: iCustomOptions) => {
     if (amount.active) {
@@ -41,16 +45,17 @@ const notEnoughPokemons = (
   });
 
   if (
-    availablePokemons.length > customAmountTotal ||
-    amount > customAmountTotal
+    availablePokemons.length < customAmountTotal ||
+    amount < customAmountTotal
   ) {
-    possible = true;
+    possible = false;
   }
 
-  return !possible;
+  // it's possible
+  return possible;
 };
 
-const notEnoughForEachType = (availablePokemons: iCard[]) => {
+const enoughForEachType = (availablePokemons: iCard[]) => {
   interface pokeType {
     type: string;
     pokemons: iCard[];
@@ -94,16 +99,83 @@ const notEnoughForEachType = (availablePokemons: iCard[]) => {
     });
   });
 
-  console.log(pokemonsInTypes);
+  let possible: boolean = true;
 
-  let notPossible: boolean = false;
-
-  // todo
   pokemonsInTypes.forEach((pokeType: pokeType) => {
-    if (pokeType.pokemons.length === 0) notPossible = true;
+    if (pokeType.pokemons.length === 0) possible = false;
   });
 
-  return notPossible;
+  // remove pokemons where there are only 1 of them in types and check if it's still possible
+  pokemonsInTypes.sort(sortByValue("pokemons"));
+  pokemonsInTypes.forEach((pokeType: pokeType) => {
+    if (pokeType.pokemons.length === 0) {
+      possible = false;
+      return;
+    }
+
+    if (pokeType.pokemons.length === 1) {
+      pokemonsInTypes.forEach((pokeType2: pokeType) => {
+        if (pokeType.type != pokeType2.type) {
+          let index = 0;
+          pokeType2.pokemons.forEach((pokemon: iCard) => {
+            if (
+              pokemon.name.toLocaleLowerCase() ===
+              pokeType.pokemons[0].name.toLocaleLowerCase()
+            ) {
+              pokeType2.pokemons.splice(index, 1);
+            }
+            index++;
+          });
+        }
+      });
+    }
+  });
+
+  return possible;
+};
+
+const enoughCustomPokemons = (
+  availablePokemons: iCard[],
+  customAmount: iCustomOptions[]
+) => {
+  // generate arrays with megas, alolan, galar and gigantamax
+  interface pokeType {
+    criteria: string;
+    pokemons: iCard[];
+  }
+
+  const criterias = ["-mega", "-alola", "-galar", "-gigantamax"];
+
+  const arrPoke: pokeType[] = [];
+
+  criterias.forEach((criteria: string) => {
+    arrPoke.push({ criteria: criteria, pokemons: [] });
+  });
+
+  availablePokemons.forEach((pokemon: iCard) => {
+    arrPoke.forEach((el: pokeType) => {
+      if (pokemon.name.toLowerCase().includes(el.criteria.toLowerCase())) {
+        el.pokemons.push(pokemon);
+        return;
+      }
+    });
+  });
+
+  let possible = true;
+
+  arrPoke.forEach((el: pokeType) => {
+    customAmount.forEach((amount: iCustomOptions) => {
+      if (
+        el.criteria.toLowerCase() === amount.criteria.toLowerCase() &&
+        amount.active &&
+        el.pokemons.length < amount.amount
+      ) {
+        possible = false;
+      }
+    });
+  });
+
+  return possible;
 };
 
 // find the pokemons that are alive
@@ -138,20 +210,22 @@ const isPossibleToGeneratePokemons = (
   customAmount: iCustomOptions[]
 ) => {
   // generate more pokemons that are available
-  if (notEnoughPokemons(availablePokemons, amount, customAmount)) {
+  if (!enoughPokemons(availablePokemons, amount, customAmount)) {
     console.log("not enough pokemons");
     return false;
   }
 
   if (
     typeCriteria.toLowerCase() === "one type each" &&
-    notEnoughForEachType(availablePokemons)
+    !enoughForEachType(availablePokemons)
   ) {
-    console.log("one type each");
     return false;
   }
 
   // todo -> check for custom option
+  if (!enoughCustomPokemons(availablePokemons, customAmount)) {
+    return false;
+  }
 
   return true;
 };
@@ -195,9 +269,9 @@ export const Generate: React.FC<GeneratorProps> = ({
       <h2 className="text-center text-4xl">Generate</h2>
 
       <div className="flex itemss-center justify-center mt-5">
-        {/* <button className=" bg-red-200 p-1" onClick={() => generatePokemons()}>
+        <button className=" bg-red-200 p-1" onClick={() => generatePokemons()}>
           Happy Accidents
-        </button> */}
+        </button>
       </div>
     </div>
   );

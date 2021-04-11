@@ -31,6 +31,18 @@ export const createTypeArray = (pokeData: PokemonDataInterface) => {
   return typeArray;
 }
 
+// sort array by value
+export const sortByValue = (prop: any) => {
+  return function (a: any, b: any) {
+    if (a[prop] > b[prop]) {
+      return 1;
+    } else if (a[prop] < b[prop]) {
+      return -1;
+    }
+    return 0;
+  };
+};
+
 /* =========
   Generat Options for Random Pokemon Generator
   =========*/
@@ -97,9 +109,10 @@ export const generateCustomAmountFromJson = (JsonFile: any) => {
   JsonFile.filter((el: any) => el.id === "custom option").forEach((el: any) => {
     el.buttons.forEach((btn: any) => {
       customOptions.push({
-        criteria: btn.name,
+        btnName: btn.name,
         active: btn.active,
-        amount: 0,
+        amount: 1,
+        criteria: btn.criteria
       });
     });
   });

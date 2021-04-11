@@ -3,6 +3,7 @@ import DivsionData from "../../../Data/Division.json";
 import { Division, TrainerInterface } from "../../../Interfaces/interface";
 import { Trainer } from "../Divisions/Trainer";
 import TrainerData from "../../../Data/TrainerData.json";
+import { sortByValue } from "../../../Utilities";
 
 interface DivisionsProps {}
 
@@ -10,17 +11,6 @@ interface Divisions {
   division: Division;
   participants: TrainerInterface[];
 }
-
-const sortByValue = (prop: any) => {
-  return function (a: any, b: any) {
-    if (a[prop] > b[prop]) {
-      return 1;
-    } else if (a[prop] < b[prop]) {
-      return -1;
-    }
-    return 0;
-  };
-};
 
 const findTrainersInDivisions = (division: string, data: any) => {
   const trainers: TrainerInterface[] = [];
