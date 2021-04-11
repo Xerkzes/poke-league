@@ -14,6 +14,7 @@ import {
   createTypeArray,
   sortByValue,
 } from "../../../../Utilities";
+import { Card } from "./Generate/Card";
 
 interface GeneratorProps {
   generations: iGeneration[];
@@ -23,6 +24,22 @@ interface GeneratorProps {
   forms: iForm[];
   amount: number;
   customAmount: iCustomOptions[];
+  pokemons: iCard[];
+  errorOccured: boolean;
+  errors: string[];
+  setPokemons: React.Dispatch<React.SetStateAction<iCard[]>>;
+  setErrorOccured: React.Dispatch<React.SetStateAction<boolean>>;
+  setErrors: React.Dispatch<React.SetStateAction<string[]>>;
+}
+
+interface pokeType {
+  criteria: string;
+  pokemons: iCard[];
+}
+
+interface iAF {
+  criteria: string;
+  active: boolean;
 }
 
 const enoughPokemons = (
@@ -136,24 +153,13 @@ const enoughForEachType = (availablePokemons: iCard[]) => {
 
 const enoughCustomPokemons = (
   availablePokemons: iCard[],
-  customAmount: iCustomOptions[]
+  customAmount: iCustomOptions[],
+  arrCriteriaPokemons: pokeType[]
 ) => {
   // generate arrays with megas, alolan, galar and gigantamax
-  interface pokeType {
-    criteria: string;
-    pokemons: iCard[];
-  }
-
-  const criterias = ["-mega", "-alola", "-galar", "-gigantamax"];
-
-  const arrPoke: pokeType[] = [];
-
-  criterias.forEach((criteria: string) => {
-    arrPoke.push({ criteria: criteria, pokemons: [] });
-  });
 
   availablePokemons.forEach((pokemon: iCard) => {
-    arrPoke.forEach((el: pokeType) => {
+    arrCriteriaPokemons.forEach((el: pokeType) => {
       if (pokemon.name.toLowerCase().includes(el.criteria.toLowerCase())) {
         el.pokemons.push(pokemon);
         return;
@@ -163,7 +169,7 @@ const enoughCustomPokemons = (
 
   let possible = true;
 
-  arrPoke.forEach((el: pokeType) => {
+  arrCriteriaPokemons.forEach((el: pokeType) => {
     customAmount.forEach((amount: iCustomOptions) => {
       if (
         el.criteria.toLowerCase() === amount.criteria.toLowerCase() &&
@@ -207,7 +213,8 @@ const isPossibleToGeneratePokemons = (
   availablePokemons: iCard[],
   typeCriteria: string,
   amount: number,
-  customAmount: iCustomOptions[]
+  customAmount: iCustomOptions[],
+  arrCriteriaPokemons: pokeType[]
 ) => {
   // generate more pokemons that are available
   if (!enoughPokemons(availablePokemons, amount, customAmount)) {
@@ -223,11 +230,105 @@ const isPossibleToGeneratePokemons = (
   }
 
   // todo -> check for custom option
-  if (!enoughCustomPokemons(availablePokemons, customAmount)) {
+  if (
+    !enoughCustomPokemons(availablePokemons, customAmount, arrCriteriaPokemons)
+  ) {
     return false;
   }
 
   return true;
+};
+
+const pokemonIsNotUsable = (
+  availablePokemons: iCard[],
+  randoPokeIndex: number,
+  allowedForms: iAF[]
+) => {
+  let notPossible = false;
+
+  allowedForms.forEach((aF: iAF) => {
+    if (
+      aF.active &&
+      availablePokemons[randoPokeIndex].name
+        .toLowerCase()
+        .includes(aF.criteria.toLowerCase())
+    ) {
+      notPossible = true;
+    }
+  });
+
+  return notPossible;
+};
+
+const generatePokemonCards = (
+  availablePokemons: iCard[],
+  typeCriteria: string,
+  amount: number,
+  customAmount: iCustomOptions[],
+  arrCriteriaPokemons: pokeType[]
+) => {
+  const arrPoke: iCard[] = [];
+  // todo -> make array that stores which pokemons forms are allowed to get picked -> custom Option active aren't allowed to get picked
+  const allowedForms: iAF[] = [];
+  customAmount.forEach((el: iCustomOptions) => {
+    allowedForms.push({ criteria: el.criteria, active: el.active });
+  });
+
+  switch (typeCriteria.toLowerCase()) {
+    case "custom": {
+      // get custom Pokemons
+      customAmount.map((cA: iCustomOptions) => {
+        if (cA.active) {
+          for (let i = 0; i < cA.amount; i++) {
+            // reduce the amount of overall random pokemons
+            amount -= 1;
+            // find random pokemon with search criteria
+            arrCriteriaPokemons.forEach((criteriaPokemon: pokeType) => {
+              if (
+                criteriaPokemon.criteria.toLowerCase() ===
+                cA.criteria.toLowerCase()
+              ) {
+                // random number from 0 - length of array
+                const randoPokeIndex = Math.floor(
+                  Math.random() * criteriaPokemon.pokemons.length
+                );
+                // add rando Pokemon to array of picked pokemons
+                arrPoke.push(criteriaPokemon.pokemons[randoPokeIndex]);
+                // remove pokemon from the pool, so it will not be picked again
+                criteriaPokemon.pokemons.splice(randoPokeIndex, 1);
+              }
+            });
+          }
+        }
+      });
+
+      // get the rest of the Pokemons
+      for (let i = 0; i < amount; i++) {
+        let randoPokeIndex = 0;
+        // random number from 0 - length of array
+        do {
+          randoPokeIndex = Math.floor(Math.random() * availablePokemons.length);
+        } while (
+          pokemonIsNotUsable(availablePokemons, randoPokeIndex, allowedForms)
+        );
+        // add rando Pokemon to array of picked pokemons
+        arrPoke.push(availablePokemons[randoPokeIndex]);
+        // remove pokemon from the pool, so it will not be picked again
+        availablePokemons.splice(randoPokeIndex, 1);
+      }
+
+      // sort Aray by Pokemon name
+      arrPoke.sort(sortByValue("name"));
+      break;
+    }
+    case "one type each": {
+      break;
+    }
+  }
+
+  // return array with random pokemons
+
+  return arrPoke;
 };
 
 export const Generate: React.FC<GeneratorProps> = ({
@@ -238,10 +339,22 @@ export const Generate: React.FC<GeneratorProps> = ({
   forms,
   amount,
   customAmount,
+  pokemons,
+  errorOccured,
+  errors,
+  setPokemons,
+  setErrorOccured,
+  setErrors,
 }) => {
-  const [pokemons, setPokemons] = useState<iCard>();
-
   const generatePokemons = () => {
+    setErrorOccured(false);
+
+    if (typeCriteria.toLowerCase() === "one type each") {
+      setErrorOccured(true);
+      setErrors(["One Type Each is in developing."]);
+      return;
+    }
+
     // console.log("start generating...");
     const availablePokemons: iCard[] = findAvailablePokemons(
       generations,
@@ -251,17 +364,37 @@ export const Generate: React.FC<GeneratorProps> = ({
       forms
     );
 
+    // filter pokemons with search criteria and put them into an array
+    const criterias = ["-mega", "-alola", "-galar", "-gigantamax"];
+    const arrCriteriaPokemons: pokeType[] = [];
+    criterias.forEach((criteria: string) => {
+      arrCriteriaPokemons.push({ criteria: criteria, pokemons: [] });
+    });
+
     // console.log("finished finding available pokemons.");
     const possibleToGeneratePokemons: boolean = isPossibleToGeneratePokemons(
       availablePokemons,
       typeCriteria,
       amount,
-      customAmount
+      customAmount,
+      arrCriteriaPokemons
     );
 
-    console.log(
-      "possible to generate: " + possibleToGeneratePokemons.toString()
-    );
+    // console.log(
+    //   "possible to generate: " + possibleToGeneratePokemons.toString()
+    // );
+
+    if (possibleToGeneratePokemons) {
+      setPokemons(
+        generatePokemonCards(
+          availablePokemons,
+          typeCriteria,
+          amount,
+          customAmount,
+          arrCriteriaPokemons
+        )
+      );
+    }
   };
 
   return (
@@ -272,6 +405,25 @@ export const Generate: React.FC<GeneratorProps> = ({
         <button className=" bg-red-200 p-1" onClick={() => generatePokemons()}>
           Happy Accidents
         </button>
+      </div>
+
+      <div className="mt-10 text">
+        {errorOccured ? (
+          <div>
+            <h2 className="text-xl text-center">Error occured:</h2>
+            {errors.map((error: string) => {
+              return (
+                <p className="text-center bg-red-400 py-1 my-2">{error}</p>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="flex flex-wrap justify-center">
+            {pokemons.map((pokemon: iCard) => {
+              return <Card key={pokemon.name} cardData={pokemon} />;
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

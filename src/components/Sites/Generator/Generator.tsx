@@ -9,6 +9,7 @@ import {
   iType,
   iForm,
   iCustomOptions,
+  iCard,
 } from "../../../Interfaces/interface";
 import {
   generateGenerationsFromJson,
@@ -48,6 +49,11 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
 
   // active card generation
   const [cardGen, setCardGen] = useState<number>(1);
+
+  // generator cards and errors
+  const [pokemons, setPokemons] = useState<iCard[]>([]);
+  const [errorOccured, setErrorOccured] = useState<boolean>(false);
+  const [errors, setErrors] = useState<string[]>([]);
 
   // Tabs
   const tabs: Tab[] = [
@@ -106,6 +112,12 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
             forms={forms}
             amount={amount}
             customAmount={customAmount}
+            pokemons={pokemons}
+            errorOccured={errorOccured}
+            errors={errors}
+            setPokemons={setPokemons}
+            setErrorOccured={setErrorOccured}
+            setErrors={setErrors}
           />
         );
       }
