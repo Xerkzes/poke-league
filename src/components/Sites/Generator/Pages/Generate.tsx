@@ -151,7 +151,6 @@ const enoughCustomPokemons = (
   arrCriteriaPokemons: pokeType[]
 ) => {
   // generate arrays with megas, alolan, galar and gigantamax
-
   availablePokemons.forEach((pokemon: PokemonDataInterface) => {
     arrCriteriaPokemons.forEach((el: pokeType) => {
       if (pokemon.name.toLowerCase().includes(el.criteria.toLowerCase())) {
@@ -214,28 +213,35 @@ const isPossibleToGeneratePokemons = (
   amount: number,
   customAmount: iCustomOptions[],
   arrCriteriaPokemons: pokeType[]
-) => {
+): [boolean, string[]] => {
+  let errorOccured = true;
+  let errors: string[] = [];
+
   // generate more pokemons that are available
   if (!enoughPokemons(availablePokemons, amount, customAmount)) {
-    console.log("not enough pokemons");
-    return false;
+    errors.push("Not Enough Pokemons");
+    errorOccured = false;
   }
 
   if (
     typeCriteria.toLowerCase() === "one type each" &&
     !enoughForEachType(availablePokemons)
   ) {
-    return false;
+    errors.push("Not Enough Pokemons for Each Type");
+    errorOccured = false;
   }
 
   // todo -> check for custom option
   if (
     !enoughCustomPokemons(availablePokemons, customAmount, arrCriteriaPokemons)
   ) {
-    return false;
+    errors.push(
+      "Not Enough Pokemons for Custom Options or the Amount is to High"
+    );
+    errorOccured = false;
   }
 
-  return true;
+  return [errorOccured, errors];
 };
 
 const pokemonIsNotUsable = (
@@ -385,7 +391,7 @@ export const Generate: React.FC<GeneratorProps> = ({
     });
 
     // console.log("finished finding available pokemons.");
-    const possibleToGeneratePokemons: boolean = isPossibleToGeneratePokemons(
+    const [possibleToGeneratePokemons, errors] = isPossibleToGeneratePokemons(
       availablePokemons,
       typeCriteria,
       amount,
@@ -408,6 +414,11 @@ export const Generate: React.FC<GeneratorProps> = ({
         )
       );
     }
+
+    if (!possibleToGeneratePokemons) {
+      setErrorOccured(true);
+      setErrors(errors);
+    }
   };
 
   return (
@@ -424,9 +435,11 @@ export const Generate: React.FC<GeneratorProps> = ({
         {errorOccured ? (
           <div>
             <h2 className="text-xl text-center">Error occured:</h2>
-            {errors.map((error: string) => {
+            {errors.map((error: string, idx: number) => {
               return (
-                <p className="text-center bg-red-400 py-1 my-2">{error}</p>
+                <p key={idx} className="text-center bg-red-400 py-1 my-2">
+                  {error}
+                </p>
               );
             })}
           </div>
