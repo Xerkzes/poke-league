@@ -2634,7 +2634,7 @@
 		"generation": 2,
 		"name": "Misdreavus",
 		"color": "gray",
-		"isNfe": false,
+		"isNfe": true,
 		"isUber": false,
 		"isForm": false,
 		"types": ["ghost"]
