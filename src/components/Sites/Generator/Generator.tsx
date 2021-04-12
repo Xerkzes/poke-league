@@ -9,7 +9,7 @@ import {
   iType,
   iForm,
   iCustomOptions,
-  iCard,
+  PokemonDataInterface,
 } from "../../../Interfaces/interface";
 import {
   generateGenerationsFromJson,
@@ -51,7 +51,7 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
   const [cardGen, setCardGen] = useState<number>(1);
 
   // generator cards and errors
-  const [pokemons, setPokemons] = useState<iCard[]>([]);
+  const [pokemons, setPokemons] = useState<PokemonDataInterface[]>([]);
   const [errorOccured, setErrorOccured] = useState<boolean>(false);
   const [errors, setErrors] = useState<string[]>([]);
 

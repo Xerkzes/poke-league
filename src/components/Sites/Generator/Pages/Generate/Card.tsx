@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { iCard } from "../../../../../Interfaces/interface";
+import { PokemonDataInterface } from "../../../../../Interfaces/interface";
+import { createImgUrl } from "../../../../../Utilities";
 
 interface CardProps {
-  cardData: iCard;
+  cardData: PokemonDataInterface;
 }
 
 export const Card: React.FC<CardProps> = ({ cardData }) => {
@@ -12,7 +13,7 @@ export const Card: React.FC<CardProps> = ({ cardData }) => {
     <div className="pokemon-card" style={{ backgroundColor: "rgb(50, 50, 50" }}>
       <img
         className="pokemon-generator-sprite"
-        src={cardData.imageUrl}
+        src={createImgUrl(cardData)}
         // onLoad={imagesAreLoaded}
       />
 

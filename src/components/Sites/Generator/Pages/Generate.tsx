@@ -3,17 +3,11 @@ import {
   iGeneration,
   iType,
   iForm,
-  iCard,
   PokemonDataInterface,
   iCustomOptions,
 } from "../../../../Interfaces/interface";
 import PokemonData from "../../../../Data/Pokemons.json";
-import {
-  isAlive,
-  createImgUrl,
-  createTypeArray,
-  sortByValue,
-} from "../../../../Utilities";
+import { isAlive, sortByValue } from "../../../../Utilities";
 import { Card } from "./Generate/Card";
 
 interface GeneratorProps {
@@ -24,17 +18,17 @@ interface GeneratorProps {
   forms: iForm[];
   amount: number;
   customAmount: iCustomOptions[];
-  pokemons: iCard[];
+  pokemons: PokemonDataInterface[];
   errorOccured: boolean;
   errors: string[];
-  setPokemons: React.Dispatch<React.SetStateAction<iCard[]>>;
+  setPokemons: React.Dispatch<React.SetStateAction<PokemonDataInterface[]>>;
   setErrorOccured: React.Dispatch<React.SetStateAction<boolean>>;
   setErrors: React.Dispatch<React.SetStateAction<string[]>>;
 }
 
 interface pokeType {
   criteria: string;
-  pokemons: iCard[];
+  pokemons: PokemonDataInterface[];
 }
 
 interface iAF {
@@ -43,7 +37,7 @@ interface iAF {
 }
 
 const enoughPokemons = (
-  availablePokemons: iCard[],
+  availablePokemons: PokemonDataInterface[],
   amount: number,
   customAmount: iCustomOptions[]
 ) => {
@@ -72,10 +66,10 @@ const enoughPokemons = (
   return possible;
 };
 
-const enoughForEachType = (availablePokemons: iCard[]) => {
+const enoughForEachType = (availablePokemons: PokemonDataInterface[]) => {
   interface pokeType {
     type: string;
-    pokemons: iCard[];
+    pokemons: PokemonDataInterface[];
   }
 
   const types: string[] = [
@@ -106,8 +100,8 @@ const enoughForEachType = (availablePokemons: iCard[]) => {
   });
 
   // fill type array depending on pokemon type
-  availablePokemons.forEach((pokemon: iCard) => {
-    pokemon.type.forEach((pokeType: string) => {
+  availablePokemons.forEach((pokemon: PokemonDataInterface) => {
+    pokemon.types.forEach((pokeType: string) => {
       pokemonsInTypes.forEach((arrType: pokeType) => {
         if (pokeType.toLowerCase() === arrType.type.toLowerCase()) {
           arrType.pokemons.push(pokemon);
@@ -134,7 +128,7 @@ const enoughForEachType = (availablePokemons: iCard[]) => {
       pokemonsInTypes.forEach((pokeType2: pokeType) => {
         if (pokeType.type != pokeType2.type) {
           let index = 0;
-          pokeType2.pokemons.forEach((pokemon: iCard) => {
+          pokeType2.pokemons.forEach((pokemon: PokemonDataInterface) => {
             if (
               pokemon.name.toLocaleLowerCase() ===
               pokeType.pokemons[0].name.toLocaleLowerCase()
@@ -152,13 +146,13 @@ const enoughForEachType = (availablePokemons: iCard[]) => {
 };
 
 const enoughCustomPokemons = (
-  availablePokemons: iCard[],
+  availablePokemons: PokemonDataInterface[],
   customAmount: iCustomOptions[],
   arrCriteriaPokemons: pokeType[]
 ) => {
   // generate arrays with megas, alolan, galar and gigantamax
 
-  availablePokemons.forEach((pokemon: iCard) => {
+  availablePokemons.forEach((pokemon: PokemonDataInterface) => {
     arrCriteriaPokemons.forEach((el: pokeType) => {
       if (pokemon.name.toLowerCase().includes(el.criteria.toLowerCase())) {
         el.pokemons.push(pokemon);
@@ -192,15 +186,20 @@ const findAvailablePokemons = (
   nfeFe: boolean[],
   forms: iForm[]
 ) => {
-  const tempArray: iCard[] = [];
+  const tempArray: PokemonDataInterface[] = [];
 
   PokemonData.forEach((pokemon: PokemonDataInterface) => {
     if (isAlive(pokemon, generations, typeCriteria, types, nfeFe, forms)) {
       tempArray.push({
-        imageUrl: createImgUrl(pokemon),
+        dexNr: pokemon.dexNr,
+        generation: pokemon.generation,
         name: pokemon.name,
-        type: createTypeArray(pokemon),
-        active: true,
+        color: pokemon.color,
+        isNfe: pokemon.isNfe,
+        isUber: pokemon.isUber,
+        isForm: pokemon.isForm,
+        types: pokemon.types,
+        spriteSuffix: pokemon?.spriteSuffix,
       });
     }
   });
@@ -210,7 +209,7 @@ const findAvailablePokemons = (
 
 // checks if generating pokemons is possible
 const isPossibleToGeneratePokemons = (
-  availablePokemons: iCard[],
+  availablePokemons: PokemonDataInterface[],
   typeCriteria: string,
   amount: number,
   customAmount: iCustomOptions[],
@@ -240,12 +239,14 @@ const isPossibleToGeneratePokemons = (
 };
 
 const pokemonIsNotUsable = (
-  availablePokemons: iCard[],
+  arrPoke: PokemonDataInterface[],
+  availablePokemons: PokemonDataInterface[],
   randoPokeIndex: number,
   allowedForms: iAF[]
 ) => {
   let notPossible = false;
 
+  // not allowed form
   allowedForms.forEach((aF: iAF) => {
     if (
       aF.active &&
@@ -257,17 +258,24 @@ const pokemonIsNotUsable = (
     }
   });
 
+  // pokemon already got drafted
+  arrPoke.forEach((poke: PokemonDataInterface) => {
+    if (poke.dexNr === availablePokemons[randoPokeIndex].dexNr) {
+      notPossible = true;
+    }
+  });
+
   return notPossible;
 };
 
 const generatePokemonCards = (
-  availablePokemons: iCard[],
+  availablePokemons: PokemonDataInterface[],
   typeCriteria: string,
   amount: number,
   customAmount: iCustomOptions[],
   arrCriteriaPokemons: pokeType[]
 ) => {
-  const arrPoke: iCard[] = [];
+  const arrPoke: PokemonDataInterface[] = [];
   // todo -> make array that stores which pokemons forms are allowed to get picked -> custom Option active aren't allowed to get picked
   const allowedForms: iAF[] = [];
   customAmount.forEach((el: iCustomOptions) => {
@@ -309,7 +317,12 @@ const generatePokemonCards = (
         do {
           randoPokeIndex = Math.floor(Math.random() * availablePokemons.length);
         } while (
-          pokemonIsNotUsable(availablePokemons, randoPokeIndex, allowedForms)
+          pokemonIsNotUsable(
+            arrPoke,
+            availablePokemons,
+            randoPokeIndex,
+            allowedForms
+          )
         );
         // add rando Pokemon to array of picked pokemons
         arrPoke.push(availablePokemons[randoPokeIndex]);
@@ -356,7 +369,7 @@ export const Generate: React.FC<GeneratorProps> = ({
     }
 
     // console.log("start generating...");
-    const availablePokemons: iCard[] = findAvailablePokemons(
+    const availablePokemons: PokemonDataInterface[] = findAvailablePokemons(
       generations,
       typeCriteria,
       types,
@@ -419,7 +432,7 @@ export const Generate: React.FC<GeneratorProps> = ({
           </div>
         ) : (
           <div className="flex flex-wrap justify-center">
-            {pokemons.map((pokemon: iCard) => {
+            {pokemons.map((pokemon: PokemonDataInterface) => {
               return <Card key={pokemon.name} cardData={pokemon} />;
             })}
           </div>
