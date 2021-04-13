@@ -29,7 +29,7 @@
 
 ## How many
 
-- one from one type: "hidden" since you allready have your numbers
+- one from one type: "hidden" since you already have your numbers
 - custom types: number between 1-12
 
 ## Custom Options (only shows up if the checkbox in Forms is active)

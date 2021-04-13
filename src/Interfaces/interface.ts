@@ -10,6 +10,11 @@ export interface PokemonDataInterface {
   spriteSuffix?: string | undefined;
 }
 
+export interface PokemonTypeCardDataInterface {
+  type: string;
+  pokemon: PokemonDataInterface;
+}
+
 export interface TrainerPokemonInterface {
   type: string;
   name: string;
@@ -94,4 +99,10 @@ export interface iCard {
   name: string;
   type: string[];
   active: boolean;
+}
+
+// Generator
+export interface pokeType {
+  criteria: string;
+  pokemons: PokemonDataInterface[];
 }

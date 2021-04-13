@@ -10,6 +10,7 @@ import {
   iForm,
   iCustomOptions,
   PokemonDataInterface,
+  PokemonTypeCardDataInterface,
 } from "../../../Interfaces/interface";
 import {
   generateGenerationsFromJson,
@@ -52,6 +53,9 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
 
   // generator cards and errors
   const [pokemons, setPokemons] = useState<PokemonDataInterface[]>([]);
+  const [pokemonsTypeCard, setPokemonsTypeCard] = useState<
+    PokemonTypeCardDataInterface[]
+  >([]);
   const [errorOccured, setErrorOccured] = useState<boolean>(false);
   const [errors, setErrors] = useState<string[]>([]);
 
@@ -113,9 +117,11 @@ export const Generator: React.FC<GeneratorProps> = ({}) => {
             amount={amount}
             customAmount={customAmount}
             pokemons={pokemons}
+            pokemonsTypeCard={pokemonsTypeCard}
             errorOccured={errorOccured}
             errors={errors}
             setPokemons={setPokemons}
+            setPokemonsTypeCard={setPokemonsTypeCard}
             setErrorOccured={setErrorOccured}
             setErrors={setErrors}
           />
