@@ -57,12 +57,6 @@ export const Generate: React.FC<GeneratorProps> = ({
   const generatePokemons = () => {
     setErrorOccured(false);
 
-    // if (typeCriteria.toLowerCase() === "one type each") {
-    //   setErrorOccured(true);
-    //   setErrors(["One Type Each is in developing."]);
-    //   return;
-    // }
-
     const availablePokemons: PokemonDataInterface[] = findAvailablePokemons(
       generations,
       typeCriteria,
@@ -122,7 +116,7 @@ export const Generate: React.FC<GeneratorProps> = ({
       <h2 className="text-center text-4xl">Generate</h2>
 
       <div className="flex itemss-center justify-center mt-5">
-        <button className=" bg-red-200 p-1" onClick={() => generatePokemons()}>
+        <button className="bg-red-200 p-1" onClick={() => generatePokemons()}>
           Happy Accidents
         </button>
       </div>

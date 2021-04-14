@@ -599,11 +599,11 @@ video {
 .mt-5 {
 	margin-top: 1.25rem;
 }
-.ml-4 {
-	margin-left: 1rem;
-}
 .mb-2 {
 	margin-bottom: 0.5rem;
+}
+.ml-4 {
+	margin-left: 1rem;
 }
 .block {
 	display: block;
