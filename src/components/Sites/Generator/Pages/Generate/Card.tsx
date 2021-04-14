@@ -18,7 +18,7 @@ export const Card: React.FC<CardProps> = ({ cardData }) => {
           // onLoad={imagesAreLoaded}
         />
 
-        <p className="text-gray-50 text-center">{cardData.name}</p>
+        <p className="pokemon-generator-pokeName">{cardData.name}</p>
       </div>
     </div>
   );

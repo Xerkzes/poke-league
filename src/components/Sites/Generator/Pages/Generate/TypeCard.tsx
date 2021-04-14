@@ -19,11 +19,15 @@ export const TypeCard: React.FC<TypeCardProps> = ({ cardData }) => {
           // onLoad={imagesAreLoaded}
         />
 
-        <p className="text-gray-50 text-center">{cardData.pokemon.name}</p>
+        <p className="pokemon-generator-pokeName">{cardData.pokemon.name}</p>
       </div>
       <p
-        className="text-center text-white mb-2"
-        style={{ backgroundColor: TypeColor[cardData.type.toLowerCase()] }}
+        className="text-center text-white mb-2 self-center"
+        style={{
+          backgroundColor: TypeColor[cardData.type.toLowerCase()],
+          borderRadius: "50px",
+          width: "90%",
+        }}
       >
         {capitalizeFirstLetter(cardData.type)}
       </p>

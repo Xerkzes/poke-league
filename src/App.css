@@ -441,7 +441,7 @@ h1 {
 
 /* Cards */
 .pokemon-card {
-  width: 7rem;
+  width: 10rem;
   /* min-height: 8rem; */
   padding: 0.2rem;
   margin: 0.25rem;
@@ -457,14 +457,15 @@ h1 {
   width: 80px;
   height: 80px;
   object-fit: contain;
-  margin: 0 auto;
+  margin: 0.5rem auto 0 auto;
   background-color: #fff;
   border-radius: 50%;
 }
 
 .pokemon-generator-pokeName {
-  margin-top: 0.5rem;
-  color: #262626;
+  margin: 0.8rem 0;
+  color: white;
+  text-align: center;
 }
 
 .pokemon-generator-type {
