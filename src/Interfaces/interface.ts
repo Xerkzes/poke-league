@@ -22,7 +22,7 @@ export interface TrainerPokemonInterface {
 
 export interface TrainerInterface {
   name: string;
-  imgUrl: string;
+  discordName: string;
   team: number;
   division: string;
   pokemons: TrainerPokemonInterface[];

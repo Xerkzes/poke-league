@@ -41,7 +41,7 @@ export const Participants: React.FC<ParticipantsProps> = ({}) => {
               key={trainer.team}
               array={trainers}
               setArray={setTrainers}
-              header={trainer.name}
+              header={`${trainer.name} (${trainer.discordName})`}
               content={pokemonsContent(trainer)}
               index={idx}
             />

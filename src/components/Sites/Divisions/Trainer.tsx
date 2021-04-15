@@ -17,9 +17,13 @@ export const Trainer: React.FC<TrainerProp> = ({ trainer, index }) => {
 
     MatchData.forEach((match) => {
       match.matches.forEach((fight) => {
-        if (fight.name1 === trainer.name || fight.name2 === trainer.name) {
+        if (
+          fight.name1.toLowerCase() === trainer.name.toLowerCase() ||
+          fight.name2.toLowerCase() === trainer.name.toLowerCase()
+        ) {
           if (fight.winner === "") return;
-          else if (fight.winner === trainer.name) _wins++;
+          else if (fight.winner.toLowerCase() === trainer.name.toLowerCase())
+            _wins++;
           else _loses++;
         }
       });

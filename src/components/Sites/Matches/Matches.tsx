@@ -18,7 +18,7 @@ const matchContent = (matchData: LeagueInterface) => {
             "team team-left " +
             (match.winner === ""
               ? ""
-              : match.winner === match.name1
+              : match.winner.toLowerCase() === match.name1.toLowerCase()
               ? "match-won"
               : "match-lost")
           }
@@ -31,7 +31,7 @@ const matchContent = (matchData: LeagueInterface) => {
             "team " +
             (match.winner === ""
               ? ""
-              : match.winner === match.name2
+              : match.winner.toLowerCase() === match.name2.toLowerCase()
               ? "match-won"
               : "match-lost")
           }
