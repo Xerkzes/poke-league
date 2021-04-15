@@ -416,7 +416,7 @@
       ]
     },
     {
-      "name": "sweetbeanzz  ",
+      "name": "sweetbeanzz",
       "discordName": "SweetBeanz#1884",
       "team": 17,
       "division": "",
@@ -424,7 +424,7 @@
         { "type": "Bug",      "name": "Leavanny" },
         { "type": "Dark",     "name": "Persian-Alola" },
         { "type": "Dragon",   "name": "Kommo-o" },
-        { "type": "Electric", "name": "Stunkfisk" },
+        { "type": "Electric", "name": "Stunfisk" },
         { "type": "Fairy",    "name": "Ninetales-Alola" },
         { "type": "Fighting", "name": "Bewear" },
         { "type": "Fire",     "name": "Centiskorch" },
@@ -439,6 +439,32 @@
         { "type": "Rock",     "name": "Rampardos" },
         { "type": "Steel",    "name": "Bastiodon" },
         { "type": "Water",    "name": "Sharpedo" }
+      ]
+    },
+    {
+      "name": "TheLoooon",
+      "discordName": "TheLoooon#5314",
+      "team": 17,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Scizor-Mega" },
+        { "type": "Dark",     "name": "Persian-Alola" },
+        { "type": "Dragon",   "name": "Dragalge" },
+        { "type": "Electric", "name": "Lanturn" },
+        { "type": "Fairy",    "name": "Weezing-Galar" },
+        { "type": "Fighting", "name": "Virizion" },
+        { "type": "Fire",     "name": "Darmanitan" },
+        { "type": "Flying",   "name": "Swoobat" },
+        { "type": "Ghost",    "name": "Rotom" },
+        { "type": "Grass",    "name": "Victreebel" },
+        { "type": "Ground",   "name": "Golurk" },
+        { "type": "Ice",      "name": "Walrein" },
+        { "type": "Normal",   "name": "Oranguru" },
+        { "type": "Poison",   "name": "Swalot" },
+        { "type": "Psychic",  "name": "Orbetle" },
+        { "type": "Rock",     "name": "Regirock" },
+        { "type": "Steel",    "name": "Cobalion" },
+        { "type": "Water",    "name": "Crawdaunt" }
       ]
     }
 ]
