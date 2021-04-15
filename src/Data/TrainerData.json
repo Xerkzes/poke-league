@@ -362,5 +362,57 @@
         { "type": "Steel",    "name": "Registeel" },
         { "type": "Water",    "name": "Swanna" }
       ]
+    },
+    {
+      "name": "Pokemon_Nuzlocke",
+      "discordName": "Pokemon_Nuzlocke#6648",
+      "team": 15,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Ninjask" },
+        { "type": "Dark",     "name": "Raticate-Alola" },
+        { "type": "Dragon",   "name": "Kingdra" },
+        { "type": "Electric", "name": "Xurkitree" },
+        { "type": "Fairy",    "name": "Ninetales-Alola" },
+        { "type": "Fighting", "name": "Toxicroak" },
+        { "type": "Fire",     "name": "Delphox" },
+        { "type": "Flying",   "name": "Vivillon" },
+        { "type": "Ghost",    "name": "Froslass" },
+        { "type": "Grass",    "name": "Abomasnow-Mega" },
+        { "type": "Ground",   "name": "Stunfisk" },
+        { "type": "Ice",      "name": "Frosmoth" },
+        { "type": "Normal",   "name": "Lickilicky" },
+        { "type": "Poison",   "name": "Nidoking" },
+        { "type": "Psychic",  "name": "Latios" },
+        { "type": "Rock",     "name": "Rampardos" },
+        { "type": "Steel",    "name": "Skarmory" },
+        { "type": "Water",    "name": "Sharpedo" }
+      ]
+    },
+    {
+      "name": "r3z3n15 ",
+      "discordName": "R3Zz3Nn#6091",
+      "team": 16,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Leavanny" },
+        { "type": "Dark",     "name": "Morpeko" },
+        { "type": "Dragon",   "name": "Haxorus" },
+        { "type": "Electric", "name": "Luxray" },
+        { "type": "Fairy",    "name": "Grandbull" },
+        { "type": "Fighting", "name": "Conkeldurr" },
+        { "type": "Fire",     "name": "Rotom-Heat" },
+        { "type": "Flying",   "name": "Staraptor" },
+        { "type": "Ghost",    "name": "Cofagrigus" },
+        { "type": "Grass",    "name": "Cacturne" },
+        { "type": "Ground",   "name": "Golurk" },
+        { "type": "Ice",      "name": "Beatric" },
+        { "type": "Normal",   "name": "Pidgeot-Mega" },
+        { "type": "Poison",   "name": "Skuntank" },
+        { "type": "Psychic",  "name": "Oricorio-Pa'u" },
+        { "type": "Rock",     "name": "Stakataka" },
+        { "type": "Steel",    "name": "Jirachi" },
+        { "type": "Water",    "name": "Lapras" }
+      ]
     }
 ]
