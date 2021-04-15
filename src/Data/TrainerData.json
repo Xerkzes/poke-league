@@ -414,5 +414,31 @@
         { "type": "Steel",    "name": "Jirachi" },
         { "type": "Water",    "name": "Lapras" }
       ]
+    },
+    {
+      "name": "sweetbeanzz  ",
+      "discordName": "SweetBeanz#1884",
+      "team": 17,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Leavanny" },
+        { "type": "Dark",     "name": "Persian-Alola" },
+        { "type": "Dragon",   "name": "Kommo-o" },
+        { "type": "Electric", "name": "Stunkfisk" },
+        { "type": "Fairy",    "name": "Ninetales-Alola" },
+        { "type": "Fighting", "name": "Bewear" },
+        { "type": "Fire",     "name": "Centiskorch" },
+        { "type": "Flying",   "name": "Mandibuzz" },
+        { "type": "Ghost",    "name": "Rotom" },
+        { "type": "Grass",    "name": "Rotom-Mow" },
+        { "type": "Ground",   "name": "Marowak" },
+        { "type": "Ice",      "name": "Frosmoth" },
+        { "type": "Normal",   "name": "Gumshoos" },
+        { "type": "Poison",   "name": "Beedrill-Mega" },
+        { "type": "Psychic",  "name": "Slowbro" },
+        { "type": "Rock",     "name": "Rampardos" },
+        { "type": "Steel",    "name": "Bastiodon" },
+        { "type": "Water",    "name": "Sharpedo" }
+      ]
     }
 ]
