@@ -461,7 +461,7 @@
         { "type": "Ice",      "name": "Walrein" },
         { "type": "Normal",   "name": "Oranguru" },
         { "type": "Poison",   "name": "Swalot" },
-        { "type": "Psychic",  "name": "Orbetle" },
+        { "type": "Psychic",  "name": "Orbeetle" },
         { "type": "Rock",     "name": "Regirock" },
         { "type": "Steel",    "name": "Cobalion" },
         { "type": "Water",    "name": "Crawdaunt" }
@@ -480,7 +480,7 @@
         { "type": "Fairy",    "name": "Mr. Mime" },
         { "type": "Fighting", "name": "Chesnaught" },
         { "type": "Fire",     "name": "Heatmor" },
-        { "type": "Flying",   "name": "Gyaradow-Mega" },
+        { "type": "Flying",   "name": "Gyarados-Mega" },
         { "type": "Ghost",    "name": "Polteageist" },
         { "type": "Grass",    "name": "Ludicolo" },
         { "type": "Ground",   "name": "Mamoswine" },
