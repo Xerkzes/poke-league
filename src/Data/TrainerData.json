@@ -518,5 +518,31 @@
         { "type": "Steel",    "name": "Kartana" },
         { "type": "Water",    "name": "Qwilfish" }
       ]
+    },
+    {
+      "name": "leftytheman",
+      "discordName": "lefty#9295",
+      "team": 20,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Pinsir-Mega" },
+        { "type": "Dark",     "name": "Zarude" },
+        { "type": "Dragon",   "name": "Goodra" },
+        { "type": "Electric", "name": "Zeraora" },
+        { "type": "Fairy",    "name": "Wigglytuff" },
+        { "type": "Fighting", "name": "Bewear" },
+        { "type": "Fire",     "name": "Arcanine" },
+        { "type": "Flying",   "name": "Swellow" },
+        { "type": "Ghost",    "name": "Dragapult" },
+        { "type": "Grass",    "name": "Tropius" },
+        { "type": "Ground",   "name": "Nidoqueen" },
+        { "type": "Ice",      "name": "Lapras" },
+        { "type": "Normal",   "name": "Miltank" },
+        { "type": "Poison",   "name": "Muk" },
+        { "type": "Psychic",  "name": "Swoobat" },
+        { "type": "Rock",     "name": "Auroras" },
+        { "type": "Steel",    "name": "Bronzong" },
+        { "type": "Water",    "name": "Huntail" }
+      ]
     }
 ]
