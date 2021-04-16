@@ -444,7 +444,7 @@
     {
       "name": "TheLoooon",
       "discordName": "TheLoooon#5314",
-      "team": 17,
+      "team": 18,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Scizor-Mega" },
@@ -465,6 +465,58 @@
         { "type": "Rock",     "name": "Regirock" },
         { "type": "Steel",    "name": "Cobalion" },
         { "type": "Water",    "name": "Crawdaunt" }
+      ]
+    },
+    {
+      "name": "PapierJoe",
+      "discordName": "PapierJoe#1577",
+      "team": 19,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Kricketune" },
+        { "type": "Dark",     "name": "Krookodile" },
+        { "type": "Dragon",   "name": "Noivern" },
+        { "type": "Electric", "name": "Pincurchin" },
+        { "type": "Fairy",    "name": "Mr. Mime" },
+        { "type": "Fighting", "name": "Chesnaught" },
+        { "type": "Fire",     "name": "Heatmor" },
+        { "type": "Flying",   "name": "Gyaradow-Mega" },
+        { "type": "Ghost",    "name": "Polteageist" },
+        { "type": "Grass",    "name": "Ludicolo" },
+        { "type": "Ground",   "name": "Mamoswine" },
+        { "type": "Ice",      "name": "Kyurem" },
+        { "type": "Normal",   "name": "Miltank" },
+        { "type": "Poison",   "name": "Vileplume" },
+        { "type": "Psychic",  "name": "Claydol" },
+        { "type": "Rock",     "name": "Rampardos" },
+        { "type": "Steel",    "name": "Bastiodon" },
+        { "type": "Water",    "name": "Manaphy" }
+      ]
+    },
+    {
+      "name": "Vinomatic101",
+      "discordName": "Vinomatic#8800",
+      "team": 20,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Leavanny" },
+        { "type": "Dark",     "name": "Obstagoon" },
+        { "type": "Dragon",   "name": "Kingdra" },
+        { "type": "Electric", "name": "Pachirisu" },
+        { "type": "Fairy",    "name": "Togekiss" },
+        { "type": "Fighting", "name": "Bewear" },
+        { "type": "Fire",     "name": "Ninetales" },
+        { "type": "Flying",   "name": "Altaria" },
+        { "type": "Ghost",    "name": "Blacephalon" },
+        { "type": "Grass",    "name": "Venusaur-Mega" },
+        { "type": "Ground",   "name": "Nidoking" },
+        { "type": "Ice",      "name": "Vanilluxe" },
+        { "type": "Normal",   "name": "Ambipom" },
+        { "type": "Poison",   "name": "Swalot" },
+        { "type": "Psychic",  "name": "Mr. Mime" },
+        { "type": "Rock",     "name": "Minior" },
+        { "type": "Steel",    "name": "Kartana" },
+        { "type": "Water",    "name": "Qwilfish" }
       ]
     }
 ]
