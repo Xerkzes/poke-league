@@ -338,35 +338,9 @@
       ]
     },
     {
-      "name": "KazumaApproved",
-      "discordName": "Kazuma_Approved#9720",
-      "team": 14,
-      "division": "",
-      "pokemons": [
-        { "type": "Bug",      "name": "Ninjask" },
-        { "type": "Dark",     "name": "Moltres-Galar" },
-        { "type": "Dragon",   "name": "Appletun" },
-        { "type": "Electric", "name": "Minun" },
-        { "type": "Fairy",    "name": "Slurpuff" },
-        { "type": "Fighting", "name": "Machamp" },
-        { "type": "Fire",     "name": "Simisear" },
-        { "type": "Flying",   "name": "Cramorant" },
-        { "type": "Ghost",    "name": "Dusknoir" },
-        { "type": "Grass",    "name": "Victreebel" },
-        { "type": "Ground",   "name": "Gastrodon" },
-        { "type": "Ice",      "name": "Articuno" },
-        { "type": "Normal",   "name": "Ursaring" },
-        { "type": "Poison",   "name": "Salazzle" },
-        { "type": "Psychic",  "name": "Hypno" },
-        { "type": "Rock",     "name": "Aerodactyl-Mega" },
-        { "type": "Steel",    "name": "Registeel" },
-        { "type": "Water",    "name": "Swanna" }
-      ]
-    },
-    {
       "name": "Pokemon_Nuzlocke",
       "discordName": "Pokemon_Nuzlocke#6648",
-      "team": 15,
+      "team": 14,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Ninjask" },
@@ -392,7 +366,7 @@
     {
       "name": "r3z3n15 ",
       "discordName": "R3Zz3Nn#6091",
-      "team": 16,
+      "team": 15,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -418,7 +392,7 @@
     {
       "name": "sweetbeanzz",
       "discordName": "SweetBeanz#1884",
-      "team": 17,
+      "team": 16,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -444,7 +418,7 @@
     {
       "name": "TheLoooon",
       "discordName": "TheLoooon#5314",
-      "team": 18,
+      "team": 17,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Scizor-Mega" },
@@ -470,7 +444,7 @@
     {
       "name": "PapierJoe",
       "discordName": "PapierJoe#1577",
-      "team": 19,
+      "team": 18,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Kricketune" },
@@ -496,7 +470,7 @@
     {
       "name": "Vinomatic101",
       "discordName": "Vinomatic#8800",
-      "team": 20,
+      "team": 29,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -522,7 +496,7 @@
     {
       "name": "leftytheman",
       "discordName": "lefty#9295",
-      "team": 21,
+      "team": 20,
       "division": "",
       "pokemons": [
         { "type": "Bug",      "name": "Pinsir-Mega" },
@@ -543,6 +517,136 @@
         { "type": "Rock",     "name": "Aurorus" },
         { "type": "Steel",    "name": "Bronzong" },
         { "type": "Water",    "name": "Huntail" }
+      ]
+    },
+    {
+      "name": "tree4beard",
+      "discordName": "tree4beard#5002",
+      "team": 21,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Orbeetle" },
+        { "type": "Dark",     "name": "Umbreon" },
+        { "type": "Dragon",   "name": "Goodra" },
+        { "type": "Electric", "name": "Thundurus-Therian" },
+        { "type": "Fairy",    "name": "Magearna" },
+        { "type": "Fighting", "name": "Chesnaught" },
+        { "type": "Fire",     "name": "Delphox" },
+        { "type": "Flying",   "name": "Unfezant" },
+        { "type": "Ghost",    "name": "Gourgeist" },
+        { "type": "Grass",    "name": "Abomasnow" },
+        { "type": "Ground",   "name": "Stunfisk" },
+        { "type": "Ice",      "name": "Mamoswine" },
+        { "type": "Normal",   "name": "Lopunny-Mega" },
+        { "type": "Poison",   "name": "Nidoqueen" },
+        { "type": "Psychic",  "name": "Rapidash-Galar" },
+        { "type": "Rock",     "name": "Stonjourner" },
+        { "type": "Steel",    "name": "Bronzong" },
+        { "type": "Water",    "name": "Wailord" }
+      ]
+    },
+    {
+      "name": "RynnnyD",
+      "discordName": "Rynnn#9637",
+      "team": 22,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Escavalier" },
+        { "type": "Dark",     "name": "Grimmsnarl" },
+        { "type": "Dragon",   "name": "Turtonator" },
+        { "type": "Electric", "name": "Dracozolt" },
+        { "type": "Fairy",    "name": "Ninetales-Alola" },
+        { "type": "Fighting", "name": "Primeape" },
+        { "type": "Fire",     "name": "Rotom-Heat" },
+        { "type": "Flying",   "name": "Landorus-Therian" },
+        { "type": "Ghost",    "name": "Mimikyu" },
+        { "type": "Grass",    "name": "Sceptile-Mega" },
+        { "type": "Ground",   "name": "Flygon" },
+        { "type": "Ice",      "name": "Delibird" },
+        { "type": "Normal",   "name": "Pidgeot" },
+        { "type": "Poison",   "name": "Drapion" },
+        { "type": "Psychic",  "name": "Xatu" },
+        { "type": "Rock",     "name": "Rampardos" },
+        { "type": "Steel",    "name": "Togedemaru" },
+        { "type": "Water",    "name": "Lumineon" }
+      ]
+    },
+    {
+      "name": "mcguineeplasto ",
+      "discordName": "Plasto#5129",
+      "team": 23,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Ledian" },
+        { "type": "Dark",     "name": "Pangoro" },
+        { "type": "Dragon",   "name": "Goodra" },
+        { "type": "Electric", "name": "Galvantula" },
+        { "type": "Fairy",    "name": "Shiinotic" },
+        { "type": "Fighting", "name": "Falinks" },
+        { "type": "Fire",     "name": "Pyroar" },
+        { "type": "Flying",   "name": "Zapdos-Galar" },
+        { "type": "Ghost",    "name": "Golurk" },
+        { "type": "Grass",    "name": "Tapu-Bulu" },
+        { "type": "Ground",   "name": "Diggersby" },
+        { "type": "Ice",      "name": "Regice" },
+        { "type": "Normal",   "name": "Audino-Mega" },
+        { "type": "Poison",   "name": "Crobat" },
+        { "type": "Psychic",  "name": "Mew" },
+        { "type": "Rock",     "name": "Tyrantrum" },
+        { "type": "Steel",    "name": "Scizor" },
+        { "type": "Water",    "name": "Barbaracle" }
+      ]
+    },
+    {
+      "name": "MercuryPlus1",
+      "discordName": "MercuryPlus1#3752",
+      "team": 24,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Beedrill-Mega" },
+        { "type": "Dark",     "name": "Hydreigon" },
+        { "type": "Dragon",   "name": "Tyrantrum" },
+        { "type": "Electric", "name": "Arctozolt" },
+        { "type": "Fairy",    "name": "Weezing-Galar" },
+        { "type": "Fighting", "name": "Hitmonlee" },
+        { "type": "Fire",     "name": "Oricorio" },
+        { "type": "Flying",   "name": "Mothim" },
+        { "type": "Ghost",    "name": "Chandelure" },
+        { "type": "Grass",    "name": "Lurantis" },
+        { "type": "Ground",   "name": "Marowak" },
+        { "type": "Ice",      "name": "Mr. Rime" },
+        { "type": "Normal",   "name": "Tauros" },
+        { "type": "Poison",   "name": "Swalot" },
+        { "type": "Psychic",  "name": "Starmie" },
+        { "type": "Rock",     "name": "Crustle" },
+        { "type": "Steel",    "name": "Ferrothorn" },
+        { "type": "Water",    "name": "Golisopod" }
+      ]
+    },
+    {
+      "name": "s3xtopher",
+      "discordName": "sx3topher#4320",
+      "team": 25,
+      "division": "",
+      "pokemons": [
+        { "type": "Bug",      "name": "Beedrill" },
+        { "type": "Dark",     "name": "Guzzlord" },
+        { "type": "Dragon",   "name": "Dragalge" },
+        { "type": "Electric", "name": "Electrode" },
+        { "type": "Fairy",    "name": "Comfey" },
+        { "type": "Fighting", "name": "Sawk" },
+        { "type": "Fire",     "name": "Flareon" },
+        { "type": "Flying",   "name": "Skarmory" },
+        { "type": "Ghost",    "name": "Golurk" },
+        { "type": "Grass",    "name": "Decidueye" },
+        { "type": "Ground",   "name": "Gliscor" },
+        { "type": "Ice",      "name": "Cloyster" },
+        { "type": "Normal",   "name": "Gumshoos" },
+        { "type": "Poison",   "name": "Victreebel" },
+        { "type": "Psychic",  "name": "Meowstic-M" },
+        { "type": "Rock",     "name": "Barbaracle" },
+        { "type": "Steel",    "name": "Magearna" },
+        { "type": "Water",    "name": "Blastoise-Mega" }
       ]
     }
 ]
