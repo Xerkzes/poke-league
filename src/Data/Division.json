@@ -1,18 +1,24 @@
 [
   {
-    "division": "red",
+    "division": "pool-1",
     "header": "Red Division",
     "background": "#ffb6c1",
     "border-color": "#ff0000"
   },
   {
-    "division": "blue",
+    "division": "pool-2",
     "header": "Blue Division",
     "background": "rgb(191, 219, 228)",
     "border-color": "rgb(0, 0, 255)"
   },
   {
-    "division": "green",
+    "division": "pool-3",
+    "header": "Yellow Division",
+    "background": "rgba(255, 255, 0, 0.3)",
+    "border-color": "rgb(255, 255, 0)"
+  },
+  {
+    "division": "pool-4",
     "header": "Green Division",
     "background": "rgb(195, 237, 195)",
     "border-color": "rgb(63, 235, 63)"

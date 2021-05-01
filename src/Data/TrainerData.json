@@ -3,7 +3,7 @@
       "name": "ryguyxdlive",
       "discordName": "Gon Freecs#2157",
       "team": 1,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Butterfree" },
         { "type": "Dark",     "name": "Zarude" },
@@ -29,7 +29,7 @@
       "name": "RossBoss00",
       "discordName": "RossBoss00#5587",
       "team": 2,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Dustox" },
         { "type": "Dark",     "name": "Bisharp" },
@@ -55,7 +55,7 @@
       "name": "pokedoh",
       "discordName": "Hunter#0462",
       "team": 3,
-      "division": "",
+      "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
         { "type": "Dark",     "name": "Sharpedo-Mega" },
@@ -81,7 +81,7 @@
       "name": "Liljaka",
       "discordName": "Liljaka#3434",
       "team": 4,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Buzzwole" },
         { "type": "Dark",     "name": "Mightyena" },
@@ -107,7 +107,7 @@
       "name": "Mannat",
       "discordName": "Mannat#4386",
       "team": 5,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
         { "type": "Dark",     "name": "Thievul" },
@@ -133,7 +133,7 @@
       "name": "Zanderc0rn",
       "discordName": "Zandercorn#2852",
       "team": 6,
-      "division": "",
+      "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Masquerain" },
         { "type": "Dark",     "name": "Scrafty" },
@@ -159,7 +159,7 @@
       "name": "runanbun_",
       "discordName": "runanbun#8505",
       "team": 7,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Frosmoth" },
         { "type": "Dark",     "name": "Drapion" },
@@ -185,7 +185,7 @@
       "name": "JarppiVene",
       "discordName": "JarppiVene#4817",
       "team": 8,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Volbeat" },
         { "type": "Dark",     "name": "Crawdaunt" },
@@ -211,7 +211,7 @@
       "name": "QuestionableSpecimen",
       "discordName": "QuestionableSpecimen#2183",
       "team": 9,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Galvantula" },
         { "type": "Dark",     "name": "Shiftry" },
@@ -237,7 +237,7 @@
       "name": "daddybeefcakes123",
       "discordName": "Beefcakes#8704",
       "team": 10,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Heracross" },
         { "type": "Dark",     "name": "Honchkrow" },
@@ -263,7 +263,7 @@
       "name": "FearlessFearow",
       "discordName": "FearlessFearow#8257",
       "team": 11,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Ariados" },
         { "type": "Dark",     "name": "Hoopa-Unbound" },
@@ -289,7 +289,7 @@
       "name": "zefil_",
       "discordName": "ponke#9594",
       "team": 12,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Parasect" },
         { "type": "Dark",     "name": "Obstagoon" },
@@ -315,7 +315,7 @@
       "name": "FatherGung",
       "discordName": "FatherGung#7690",
       "team": 13,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Ledian" },
         { "type": "Dark",     "name": "Guzzlord" },
@@ -341,7 +341,7 @@
       "name": "Pokemon_Nuzlocke",
       "discordName": "Pokemon_Nuzlocke#6648",
       "team": 14,
-      "division": "",
+      "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Ninjask" },
         { "type": "Dark",     "name": "Raticate-Alola" },
@@ -367,7 +367,7 @@
       "name": "r3z3n15 ",
       "discordName": "R3Zz3Nn#6091",
       "team": 15,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
         { "type": "Dark",     "name": "Morpeko" },
@@ -393,7 +393,7 @@
       "name": "sweetbeanzz",
       "discordName": "SweetBeanz#1884",
       "team": 16,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
         { "type": "Dark",     "name": "Persian-Alola" },
@@ -419,7 +419,7 @@
       "name": "TheLoooon",
       "discordName": "TheLoooon#5314",
       "team": 17,
-      "division": "",
+      "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Scizor-Mega" },
         { "type": "Dark",     "name": "Persian-Alola" },
@@ -445,7 +445,7 @@
       "name": "PapierJoe",
       "discordName": "PapierJoe#1577",
       "team": 18,
-      "division": "",
+      "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Kricketune" },
         { "type": "Dark",     "name": "Krookodile" },
@@ -471,7 +471,7 @@
       "name": "Vinomatic101",
       "discordName": "Vinomatic#8800",
       "team": 29,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
         { "type": "Dark",     "name": "Obstagoon" },
@@ -497,7 +497,7 @@
       "name": "leftytheman",
       "discordName": "lefty#9295",
       "team": 20,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Pinsir-Mega" },
         { "type": "Dark",     "name": "Zarude" },
@@ -523,7 +523,7 @@
       "name": "tree4beard",
       "discordName": "tree4beard#5002",
       "team": 21,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Orbeetle" },
         { "type": "Dark",     "name": "Umbreon" },
@@ -549,7 +549,7 @@
       "name": "RynnnyD",
       "discordName": "Rynnn#9637",
       "team": 22,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
         { "type": "Dark",     "name": "Grimmsnarl" },
@@ -575,7 +575,7 @@
       "name": "mcguineeplasto ",
       "discordName": "Plasto#5129",
       "team": 23,
-      "division": "",
+      "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Ledian" },
         { "type": "Dark",     "name": "Pangoro" },
@@ -601,7 +601,7 @@
       "name": "MercuryPlus1",
       "discordName": "MercuryPlus1#3752",
       "team": 24,
-      "division": "",
+      "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill-Mega" },
         { "type": "Dark",     "name": "Hydreigon" },
@@ -627,7 +627,7 @@
       "name": "s3xtopher",
       "discordName": "sx3topher#4320",
       "team": 25,
-      "division": "",
+      "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
         { "type": "Dark",     "name": "Guzzlord" },
@@ -647,6 +647,32 @@
         { "type": "Rock",     "name": "Barbaracle" },
         { "type": "Steel",    "name": "Magearna" },
         { "type": "Water",    "name": "Blastoise-Mega" }
+      ]
+    },
+    {
+      "name": "TheTired",
+      "discordName": "TheTired#9851",
+      "team": 26,
+      "division": "pool-4",
+      "pokemons": [
+        { "type": "Bug",      "name": "Escavalier" },
+        { "type": "Dark",     "name": "Spiritomb" },
+        { "type": "Dragon",   "name": "Goodra" },
+        { "type": "Electric", "name": "Electivire" },
+        { "type": "Fairy",    "name": "Tapu-Bulu" },
+        { "type": "Fighting", "name": "Hariyama" },
+        { "type": "Fire",     "name": "Flareon" },
+        { "type": "Flying",   "name": "Swellow" },
+        { "type": "Ghost",    "name": "Banette" },
+        { "type": "Grass",    "name": "Breloom" },
+        { "type": "Ground",   "name": "Camerupt" },
+        { "type": "Ice",      "name": "Ninetales-Alola" },
+        { "type": "Normal",   "name": "Audino-Mega" },
+        { "type": "Poison",   "name": "Toxapex" },
+        { "type": "Psychic",  "name": "Victini" },
+        { "type": "Rock",     "name": "Terrakion" },
+        { "type": "Steel",    "name": "Forretress" },
+        { "type": "Water",    "name": "Wailord" }
       ]
     }
 ]
