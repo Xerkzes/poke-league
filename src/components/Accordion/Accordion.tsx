@@ -4,7 +4,7 @@ interface AccordionProps {
   array: any[];
   setArray: React.Dispatch<React.SetStateAction<any[]>>;
   header: string;
-  content: JSX.Element[];
+  content: JSX.Element[] | JSX.Element;
   index: number;
 }
 

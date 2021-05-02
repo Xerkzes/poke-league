@@ -1,0 +1,19 @@
+[
+  {
+    "week": 1,
+    "rerolls": [
+      { "trainer": "ryguyxdlive",         "type": "water",      "previousPokemon": "Golduck",              "newPokemon": "Wailord" },
+      { "trainer": "RossBoss00",          "type": "fairy",      "previousPokemon": "Rapidash-Galar",       "newPokemon": "Tapu-Lele" },
+      { "trainer": "MercuryPlus1",          "type": "fairy",      "previousPokemon": "Rapidash-Galar",       "newPokemon": "Tapu-Lele" },
+      { "trainer": "mcguineeplasto",          "type": "fairy",      "previousPokemon": "Rapidash-Galar",       "newPokemon": "Tapu-Lele" },
+      { "trainer": "TheTired",          "type": "fairy",      "previousPokemon": "Rapidash-Galar",       "newPokemon": "Tapu-Lele" }
+    ]
+  },
+  {
+    "week": 2,
+    "rerolls": [
+      { "trainer": "ryguyxdlive",         "type": "bug",      "previousPokemon": "Butterfree",             "newPokemon": "Dustox" },
+      { "trainer": "RossBoss00",          "type": "rock",     "previousPokemon": "Shuckle",                "newPokemon": "Bastiodon" }
+    ]
+  }
+]

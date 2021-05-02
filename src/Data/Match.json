@@ -3,14 +3,23 @@
         "header": "Week1: (??)",
         "matches": [
             {"name1": "trainer1",                "name2": "trainer2",               "winner": ""},
-            {"name1": "trainer3",                "name2": "trainer4",          "winner": ""}
+            {"name1": "trainer10",                "name2": "trainer20",               "winner": ""},
+            {"name1": "trainer11",                "name2": "trainer21",               "winner": ""},
+            {"name1": "trainer12",                "name2": "trainer22",               "winner": ""},
+            {"name1": "trainer13",                "name2": "trainer23",               "winner": ""},
+            {"name1": "trainer14",                "name2": "trainer24",               "winner": ""},
+            {"name1": "trainer15",                "name2": "trainer25",               "winner": ""},
+            {"name1": "trainer16",                "name2": "trainer26",               "winner": ""},
+            {"name1": "trainer17",                "name2": "trainer27",               "winner": ""},
+            {"name1": "trainer18",                "name2": "trainer28",               "winner": ""},
+            {"name1": "trainer3",                "name2": "trainer4",               "winner": ""}
         ]
     },
     {
         "header": "Week2: (??)",
         "matches": [
             {"name1": "trainer1",                "name2": "trainer2",               "winner": ""},
-            {"name1": "trainer3",                "name2": "trainer4",          "winner": ""}
+            {"name1": "trainer3",                "name2": "trainer4",               "winner": ""}
         ]
     }
 ]

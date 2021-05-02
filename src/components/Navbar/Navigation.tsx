@@ -12,6 +12,7 @@ const links = [
   { text: "Divisions", location: "/divisions", icon: "table_chart" },
   { text: "Matches", location: "/matches", icon: "sports_esports" },
   { text: "Rules", location: "/rulesets", icon: "event_note" },
+  { text: "Rerolls", location: "/poke-rerolls", icon: "casino" },
   {
     text: "Generator",
     location: "/random_pokemon_generator",

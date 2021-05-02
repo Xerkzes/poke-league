@@ -5,6 +5,7 @@ import {
   iForm,
   iCustomOptions,
   PokemonDataInterface,
+  TrainerInterface,
 } from "./Interfaces/interface"
 
 
@@ -29,6 +30,16 @@ export const createTypeArray = (pokeData: PokemonDataInterface) => {
   })
 
   return typeArray;
+}
+
+// get Pokemon-Data by only his name
+export const getPokemonData = (pokemonName: string, pokemonList: PokemonDataInterface[]) => {
+  return pokemonList.find((poke) => poke.name.toLowerCase() === pokemonName.toLowerCase());
+}
+
+// get trainer data from trainername
+export const getTrainerData = (trainerName: string, trainerList: TrainerInterface[]) => {
+  return trainerList.find((trainer: TrainerInterface) => trainer.name.toLowerCase() === trainerName.toLowerCase())
 }
 
 // sort array by value
