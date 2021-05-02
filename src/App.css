@@ -335,7 +335,14 @@ h1 {
   margin: 0.5rem 0.5rem;
 }
 
-.poke-reroll-container {
+.poke-reroll-week-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.poke-reroll-trainer-container {
   width: 100%;
   height: 100%;
   display: grid;
@@ -716,7 +723,7 @@ h1 {
     width: 14rem;
   }
 
-  .poke-reroll-container {
+  .poke-reroll-week-container {
     width: 100%;
     height: 100%;
     display: grid;

@@ -16,11 +16,11 @@ import {
   TrainerInterface,
 } from "../../../Interfaces/interface";
 
-interface RerollProps {
+interface WeekRerollProps {
   reroll: iReroll;
 }
 
-export const Reroll: React.FC<RerollProps> = ({ reroll }) => {
+export const WeekReroll: React.FC<WeekRerollProps> = ({ reroll }) => {
   const [imgUrlOldPokemon, setImgUrlOldPokemon] = useState<string>("");
   const [imgUrlNewPokemon, setImgUrlNewPokemon] = useState<string>("");
   const [borderColor, setBorderColor] = useState<string>("");
