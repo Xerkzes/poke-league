@@ -142,7 +142,7 @@ h1 {
 .trainer-container {
   box-shadow: 10px 10px rgba(0, 0, 0, 0.15);
   border-bottom: 7px solid var(--color-participants);
-  transition: 200ms linear 0ms;
+  transition: margin 200ms linear;
 }
 
 .trainer-header {

@@ -95,29 +95,23 @@ export const PokeReroll: React.FC<PokeRerollProps> = ({}) => {
   const renderTab = (tabName: string) => {
     switch (tabName) {
       case "week": {
-        return Rerolls.map((reroll: iPokemonReroll, idx: number) => {
+        return pokemonRerolls.map((reroll: iPokemonReroll, idx: number) => {
           return (
             <Accordion
               key={reroll.week}
-              array={pokemonRerolls}
-              setArray={setPokemonRerolls}
               header={`Week ${reroll.week}`}
               content={rerollWeekConent(reroll)}
-              index={idx}
             />
           );
         });
       }
       case "trainer": {
-        return TrainerData.map((trainer: TrainerInterface, idx: number) => {
+        return trainerRerolls.map((trainer: TrainerInterface, idx: number) => {
           return (
             <Accordion
               key={trainer.name}
-              array={trainerRerolls}
-              setArray={setPokemonRerolls}
               header={`${trainer.name}`}
               content={rerollTrainerContent(trainer)}
-              index={idx}
             />
           );
         });

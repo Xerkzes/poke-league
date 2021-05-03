@@ -48,19 +48,6 @@ const matchContent = (matchData: LeagueInterface) => {
 };
 
 export const Matches: React.FC<MatchesProps> = ({}) => {
-  const [matches, setMatches] = useState<LeagueExpandedInterface[]>([]);
-
-  useEffect(() => {
-    MatchesData.map((match) => {
-      const expandTrainer: LeagueExpandedInterface = {
-        ...match,
-        expanded: false,
-      };
-
-      setMatches((matches) => [...matches, expandTrainer]);
-    });
-  }, []);
-
   return (
     <div>
       <h1>Matches (test data)</h1>
@@ -70,11 +57,8 @@ export const Matches: React.FC<MatchesProps> = ({}) => {
           return (
             <Accordion
               key={matchData.header}
-              array={matches}
-              setArray={setMatches}
               header={matchData.header}
               content={matchContent(matchData)}
-              index={idx}
             />
           );
         })}

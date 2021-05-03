@@ -17,19 +17,6 @@ const pokemonsContent = (trainer: TrainerInterface) => {
 };
 
 export const Participants: React.FC<ParticipantsProps> = ({}) => {
-  const [trainers, setTrainers] = useState<TrainerExpandedInterface[]>([]);
-
-  useEffect(() => {
-    TrainerData.map((trainer) => {
-      const expandTrainer: TrainerExpandedInterface = {
-        ...trainer,
-        expanded: false,
-      };
-
-      setTrainers((trainers) => [...trainers, expandTrainer]);
-    });
-  }, []);
-
   return (
     <div className="participants-container">
       <h1>Participants</h1>
@@ -39,11 +26,8 @@ export const Participants: React.FC<ParticipantsProps> = ({}) => {
           return (
             <Accordion
               key={trainer.team}
-              array={trainers}
-              setArray={setTrainers}
               header={`${trainer.name} (${trainer.discordName})`}
               content={pokemonsContent(trainer)}
-              index={idx}
             />
           );
         })}
