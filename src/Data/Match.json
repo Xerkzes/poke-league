@@ -2,8 +2,8 @@
     {
         "header": "Week 1: May 3-10",
         "matches": [
-            {"name1": "ryguyxdlive",                "name2": "RossBoss00",              "winner": ""},
-            {"name1": "Liljaka",                    "name2": "runanbun_",               "winner": ""},
+            {"name1": "ryguyxdlive",                "name2": "RossBoss00",              "winner": "ryguyxdlive"},
+            {"name1": "Liljaka",                    "name2": "runanbun_",               "winner": "runanbun_"},
             {"name1": "QuestionableSpecimen",       "name2": "Pokemon_Nuzlocke",        "winner": ""},
             {"name1": "pokedoh",                    "name2": "Zanderc0rn",              "winner": ""},
             {"name1": "TheLoooon",                  "name2": "PapierJoe",               "winner": ""},
