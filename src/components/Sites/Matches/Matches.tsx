@@ -50,7 +50,7 @@ const matchContent = (matchData: LeagueInterface) => {
 export const Matches: React.FC<MatchesProps> = ({}) => {
   return (
     <div>
-      <h1>Matches (test data)</h1>
+      <h1>Matches</h1>
 
       <div className="matches-container">
         {MatchesData.map((matchData: LeagueInterface, idx) => {

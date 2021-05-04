@@ -54,7 +54,7 @@
     {
       "name": "pokedoh",
       "discordName": "Hunter#0462",
-      "team": 3,
+      "team": 7,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
@@ -80,7 +80,7 @@
     {
       "name": "Liljaka",
       "discordName": "Liljaka#3434",
-      "team": 4,
+      "team": 3,
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Buzzwole" },
@@ -106,7 +106,7 @@
     {
       "name": "Mannat",
       "discordName": "Mannat#4386",
-      "team": 5,
+      "team": 13,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
@@ -132,7 +132,7 @@
     {
       "name": "Zanderc0rn",
       "discordName": "Zandercorn#2852",
-      "team": 6,
+      "team": 8,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Masquerain" },
@@ -158,7 +158,7 @@
     {
       "name": "runanbun_",
       "discordName": "runanbun#8505",
-      "team": 7,
+      "team": 4,
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Frosmoth" },
@@ -184,7 +184,7 @@
     {
       "name": "JarppiVene",
       "discordName": "JarppiVene#4817",
-      "team": 8,
+      "team": 14,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Volbeat" },
@@ -210,7 +210,7 @@
     {
       "name": "QuestionableSpecimen",
       "discordName": "QuestionableSpecimen#2183",
-      "team": 9,
+      "team": 5,
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Galvantula" },
@@ -236,7 +236,7 @@
     {
       "name": "daddybeefcakes123",
       "discordName": "Beefcakes#8704",
-      "team": 10,
+      "team": 20,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Heracross" },
@@ -262,7 +262,7 @@
     {
       "name": "FearlessFearow",
       "discordName": "FearlessFearow#8257",
-      "team": 11,
+      "team": 15,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Ariados" },
@@ -288,7 +288,7 @@
     {
       "name": "zefil_",
       "discordName": "ponke#9594",
-      "team": 12,
+      "team": 16,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Parasect" },
@@ -314,7 +314,7 @@
     {
       "name": "FatherGung",
       "discordName": "FatherGung#7690",
-      "team": 13,
+      "team": 17,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Ledian" },
@@ -340,7 +340,7 @@
     {
       "name": "Pokemon_Nuzlocke",
       "discordName": "Pokemon_Nuzlocke#6648",
-      "team": 14,
+      "team": 6,
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Ninjask" },
@@ -366,7 +366,7 @@
     {
       "name": "r3z3n15 ",
       "discordName": "R3Zz3Nn#6091",
-      "team": 15,
+      "team": 18,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -392,7 +392,7 @@
     {
       "name": "sweetbeanzz",
       "discordName": "SweetBeanz#1884",
-      "team": 16,
+      "team": 21,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -418,7 +418,7 @@
     {
       "name": "TheLoooon",
       "discordName": "TheLoooon#5314",
-      "team": 17,
+      "team": 9,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Scizor-Mega" },
@@ -444,7 +444,7 @@
     {
       "name": "PapierJoe",
       "discordName": "PapierJoe#1577",
-      "team": 18,
+      "team": 10,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Kricketune" },
@@ -470,7 +470,7 @@
     {
       "name": "Vinomatic101",
       "discordName": "Vinomatic#8800",
-      "team": 29,
+      "team": 22,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Leavanny" },
@@ -496,7 +496,7 @@
     {
       "name": "leftytheman",
       "discordName": "lefty#9295",
-      "team": 20,
+      "team": 23,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Pinsir-Mega" },
@@ -522,7 +522,7 @@
     {
       "name": "tree4beard",
       "discordName": "tree4beard#5002",
-      "team": 21,
+      "team": 24,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Orbeetle" },
@@ -548,7 +548,7 @@
     {
       "name": "RynnnyD",
       "discordName": "Rynnn#9637",
-      "team": 22,
+      "team": 25,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
@@ -574,7 +574,7 @@
     {
       "name": "mcguineeplasto",
       "discordName": "Plasto#5129",
-      "team": 23,
+      "team": 26,
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Ledian" },
@@ -600,7 +600,7 @@
     {
       "name": "MercuryPlus1",
       "discordName": "MercuryPlus1#3752",
-      "team": 24,
+      "team": 19,
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill-Mega" },
@@ -626,7 +626,7 @@
     {
       "name": "s3xtopher",
       "discordName": "sx3topher#4320",
-      "team": 25,
+      "team": 11,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
@@ -652,7 +652,7 @@
     {
       "name": "TheTired",
       "discordName": "TheTired#9851",
-      "team": 26,
+      "team": 12,
       "division": "pool-4",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
