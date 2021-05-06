@@ -55,6 +55,11 @@ h1 {
   background-color: var(--color-navbar);
   color: white;
   width: 100vw;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar-btn-expand-div {
