@@ -32,7 +32,7 @@ export const Accordion: React.FC<AccordionProps> = ({ header, content }) => {
         className="trainer-header cursor-pointer"
         onClick={() => headerWasClicked()}
       >
-        <p>{header}</p>
+        <p className="trainer-title">{header}</p>
         <p className={expanded ? "trainer-carrot-up" : "trainer-carrot-down"}>
           &#9660;
         </p>
