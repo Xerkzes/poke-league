@@ -2,7 +2,9 @@
   {
     "week": 1,
     "rerolls": [
-      { "trainer": "ryguyxdlive",         "type": "water",      "previousPokemon": "Golduck",              "newPokemon": "Wailord" }
+      { "trainer": "RossBoss00",             "type": "fairy",      "previousPokemon": "Rapidash-Galar",         "newPokemon": "Ninetales-Alola" },
+      { "trainer": "mcguineeplasto",         "type": "water",      "previousPokemon": "Barbaracle",             "newPokemon": "Wailord" },
+      { "trainer": "TheLoooon",              "type": "water",      "previousPokemon": "Crawdaunt",              "newPokemon": "Manaphy" }
     ]
   }
 ]

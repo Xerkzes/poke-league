@@ -438,7 +438,7 @@
         { "type": "Psychic",  "name": "Orbeetle" },
         { "type": "Rock",     "name": "Regirock" },
         { "type": "Steel",    "name": "Cobalion" },
-        { "type": "Water",    "name": "Crawdaunt" }
+        { "type": "Water",    "name": "Manaphy" }
       ]
     },
     {
@@ -594,7 +594,7 @@
         { "type": "Psychic",  "name": "Mew" },
         { "type": "Rock",     "name": "Tyrantrum" },
         { "type": "Steel",    "name": "Scizor" },
-        { "type": "Water",    "name": "Barbaracle" }
+        { "type": "Water",    "name": "Wailord" }
       ]
     },
     {

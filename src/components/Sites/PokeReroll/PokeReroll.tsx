@@ -121,7 +121,7 @@ export const PokeReroll: React.FC<PokeRerollProps> = ({}) => {
 
   return (
     <div>
-      <h1>Pokemon Rerolls (test data)</h1>
+      <h1>Pokemon Rerolls</h1>
 
       {/* tabs */}
       <div className="my-4 ">
