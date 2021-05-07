@@ -7,7 +7,7 @@
       { "trainer": "TheLoooon",               "type": "water",      "previousPokemon": "Crawdaunt",               "newPokemon": "Manaphy" },
       { "trainer": "Liljaka",                 "type": "psychic",    "previousPokemon": "Bruxish",                 "newPokemon": "Uxie" },
       { "trainer": "PapierJoe",               "type": "fire",       "previousPokemon": "Heatmor",                 "newPokemon": "Heatran" },
-      { "trainer": "leftytheman",             "type": "electric",   "previousPokemon": "Zeraora",                 "newPokemon": "Zapdos" },
+      { "trainer": "leftytheman",             "type": "flying",     "previousPokemon": "Swellow",                 "newPokemon": "Zapdos" },
       { "trainer": "Vinomatic101",            "type": "fire",       "previousPokemon": "Ninetales",               "newPokemon": "Entei" },
       { "trainer": "FatherGung",              "type": "fighting",   "previousPokemon": "Hitmonlee",               "newPokemon": "Hitmontop" },
       { "trainer": "Mannat",                  "type": "dark",       "previousPokemon": "Thievul",                 "newPokemon": "Spiritomb" },
