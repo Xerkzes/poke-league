@@ -2,9 +2,17 @@
   {
     "week": 1,
     "rerolls": [
-      { "trainer": "RossBoss00",             "type": "fairy",      "previousPokemon": "Rapidash-Galar",         "newPokemon": "Ninetales-Alola" },
-      { "trainer": "mcguineeplasto",         "type": "water",      "previousPokemon": "Barbaracle",             "newPokemon": "Wailord" },
-      { "trainer": "TheLoooon",              "type": "water",      "previousPokemon": "Crawdaunt",              "newPokemon": "Manaphy" }
+      { "trainer": "RossBoss00",              "type": "fairy",      "previousPokemon": "Rapidash-Galar",          "newPokemon": "Ninetales-Alola" },
+      { "trainer": "mcguineeplasto",          "type": "water",      "previousPokemon": "Barbaracle",              "newPokemon": "Wailord" },
+      { "trainer": "TheLoooon",               "type": "water",      "previousPokemon": "Crawdaunt",               "newPokemon": "Manaphy" },
+      { "trainer": "Liljaka",                 "type": "psychic",    "previousPokemon": "Bruxish",                 "newPokemon": "Uxie" },
+      { "trainer": "PapierJoe",               "type": "fire",       "previousPokemon": "Heatmor",                 "newPokemon": "Heatran" },
+      { "trainer": "leftytheman",             "type": "electric",   "previousPokemon": "Zeraora",                 "newPokemon": "Zapdos" },
+      { "trainer": "Vinomatic101",            "type": "fire",       "previousPokemon": "Ninetales",               "newPokemon": "Entei" },
+      { "trainer": "FatherGung",              "type": "fighting",   "previousPokemon": "Hitmonlee",               "newPokemon": "Hitmontop" },
+      { "trainer": "Mannat",                  "type": "dark",       "previousPokemon": "Thievul",                 "newPokemon": "Spiritomb" },
+      { "trainer": "pokedoh",                 "type": "fighting",   "previousPokemon": "Hitmonchan",              "newPokemon": "Crabominable" },
+      { "trainer": "JarppiVene",              "type": "dark",       "previousPokemon": "Crawdaunt",               "newPokemon": "Persian-Alola" }
     ]
   }
 ]
