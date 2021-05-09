@@ -14,7 +14,12 @@
       { "trainer": "pokedoh",                 "type": "fighting",       "previousPokemon": "Hitmonchan",              "newPokemon": "Crabominable" },
       { "trainer": "JarppiVene",              "type": "dark",           "previousPokemon": "Crawdaunt",               "newPokemon": "Persian-Alola" },
       { "trainer": "ryguyxdlive",             "type": "electric",       "previousPokemon": "Jolteon",                 "newPokemon": "Regieleki" },
-      { "trainer": "s3xtopher",               "type": "ghost",          "previousPokemon": "Golurk",                  "newPokemon": "Polteageist" }
+      { "trainer": "s3xtopher",               "type": "ghost",          "previousPokemon": "Golurk",                  "newPokemon": "Polteageist" },
+      { "trainer": "r3z3n15",                 "type": "fairy",          "previousPokemon": "Granbull",                "newPokemon": "Gardevoir" },
+      { "trainer": "tree4beard",              "type": "fairy",          "previousPokemon": "Rapidash-Galar",          "newPokemon": "Musharna" },
+      { "trainer": "QuestionableSpecimen",    "type": "flying",         "previousPokemon": "Ledian",                  "newPokemon": "Delibird" },
+      { "trainer": "sweetbeanzz",             "type": "ghost",          "previousPokemon": "Rotom",                   "newPokemon": "Banette" },
+      { "trainer": "zefil_",                  "type": "dark",           "previousPokemon": "Obstagoon",               "newPokemon": "Bisharp" }
     ]
   }
 ]

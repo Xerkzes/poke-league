@@ -220,7 +220,7 @@
         { "type": "Fairy",    "name": "Tapu-Fini" },
         { "type": "Fighting", "name": "Infernape" },
         { "type": "Fire",     "name": "Rotom-Heat" },
-        { "type": "Flying",   "name": "Ledian" },
+        { "type": "Flying",   "name": "Delibird" },
         { "type": "Ghost",    "name": "Gengar" },
         { "type": "Grass",    "name": "Tsareena" },
         { "type": "Ground",   "name": "Nidoking" },
@@ -292,7 +292,7 @@
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "name": "Parasect" },
-        { "type": "Dark",     "name": "Obstagoon" },
+        { "type": "Dark",     "name": "Bisharp" },
         { "type": "Dragon",   "name": "Dragonite" },
         { "type": "Electric", "name": "Zapdos" },
         { "type": "Fairy",    "name": "Tapu-Bulu" },
@@ -364,7 +364,7 @@
       ]
     },
     {
-      "name": "r3z3n15 ",
+      "name": "r3z3n15",
       "discordName": "R3Zz3Nn#6091",
       "team": 18,
       "division": "pool-2",
@@ -373,7 +373,7 @@
         { "type": "Dark",     "name": "Morpeko" },
         { "type": "Dragon",   "name": "Haxorus" },
         { "type": "Electric", "name": "Luxray" },
-        { "type": "Fairy",    "name": "Granbull" },
+        { "type": "Fairy",    "name": "Gardevoir" },
         { "type": "Fighting", "name": "Conkeldurr" },
         { "type": "Fire",     "name": "Rotom-Heat" },
         { "type": "Flying",   "name": "Staraptor" },
@@ -403,7 +403,7 @@
         { "type": "Fighting", "name": "Bewear" },
         { "type": "Fire",     "name": "Centiskorch" },
         { "type": "Flying",   "name": "Mandibuzz" },
-        { "type": "Ghost",    "name": "Rotom" },
+        { "type": "Ghost",    "name": "Banette" },
         { "type": "Grass",    "name": "Rotom-Mow" },
         { "type": "Ground",   "name": "Marowak" },
         { "type": "Ice",      "name": "Frosmoth" },
@@ -539,7 +539,7 @@
         { "type": "Ice",      "name": "Mamoswine" },
         { "type": "Normal",   "name": "Lopunny-Mega" },
         { "type": "Poison",   "name": "Nidoqueen" },
-        { "type": "Psychic",  "name": "Rapidash-Galar" },
+        { "type": "Psychic",  "name": "Musharna" },
         { "type": "Rock",     "name": "Stonjourner" },
         { "type": "Steel",    "name": "Bronzong" },
         { "type": "Water",    "name": "Wailord" }

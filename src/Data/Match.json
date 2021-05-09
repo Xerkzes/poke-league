@@ -4,17 +4,17 @@
         "matches": [
             {"name1": "ryguyxdlive",                "name2": "RossBoss00",              "winner": "ryguyxdlive"},
             {"name1": "Liljaka",                    "name2": "runanbun_",               "winner": "runanbun_"},
-            {"name1": "QuestionableSpecimen",       "name2": "Pokemon_Nuzlocke",        "winner": ""},
+            {"name1": "QuestionableSpecimen",       "name2": "Pokemon_Nuzlocke",        "winner": "QuestionableSpecimen"},
             {"name1": "pokedoh",                    "name2": "Zanderc0rn",              "winner": "pokedoh"},
             {"name1": "TheLoooon",                  "name2": "PapierJoe",               "winner": "TheLoooon"},
-            {"name1": "s3xtopher",                  "name2": "TheTired",                "winner": ""},
+            {"name1": "s3xtopher",                  "name2": "TheTired",                "winner": "TheTired"},
             {"name1": "Mannat",                     "name2": "JarppiVene",              "winner": "Mannat"},
-            {"name1": "FearlessFearow",             "name2": "zefil_",                  "winner": ""},
+            {"name1": "FearlessFearow",             "name2": "zefil_",                  "winner": "zefil_"},
             {"name1": "FatherGung",                 "name2": "r3z3n15",                 "winner": "FatherGung"},
             {"name1": "MercuryPlus1",               "name2": "mcguineeplasto",          "winner": "mcguineeplasto"},
-            {"name1": "daddybeefcakes123",          "name2": "sweetbeanzz",             "winner": ""},
-            {"name1": "Vinomatic101",               "name2": "leftytheman",             "winner": ""},
-            {"name1": "tree4beard",                 "name2": "RynnnyD",                 "winner": ""}
+            {"name1": "daddybeefcakes123",          "name2": "sweetbeanzz",             "winner": "sweetbeanzz"},
+            {"name1": "Vinomatic101",               "name2": "leftytheman",             "winner": "Vinomatic101"},
+            {"name1": "tree4beard",                 "name2": "RynnnyD",                 "winner": "tree4beard"}
         ]
     }
 ]
