@@ -19,7 +19,8 @@
       { "trainer": "tree4beard",              "type": "fairy",          "previousPokemon": "Rapidash-Galar",          "newPokemon": "Musharna" },
       { "trainer": "QuestionableSpecimen",    "type": "flying",         "previousPokemon": "Ledian",                  "newPokemon": "Delibird" },
       { "trainer": "sweetbeanzz",             "type": "ghost",          "previousPokemon": "Rotom",                   "newPokemon": "Banette" },
-      { "trainer": "zefil_",                  "type": "dark",           "previousPokemon": "Obstagoon",               "newPokemon": "Bisharp" }
+      { "trainer": "zefil_",                  "type": "dark",           "previousPokemon": "Obstagoon",               "newPokemon": "Bisharp" },
+      { "trainer": "daddybeefcakes123",       "type": "fighting",       "previousPokemon": "Emboar",                  "newPokemon": "Mienshao" }
     ]
   }
 ]
