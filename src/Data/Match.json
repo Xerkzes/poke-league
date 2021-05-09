@@ -16,5 +16,23 @@
             {"name1": "Vinomatic101",               "name2": "leftytheman",             "winner": "Vinomatic101"},
             {"name1": "tree4beard",                 "name2": "RynnnyD",                 "winner": "tree4beard"}
         ]
+    },
+    {
+        "header": "Week 2: May 10-17",
+        "matches": [
+            {"name1": "ryguyxdlive",                "name2": "Liljaka",                 "winner": ""},
+            {"name1": "RossBoss00",                 "name2": "QuestionableSpecimen",    "winner": ""},
+            {"name1": "runanbun_",                  "name2": "Pokemon_Nuzlocke",        "winner": ""},
+            {"name1": "pokedoh",                    "name2": "TheLoooon",               "winner": ""},
+            {"name1": "Zanderc0rn",                 "name2": "s3xtopher",               "winner": ""},
+            {"name1": "PapierJoe",                  "name2": "TheTired",                "winner": ""},
+            {"name1": "FatherGung",                 "name2": "tree4beard",              "winner": ""},
+            {"name1": "Mannat",                     "name2": "FearlessFearow",          "winner": ""},
+            {"name1": "JarppiVene",                 "name2": "r3z3n15",                 "winner": ""},
+            {"name1": "zefil_",                     "name2": "MercuryPlus1",            "winner": ""},
+            {"name1": "daddybeefcakes123",          "name2": "Vinomatic101",            "winner": ""},
+            {"name1": "sweetbeanzz",                "name2": "RynnnyD",                 "winner": ""},
+            {"name1": "leftytheman",                "name2": "mcguineeplasto",          "winner": ""}
+        ]
     }
 ]
