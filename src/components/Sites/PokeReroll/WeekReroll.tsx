@@ -24,6 +24,8 @@ export const WeekReroll: React.FC<WeekRerollProps> = ({ reroll }) => {
   const [imgUrlOldPokemon, setImgUrlOldPokemon] = useState<string>("");
   const [imgUrlNewPokemon, setImgUrlNewPokemon] = useState<string>("");
   const [borderColor, setBorderColor] = useState<string>("");
+  const [imgOldLoaded, setImgOldLoaded] = useState<boolean>(false);
+  const [imgNewLoaded, setImgNewLoaded] = useState<boolean>(false);
 
   useEffect(() => {
     const oldPokemon: PokemonDataInterface | undefined = getPokemonData(
@@ -45,14 +47,10 @@ export const WeekReroll: React.FC<WeekRerollProps> = ({ reroll }) => {
     }
 
     // border depending on the division
-    const trainer: TrainerInterface | undefined = getTrainerData(
-      reroll.trainer,
-      TrainerList
-    );
+    const trainer: TrainerInterface | undefined = getTrainerData(reroll.trainer, TrainerList);
     if (trainer) {
       const color = Division.find(
-        (division: iDivision) =>
-          division.division.toLowerCase() === trainer.division.toLowerCase()
+        (division: iDivision) => division.division.toLowerCase() === trainer.division.toLowerCase()
       )?.background;
       if (color) setBorderColor(color);
     }
@@ -60,10 +58,7 @@ export const WeekReroll: React.FC<WeekRerollProps> = ({ reroll }) => {
 
   return (
     <div className="reroll-container">
-      <p
-        className="reroll-trainer"
-        style={{ borderLeft: `5px solid ${borderColor}` }}
-      >
+      <p className="reroll-trainer" style={{ borderLeft: `5px solid ${borderColor}` }}>
         {reroll.trainer}
       </p>
       <p
@@ -73,9 +68,21 @@ export const WeekReroll: React.FC<WeekRerollProps> = ({ reroll }) => {
         {capitalizeFirstLetter(reroll.type)}
       </p>
 
-      <img className="trainer-pokemon-img" src={imgUrlOldPokemon} alt="img" />
+      <img
+        className="trainer-pokemon-img"
+        style={imgOldLoaded ? {} : { visibility: "hidden" }}
+        onLoad={() => setImgOldLoaded(true)}
+        src={imgUrlOldPokemon}
+        alt="img"
+      />
       <p className="reroll-arrow">&#8594;</p>
-      <img className="trainer-pokemon-img" src={imgUrlNewPokemon} alt="img" />
+      <img
+        className="trainer-pokemon-img"
+        style={imgNewLoaded ? {} : { visibility: "hidden" }}
+        onLoad={() => setImgNewLoaded(true)}
+        src={imgUrlNewPokemon}
+        alt="img"
+      />
     </div>
   );
 };

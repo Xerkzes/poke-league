@@ -1,23 +1,14 @@
 import React, { useEffect, useState } from "react";
-import {
-  TrainerInterface,
-  PokemonDataInterface,
-} from "../../../Interfaces/interface";
+import { TrainerInterface, PokemonDataInterface } from "../../../Interfaces/interface";
 import Rerolls from "../../../Data/PokeReroll.json";
 import { iReroll } from "./PokeReroll";
-import Pokemons from "../../../Data/Pokemons.json";
-import TypeColors from "../../../Data/TypeColor";
-import {
-  getPokemonData,
-  createImgUrl,
-  capitalizeFirstLetter,
-} from "../../../Utilities";
+import { Trainer } from "./Trainer";
 
 interface TrainerRerollProps {
   trainer: TrainerInterface;
 }
 
-interface weekIReroll extends iReroll {
+export interface weekIReroll extends iReroll {
   week: number;
 }
 
@@ -37,48 +28,8 @@ export const TrainerReroll: React.FC<TrainerRerollProps> = ({ trainer }) => {
 
   return (
     <>
-      {trainerRerolls.map((el, idx) => {
-        const oldPokemon: PokemonDataInterface | undefined = getPokemonData(
-          el.previousPokemon,
-          Pokemons
-        );
-
-        const imgUrlOldPokemon: string = oldPokemon
-          ? createImgUrl(oldPokemon)
-          : "";
-
-        const newPokemon: PokemonDataInterface | undefined = getPokemonData(
-          el.newPokemon,
-          Pokemons
-        );
-
-        const imgUrlNewPokemon: string = newPokemon
-          ? createImgUrl(newPokemon)
-          : "";
-
-        return (
-          <div className="reroll-container" key={idx}>
-            <p className="text-xl">{`Week ${el.week}:`}</p>
-            <p
-              className="trainer-pokemon-type reroll-type"
-              style={{ backgroundColor: TypeColors[el.type.toLowerCase()] }}
-            >
-              {capitalizeFirstLetter(el.type)}
-            </p>
-
-            <img
-              className="trainer-pokemon-img"
-              src={imgUrlOldPokemon}
-              alt="img"
-            />
-            <p className="reroll-arrow">&#8594;</p>
-            <img
-              className="trainer-pokemon-img"
-              src={imgUrlNewPokemon}
-              alt="img"
-            />
-          </div>
-        );
+      {trainerRerolls.map((el: weekIReroll, idx: number) => {
+        return <Trainer key={el.trainer} el={el} idx={idx} />;
       })}
     </>
   );
