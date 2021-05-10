@@ -20,19 +20,19 @@
     {
         "header": "Week 2: May 10-17",
         "matches": [
-            {"name1": "ryguyxdlive",                "name2": "Liljaka",                 "winner": ""},
-            {"name1": "RossBoss00",                 "name2": "QuestionableSpecimen",    "winner": ""},
-            {"name1": "runanbun_",                  "name2": "Pokemon_Nuzlocke",        "winner": ""},
-            {"name1": "pokedoh",                    "name2": "TheLoooon",               "winner": ""},
-            {"name1": "Zanderc0rn",                 "name2": "s3xtopher",               "winner": ""},
-            {"name1": "PapierJoe",                  "name2": "TheTired",                "winner": ""},
-            {"name1": "FatherGung",                 "name2": "tree4beard",              "winner": ""},
-            {"name1": "Mannat",                     "name2": "FearlessFearow",          "winner": ""},
-            {"name1": "JarppiVene",                 "name2": "r3z3n15",                 "winner": ""},
-            {"name1": "zefil_",                     "name2": "MercuryPlus1",            "winner": ""},
-            {"name1": "daddybeefcakes123",          "name2": "Vinomatic101",            "winner": ""},
-            {"name1": "sweetbeanzz",                "name2": "RynnnyD",                 "winner": ""},
-            {"name1": "leftytheman",                "name2": "mcguineeplasto",          "winner": ""}
+            {"teamNr1": 1,                 "teamNr2": 3,              "winner": 0},
+            {"teamNr1": 2,                 "teamNr2": 5,              "winner": ""},
+            {"teamNr1": 4,                 "teamNr2": 6,              "winner": ""},
+            {"teamNr1": 7,                 "teamNr2": 9,              "winner": ""},
+            {"teamNr1": 8,                 "teamNr2": 11,             "winner": ""},
+            {"teamNr1": 10,                "teamNr2": 12,             "winner": ""},
+            {"teamNr1": 17,                "teamNr2": 24,             "winner": ""},
+            {"teamNr1": 13,                "teamNr2": 15,             "winner": ""},
+            {"teamNr1": 14,                "teamNr2": 18,             "winner": ""},
+            {"teamNr1": 16,                "teamNr2": 19,             "winner": ""},
+            {"teamNr1": 20,                "teamNr2": 22,             "winner": ""},
+            {"teamNr1": 21,                "teamNr2": 25,             "winner": ""},
+            {"teamNr1": 23,                "teamNr2": 26,             "winner": ""}
         ]
     }
 ]

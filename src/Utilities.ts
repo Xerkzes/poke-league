@@ -41,6 +41,10 @@ export const getPokemonData = (pokemonName: string, pokemonList: PokemonDataInte
 export const getTrainerData = (trainerName: string, trainerList: TrainerInterface[]) => {
   return trainerList.find((trainer: TrainerInterface) => trainer.name.toLowerCase() === trainerName.toLowerCase())
 }
+// get trainer data from team number
+export const getTrainerDataFromTeamNr = (trainerNr: number, trainerList: TrainerInterface[]) => {
+  return trainerList.find((trainer: TrainerInterface) => trainer.team === trainerNr)
+}
 
 // sort array by value
 export const sortByValue = (prop: any) => {

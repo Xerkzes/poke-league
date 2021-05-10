@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import MatchData from "../../../Data/Match.json";
-import { TrainerInterface } from "../../../Interfaces/interface";
+import TrainerData from "../../../Data/TrainerData.json";
+import { TrainerInterface, MatchInterface } from "../../../Interfaces/interface";
+import { getTrainerDataFromTeamNr, getTrainerData } from "../../../Utilities";
 
 interface TrainerProp {
   trainer: TrainerInterface;
@@ -15,14 +17,28 @@ export const Trainer: React.FC<TrainerProp> = ({ trainer, index }) => {
     let _wins = 0;
     let _loses = 0;
 
-    MatchData.forEach((match) => {
-      match.matches.forEach((fight) => {
+    MatchData.forEach((match: any) => {
+      match.matches.forEach((fight: MatchInterface) => {
+        const trainer1 =
+          fight.name1 != undefined
+            ? getTrainerData(fight.name1, TrainerData)
+            : getTrainerDataFromTeamNr(fight.teamNr1!, TrainerData);
+
+        const trainer2 =
+          fight.name2 != undefined
+            ? getTrainerData(fight.name2, TrainerData)
+            : getTrainerDataFromTeamNr(fight.teamNr2!, TrainerData);
+
         if (
-          fight.name1.toLowerCase() === trainer.name.toLowerCase() ||
-          fight.name2.toLowerCase() === trainer.name.toLowerCase()
+          trainer1?.name.toLowerCase() === trainer.name.toLowerCase() ||
+          trainer2?.name.toLowerCase() === trainer.name.toLowerCase()
         ) {
-          if (fight.winner === "") return;
-          else if (fight.winner.toLowerCase() === trainer.name.toLowerCase())
+          if (fight.winner === "" || fight.winner === 0) return;
+          else if (
+            typeof fight.winner === "string"
+              ? fight.winner.toLowerCase() === trainer.name.toLowerCase()
+              : fight.winner === trainer.team
+          )
             _wins++;
           else _loses++;
         }
@@ -35,11 +51,7 @@ export const Trainer: React.FC<TrainerProp> = ({ trainer, index }) => {
 
   return (
     <div>
-      <div
-        className={
-          "rooster-team " + (index > 0 ? "rooster-border-top-name" : "")
-        }
-      >
+      <div className={"rooster-team " + (index > 0 ? "rooster-border-top-name" : "")}>
         <p className="rooster-team-name">
           {trainer.team}: {trainer.name}
         </p>

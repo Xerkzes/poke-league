@@ -1,45 +1,45 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import MatchesData from "../../../Data/Match.json";
-import {
-  LeagueInterface,
-  LeagueExpandedInterface,
-  MatchInterface,
-} from "../../../Interfaces/interface";
+import TrainerData from "../../../Data/TrainerData.json";
+import { LeagueInterface, MatchInterface, TrainerInterface } from "../../../Interfaces/interface";
 import { Accordion } from "../../Accordion/Accordion";
+import { getTrainerDataFromTeamNr, getTrainerData } from "../../../Utilities";
 
 interface MatchesProps {}
+
+const addConditionalCss = (match: MatchInterface, trainer: TrainerInterface | undefined) => {
+  if (typeof match.winner === "number") {
+    if (match.winner === 0) return "";
+
+    return match.winner === trainer?.team ? "match-won" : "match-lost";
+  } else if (typeof match.winner === "string") {
+    if (match.winner === "") return "";
+
+    return match.winner.toLowerCase() === trainer?.name.toLowerCase() ? "match-won" : "match-lost";
+  }
+};
 
 const matchContent = (matchData: LeagueInterface) => {
   return (
     <div className="matches-trainer-container">
-      {matchData.matches.map((match: MatchInterface) => {
+      {matchData.matches.map((match: MatchInterface, idx: number) => {
+        const trainer1: TrainerInterface | undefined =
+          match.name1 != undefined
+            ? getTrainerData(match.name1, TrainerData)
+            : getTrainerDataFromTeamNr(match.teamNr1!, TrainerData);
+
+        const trainer2: TrainerInterface | undefined =
+          match.name2 != undefined
+            ? getTrainerData(match.name2, TrainerData)
+            : getTrainerDataFromTeamNr(match.teamNr2!, TrainerData);
+
         return (
-          <div key={match.name1 + match.name2} className="match">
-            <p
-              className={
-                "team team-left " +
-                (match.winner === ""
-                  ? ""
-                  : match.winner.toLowerCase() === match.name1.toLowerCase()
-                  ? "match-won"
-                  : "match-lost")
-              }
-            >
-              {match.name1}
+          <div key={idx} className="match">
+            <p className={"team team-left " + addConditionalCss(match, trainer1)}>
+              {trainer1?.name}
             </p>
             <p className="vs">-</p>
-            <p
-              className={
-                "team " +
-                (match.winner === ""
-                  ? ""
-                  : match.winner.toLowerCase() === match.name2.toLowerCase()
-                  ? "match-won"
-                  : "match-lost")
-              }
-            >
-              {match.name2}
-            </p>
+            <p className={"team " + addConditionalCss(match, trainer2)}>{trainer2?.name}</p>
           </div>
         );
       })}
@@ -53,7 +53,7 @@ export const Matches: React.FC<MatchesProps> = ({}) => {
       <h1>Matches</h1>
 
       <div className="matches-container">
-        {MatchesData.map((matchData: LeagueInterface, idx) => {
+        {MatchesData.map((matchData: any, idx) => {
           return (
             <Accordion
               key={matchData.header}
