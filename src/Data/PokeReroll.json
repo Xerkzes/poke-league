@@ -20,7 +20,19 @@
       { "trainer": "QuestionableSpecimen",    "type": "flying",         "previousPokemon": "Ledian",                  "newPokemon": "Delibird" },
       { "trainer": "sweetbeanzz",             "type": "ghost",          "previousPokemon": "Rotom",                   "newPokemon": "Banette" },
       { "trainer": "zefil_",                  "type": "dark",           "previousPokemon": "Obstagoon",               "newPokemon": "Bisharp" },
-      { "trainer": "daddybeefcakes123",       "type": "fighting",       "previousPokemon": "Emboar",                  "newPokemon": "Mienshao" }
+      { "trainer": "daddybeefcakes123",       "type": "fighting",       "previousPokemon": "Emboar",                  "newPokemon": "Mienshao" },
+      { "trainer": "Zanderc0rn",              "type": "rock",           "previousPokemon": "Carbink",                 "newPokemon": "Bastiodon" }
     ]
-  }
+  },
+{
+  "week": 2,
+  "rerolls": [
+    { "trainer": "tree4beard",              "type": "water",          "previousPokemon": "Wailord",          "newPokemon": "Slowking" },
+    { "trainer": "FatherGung",              "type": "rock",           "previousPokemon": "Aurorus",          "newPokemon": "Cradily" },
+    { "trainer": "Pokemon_Nuzlocke",        "type": "ground",         "previousPokemon": "Stunfisk",         "newPokemon": "Seismitoad" },
+    { "trainer": "runanbun_",               "type": "grass",          "previousPokemon": "Maractus",         "newPokemon": "Chesnaught" },
+    { "trainer": "pokedoh",                 "type": "dragon",         "previousPokemon": "Druddigon",        "newPokemon": "Noivern" },
+    { "trainer": "TheLoooon",               "type": "ground",         "previousPokemon": "Golurk",           "newPokemon": "Excadrill" }
+  ]
+}
 ]

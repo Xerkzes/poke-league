@@ -59,7 +59,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
         { "type": "Dark",     "name": "Sharpedo-Mega" },
-        { "type": "Dragon",   "name": "Druddigon" },
+        { "type": "Dragon",   "name": "" },
         { "type": "Electric", "name": "Zebstrika" },
         { "type": "Fairy",    "name": "Mr. Mime" },
         { "type": "Fighting", "name": "Crabominable" },
@@ -150,7 +150,7 @@
         { "type": "Normal",   "name": "Wigglytuff" },
         { "type": "Poison",   "name": "Amoonguss" },
         { "type": "Psychic",  "name": "Articuno-Galar" },
-        { "type": "Rock",     "name": "Carbink" },
+        { "type": "Rock",     "name": "Bastiodon" },
         { "type": "Steel",    "name": "Magnezone" },
         { "type": "Water",    "name": "Rotom-Wash" }
       ]
@@ -170,7 +170,7 @@
         { "type": "Fire",     "name": "Charizard" },
         { "type": "Flying",   "name": "Tropius" },
         { "type": "Ghost",    "name": "Spiritomb" },
-        { "type": "Grass",    "name": "Maractus" },
+        { "type": "Grass",    "name": "Chesnaught" },
         { "type": "Ground",   "name": "Camerupt-Mega" },
         { "type": "Ice",      "name": "Regice" },
         { "type": "Normal",   "name": "Sawsbuck" },
@@ -332,7 +332,7 @@
         { "type": "Normal",   "name": "Noctowl" },
         { "type": "Poison",   "name": "Victreebel" },
         { "type": "Psychic",  "name": "Reuniclus" },
-        { "type": "Rock",     "name": "Aurorus" },
+        { "type": "Rock",     "name": "Cradily" },
         { "type": "Steel",    "name": "Kartana" },
         { "type": "Water",    "name": "Lanturn" }
       ]
@@ -353,7 +353,7 @@
         { "type": "Flying",   "name": "Vivillon" },
         { "type": "Ghost",    "name": "Froslass" },
         { "type": "Grass",    "name": "Abomasnow-Mega" },
-        { "type": "Ground",   "name": "Stunfisk" },
+        { "type": "Ground",   "name": "Seismitoad" },
         { "type": "Ice",      "name": "Frosmoth" },
         { "type": "Normal",   "name": "Lickilicky" },
         { "type": "Poison",   "name": "Nidoking" },
@@ -431,7 +431,7 @@
         { "type": "Flying",   "name": "Swoobat" },
         { "type": "Ghost",    "name": "Rotom" },
         { "type": "Grass",    "name": "Victreebel" },
-        { "type": "Ground",   "name": "Golurk" },
+        { "type": "Ground",   "name": "Excadrill" },
         { "type": "Ice",      "name": "Walrein" },
         { "type": "Normal",   "name": "Oranguru" },
         { "type": "Poison",   "name": "Swalot" },
@@ -542,7 +542,7 @@
         { "type": "Psychic",  "name": "Musharna" },
         { "type": "Rock",     "name": "Stonjourner" },
         { "type": "Steel",    "name": "Bronzong" },
-        { "type": "Water",    "name": "Wailord" }
+        { "type": "Water",    "name": "Slowking" }
       ]
     },
     {
