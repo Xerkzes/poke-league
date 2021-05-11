@@ -29,10 +29,8 @@ export interface TrainerInterface {
 }
 
 export interface MatchInterface {
-  name1?: string;
-  name2?: string;
-  teamNr1?: number;
-  teamNr2?: number;
+  trainer1: string | number;
+  trainer2: string | number;
   winner: string | number;
 }
 

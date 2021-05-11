@@ -24,14 +24,14 @@ const matchContent = (matchData: LeagueInterface) => {
     <div className="matches-trainer-container">
       {matchData.matches.map((match: MatchInterface, idx: number) => {
         const trainer1: TrainerInterface | undefined =
-          match.name1 != undefined
-            ? getTrainerData(match.name1, TrainerData)
-            : getTrainerDataFromTeamNr(match.teamNr1!, TrainerData);
+          typeof match.trainer1 === "string"
+            ? getTrainerData(match.trainer1, TrainerData)
+            : getTrainerDataFromTeamNr(match.trainer1, TrainerData);
 
         const trainer2: TrainerInterface | undefined =
-          match.name2 != undefined
-            ? getTrainerData(match.name2, TrainerData)
-            : getTrainerDataFromTeamNr(match.teamNr2!, TrainerData);
+          typeof match.trainer2 === "string"
+            ? getTrainerData(match.trainer2, TrainerData)
+            : getTrainerDataFromTeamNr(match.trainer2, TrainerData);
 
         return (
           <div key={idx} className="match">

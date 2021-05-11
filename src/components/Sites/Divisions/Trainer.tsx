@@ -20,14 +20,14 @@ export const Trainer: React.FC<TrainerProp> = ({ trainer, index }) => {
     MatchData.forEach((match: any) => {
       match.matches.forEach((fight: MatchInterface) => {
         const trainer1 =
-          fight.name1 != undefined
-            ? getTrainerData(fight.name1, TrainerData)
-            : getTrainerDataFromTeamNr(fight.teamNr1!, TrainerData);
+          typeof fight.trainer1 === "string"
+            ? getTrainerData(fight.trainer1, TrainerData)
+            : getTrainerDataFromTeamNr(fight.trainer1, TrainerData);
 
         const trainer2 =
-          fight.name2 != undefined
-            ? getTrainerData(fight.name2, TrainerData)
-            : getTrainerDataFromTeamNr(fight.teamNr2!, TrainerData);
+          typeof fight.trainer2 === "string"
+            ? getTrainerData(fight.trainer2, TrainerData)
+            : getTrainerDataFromTeamNr(fight.trainer2, TrainerData);
 
         if (
           trainer1?.name.toLowerCase() === trainer.name.toLowerCase() ||
