@@ -99,7 +99,7 @@
         { "type": "Poison",   "name": "Dragalge" },
         { "type": "Psychic",  "name": "Bruxish" },
         { "type": "Rock",     "name": "Golem-Alola" },
-        { "type": "Steel",    "name": "Dugtrio-Alola" },
+        { "type": "Steel",    "name": "Heatran" },
         { "type": "Water",    "name": "Arctovish" }
       ]
     },
@@ -230,7 +230,7 @@
         { "type": "Psychic",  "name": "Medicham" },
         { "type": "Rock",     "name": "Aggron-Mega" },
         { "type": "Steel",    "name": "Kartana" },
-        { "type": "Water",    "name": "Cramorant" }
+        { "type": "Water",    "name": "Crawdaunt" }
       ]
     },
     {
@@ -379,7 +379,7 @@
         { "type": "Flying",   "name": "Staraptor" },
         { "type": "Ghost",    "name": "Cofagrigus" },
         { "type": "Grass",    "name": "Cacturne" },
-        { "type": "Ground",   "name": "Golurk" },
+        { "type": "Ground",   "name": "Whiscash" },
         { "type": "Ice",      "name": "Beartic" },
         { "type": "Normal",   "name": "Pidgeot-Mega" },
         { "type": "Poison",   "name": "Skuntank" },
@@ -476,7 +476,7 @@
         { "type": "Bug",      "name": "Leavanny" },
         { "type": "Dark",     "name": "Obstagoon" },
         { "type": "Dragon",   "name": "Kingdra" },
-        { "type": "Electric", "name": "Pachirisu" },
+        { "type": "Electric", "name": "Dracozolt" },
         { "type": "Fairy",    "name": "Togekiss" },
         { "type": "Fighting", "name": "Bewear" },
         { "type": "Fire",     "name": "Entei" },

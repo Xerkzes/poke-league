@@ -24,15 +24,19 @@
       { "trainer": "Zanderc0rn",              "type": "rock",           "previousPokemon": "Carbink",                 "newPokemon": "Bastiodon" }
     ]
   },
-{
-  "week": 2,
-  "rerolls": [
-    { "trainer": "tree4beard",              "type": "water",          "previousPokemon": "Wailord",          "newPokemon": "Slowking" },
-    { "trainer": "FatherGung",              "type": "rock",           "previousPokemon": "Aurorus",          "newPokemon": "Cradily" },
-    { "trainer": "Pokemon_Nuzlocke",        "type": "ground",         "previousPokemon": "Stunfisk",         "newPokemon": "Seismitoad" },
-    { "trainer": "runanbun_",               "type": "grass",          "previousPokemon": "Maractus",         "newPokemon": "Chesnaught" },
-    { "trainer": "pokedoh",                 "type": "dragon",         "previousPokemon": "Druddigon",        "newPokemon": "Noivern" },
-    { "trainer": "TheLoooon",               "type": "ground",         "previousPokemon": "Golurk",           "newPokemon": "Excadrill" }
-  ]
+  {
+    "week": 2,
+    "rerolls": [
+      { "trainer": "tree4beard",              "type": "water",          "previousPokemon": "Wailord",                 "newPokemon": "Slowking" },
+      { "trainer": "FatherGung",              "type": "rock",           "previousPokemon": "Aurorus",                 "newPokemon": "Cradily" },
+      { "trainer": "Pokemon_Nuzlocke",        "type": "ground",         "previousPokemon": "Stunfisk",                "newPokemon": "Seismitoad" },
+      { "trainer": "runanbun_",               "type": "grass",          "previousPokemon": "Maractus",                "newPokemon": "Chesnaught" },
+      { "trainer": "pokedoh",                 "type": "dragon",         "previousPokemon": "Druddigon",               "newPokemon": "Noivern" },
+      { "trainer": "TheLoooon",               "type": "ground",         "previousPokemon": "Golurk",                  "newPokemon": "Excadrill" },
+      { "trainer": "Liljaka",                 "type": "steel",          "previousPokemon": "Dugtrio-Alola",           "newPokemon": "Heatran" },
+      { "trainer": "r3z3n15",                 "type": "ground",         "previousPokemon": "Golurk",                  "newPokemon": "Whiscash" },
+      { "trainer": "QuestionableSpecimen",    "type": "water",          "previousPokemon": "Cramorant",               "newPokemon": "Crawdaunt" },
+      { "trainer": "Vinomatic101",            "type": "electric",       "previousPokemon": "Pachirisu",               "newPokemon": "Dracozolt" }
+    ]
 }
 ]
