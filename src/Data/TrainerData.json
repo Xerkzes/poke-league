@@ -46,7 +46,7 @@
         { "type": "Normal",   "name": "Snorlax" },
         { "type": "Poison",   "name": "Swalot" },
         { "type": "Psychic",  "name": "Hatterene" },
-        { "type": "Rock",     "name": "Shuckle" },
+        { "type": "Rock",     "name": "Carracosta" },
         { "type": "Steel",    "name": "Forretress" },
         { "type": "Water",    "name": "Swanna" }
       ]
@@ -59,7 +59,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
         { "type": "Dark",     "name": "Sharpedo-Mega" },
-        { "type": "Dragon",   "name": "" },
+        { "type": "Dragon",   "name": "Noivern" },
         { "type": "Electric", "name": "Zebstrika" },
         { "type": "Fairy",    "name": "Mr. Mime" },
         { "type": "Fighting", "name": "Crabominable" },
@@ -97,7 +97,7 @@
         { "type": "Ice",      "name": "Vanilluxe" },
         { "type": "Normal",   "name": "Girafarig" },
         { "type": "Poison",   "name": "Dragalge" },
-        { "type": "Psychic",  "name": "Bruxish" },
+        { "type": "Psychic",  "name": "Uxie" },
         { "type": "Rock",     "name": "Golem-Alola" },
         { "type": "Steel",    "name": "Heatran" },
         { "type": "Water",    "name": "Arctovish" }
@@ -227,8 +227,8 @@
         { "type": "Ice",      "name": "Dewgong" },
         { "type": "Normal",   "name": "Indeedee" },
         { "type": "Poison",   "name": "Venomoth" },
-        { "type": "Psychic",  "name": "Medicham" },
-        { "type": "Rock",     "name": "Aggron-Mega" },
+        { "type": "Psychic",  "name": "Mega Medicham" },
+        { "type": "Rock",     "name": "Aggron" },
         { "type": "Steel",    "name": "Kartana" },
         { "type": "Water",    "name": "Crawdaunt" }
       ]
@@ -552,7 +552,7 @@
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Escavalier" },
-        { "type": "Dark",     "name": "Grimmsnarl" },
+        { "type": "Dark",     "name": "Zoroark" },
         { "type": "Dragon",   "name": "Turtonator" },
         { "type": "Electric", "name": "Dracozolt" },
         { "type": "Fairy",    "name": "Ninetales-Alola" },
