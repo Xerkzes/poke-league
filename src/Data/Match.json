@@ -24,14 +24,14 @@
             {"trainer1": 2,                 "trainer2": 5,              "winner": 5},
             {"trainer1": 4,                 "trainer2": 6,              "winner": 4},
             {"trainer1": 7,                 "trainer2": 9,              "winner": 9},
-            {"trainer1": 8,                 "trainer2": 11,             "winner": ""},
+            {"trainer1": 8,                 "trainer2": 11,             "winner": 11},
             {"trainer1": 10,                "trainer2": 12,             "winner": 10},
             {"trainer1": 17,                "trainer2": 24,             "winner": 17},
-            {"trainer1": 13,                "trainer2": 15,             "winner": ""},
+            {"trainer1": 13,                "trainer2": 15,             "winner": 13},
             {"trainer1": 14,                "trainer2": 18,             "winner": 18},
-            {"trainer1": 16,                "trainer2": 19,             "winner": ""},
+            {"trainer1": 16,                "trainer2": 19,             "winner": 16},
             {"trainer1": 20,                "trainer2": 22,             "winner": 22},
-            {"trainer1": 21,                "trainer2": 25,             "winner": ""},
+            {"trainer1": 21,                "trainer2": 25,             "winner": 21},
             {"trainer1": 23,                "trainer2": 26,             "winner": ""}
         ]
     }

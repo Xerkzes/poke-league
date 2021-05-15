@@ -36,7 +36,11 @@
       { "trainer": "Liljaka",                 "type": "steel",          "previousPokemon": "Dugtrio-Alola",           "newPokemon": "Heatran" },
       { "trainer": "r3z3n15",                 "type": "ground",         "previousPokemon": "Golurk",                  "newPokemon": "Whiscash" },
       { "trainer": "QuestionableSpecimen",    "type": "water",          "previousPokemon": "Cramorant",               "newPokemon": "Crawdaunt" },
-      { "trainer": "Vinomatic101",            "type": "electric",       "previousPokemon": "Pachirisu",               "newPokemon": "Dracozolt" }
+      { "trainer": "Vinomatic101",            "type": "electric",       "previousPokemon": "Pachirisu",               "newPokemon": "Dracozolt" },
+      { "trainer": "zefil_",                  "type": "bug",            "previousPokemon": "Parasect",                "newPokemon": "Venomoth" },
+      { "trainer": "MercuryPlus1",            "type": "fire",           "previousPokemon": "Oricorio",                "newPokemon": "Simisear" },
+      { "trainer": "FearlessFearow",          "type": "fire",           "previousPokemon": "Simisear",                "newPokemon": "Delphox" },
+      { "trainer": "s3xtopher",               "type": "fire",           "previousPokemon": "Flareon",                 "newPokemon": "Magmortar" }
     ]
 }
 ]
