@@ -32,7 +32,7 @@
             {"trainer1": 16,                "trainer2": 19,             "winner": 16},
             {"trainer1": 20,                "trainer2": 22,             "winner": 22},
             {"trainer1": 21,                "trainer2": 25,             "winner": 21},
-            {"trainer1": 23,                "trainer2": 26,             "winner": ""}
+            {"trainer1": 23,                "trainer2": 26,             "winner": 26}
         ]
     }
 ]
