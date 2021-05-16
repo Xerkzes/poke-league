@@ -137,7 +137,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Masquerain" },
         { "type": "Dark",     "name": "Scrafty" },
-        { "type": "Dragon",   "name": "Turtonator" },
+        { "type": "Dragon",   "name": "Flygon" },
         { "type": "Electric", "name": "Raikou" },
         { "type": "Fairy",    "name": "Tapu-Koko" },
         { "type": "Fighting", "name": "Grapploct" },
@@ -271,7 +271,7 @@
         { "type": "Electric", "name": "Vikavolt" },
         { "type": "Fairy",    "name": "Tapu-Bulu" },
         { "type": "Fighting", "name": "Mienshao" },
-        { "type": "Fire",     "name": "Delphox" },
+        { "type": "Fire",     "name": "Typhlosion" },
         { "type": "Flying",   "name": "Gyarados-Mega" },
         { "type": "Ghost",    "name": "Dusknoir" },
         { "type": "Grass",    "name": "Eldegoss" },

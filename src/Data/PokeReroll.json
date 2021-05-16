@@ -39,10 +39,11 @@
       { "trainer": "Vinomatic101",            "type": "electric",       "previousPokemon": "Pachirisu",               "newPokemon": "Dracozolt" },
       { "trainer": "zefil_",                  "type": "bug",            "previousPokemon": "Parasect",                "newPokemon": "Venomoth" },
       { "trainer": "MercuryPlus1",            "type": "fire",           "previousPokemon": "Oricorio",                "newPokemon": "Simisear" },
-      { "trainer": "FearlessFearow",          "type": "fire",           "previousPokemon": "Simisear",                "newPokemon": "Delphox" },
+      { "trainer": "FearlessFearow",          "type": "fire",           "previousPokemon": "Simisear",                "newPokemon": "Typhlosion" },
       { "trainer": "s3xtopher",               "type": "fire",           "previousPokemon": "Flareon",                 "newPokemon": "Magmortar" },
       { "trainer": "RynnnyD",                 "type": "dark",           "previousPokemon": "Grimmsnarl",              "newPokemon": "Zoroark" },
-      { "trainer": "RossBoss00",              "type": "rock",           "previousPokemon": "Shuckle",                 "newPokemon": "Carracosta" }
+      { "trainer": "RossBoss00",              "type": "rock",           "previousPokemon": "Shuckle",                 "newPokemon": "Carracosta" },
+      { "trainer": "Zanderc0rn",              "type": "dragon",         "previousPokemon": "Turtonator",              "newPokemon": "Flygon" }
     ]
 }
 ]
