@@ -34,5 +34,23 @@
             {"trainer1": 21,                "trainer2": 25,             "winner": 21},
             {"trainer1": 23,                "trainer2": 26,             "winner": 26}
         ]
+    },
+    {
+        "header":"Week 3: May 17-24 ",
+        "matches": [
+            { "trainer1": "ryguyxdlive",				 "trainer2": "runanbun_",					 "winner": "" },
+            { "trainer1": "RossBoss00",					 "trainer2": "Pokemon_Nuzlocke",			 "winner": "" },
+            { "trainer1": "Liljaka",					 "trainer2": "QuestionableSpecimen",		 "winner": "" },
+            { "trainer1": "pokedoh",					 "trainer2": "PapierJoe",					 "winner": "" },
+            { "trainer1": "Zanderc0rn",					 "trainer2": "TheTired",					 "winner": "" },
+            { "trainer1": "TheLoooon",					 "trainer2": "s3xtopher",					 "winner": "" },
+            { "trainer1": "Mannat",						 "trainer2": "daddybeefcakes123",			 "winner": "" },
+            { "trainer1": "zefil_",						 "trainer2": "FatherGung",					 "winner": "" },
+            { "trainer1": "JarppiVene",					 "trainer2": "FearlessFearow",				 "winner": "" },
+            { "trainer1": "r3z3n15",					 "trainer2": "MercuryPlus1",				 "winner": "" },
+            { "trainer1": "sweetbeanzz",				 "trainer2": "Vinomatic101",				 "winner": "" },
+            { "trainer1": "leftytheman",				 "trainer2": "tree4beard",					 "winner": "" },
+            { "trainer1": "RynnnyD",					 "trainer2": "mcguineeplasto",				 "winner": "" }
+        ]
     }
 ]
