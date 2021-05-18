@@ -43,7 +43,16 @@
       { "trainer": "s3xtopher",               "type": "fire",           "previousPokemon": "Flareon",                 "newPokemon": "Magmortar" },
       { "trainer": "RynnnyD",                 "type": "dark",           "previousPokemon": "Grimmsnarl",              "newPokemon": "Zoroark" },
       { "trainer": "RossBoss00",              "type": "rock",           "previousPokemon": "Shuckle",                 "newPokemon": "Carracosta" },
-      { "trainer": "Zanderc0rn",              "type": "dragon",         "previousPokemon": "Turtonator",              "newPokemon": "Flygon" }
+      { "trainer": "Zanderc0rn",              "type": "dragon",         "previousPokemon": "Turtonator",              "newPokemon": "Flygon" },
+      { "trainer": "mcguineeplasto",          "type": "ghost",          "previousPokemon": "Golurk",                  "newPokemon": "Cofagrigus" }
     ]
-}
+  },
+  {
+    "week": 3,
+    "rerolls": [
+      { "trainer": "PapierJoe",              "type": "dragon",          "previousPokemon": "Noivern",                 "newPokemon": "Dragonite" },
+      { "trainer": "pokedoh",                "type": "fighting",        "previousPokemon": "Crabominable",            "newPokemon": "Passimian" },
+      { "trainer": "mcguineeplasto",         "type": "water",           "previousPokemon": "Wailord",                 "newPokemon": "Starmie" }
+    ]
+  }
 ]

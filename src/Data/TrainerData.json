@@ -62,7 +62,7 @@
         { "type": "Dragon",   "name": "Noivern" },
         { "type": "Electric", "name": "Zebstrika" },
         { "type": "Fairy",    "name": "Mr. Mime" },
-        { "type": "Fighting", "name": "Crabominable" },
+        { "type": "Fighting", "name": "Passimian" },
         { "type": "Fire",     "name": "Volcanion" },
         { "type": "Flying",   "name": "Unfezant" },
         { "type": "Ghost",    "name": "Dragapult" },
@@ -449,7 +449,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Kricketune" },
         { "type": "Dark",     "name": "Krookodile" },
-        { "type": "Dragon",   "name": "Noivern" },
+        { "type": "Dragon",   "name": "Dragonite" },
         { "type": "Electric", "name": "Pincurchin" },
         { "type": "Fairy",    "name": "Mr. Mime" },
         { "type": "Fighting", "name": "Chesnaught" },
@@ -585,7 +585,7 @@
         { "type": "Fighting", "name": "Falinks" },
         { "type": "Fire",     "name": "Pyroar" },
         { "type": "Flying",   "name": "Zapdos-Galar" },
-        { "type": "Ghost",    "name": "Golurk" },
+        { "type": "Ghost",    "name": "Cofagrigus" },
         { "type": "Grass",    "name": "Tapu-Bulu" },
         { "type": "Ground",   "name": "Diggersby" },
         { "type": "Ice",      "name": "Regice" },
@@ -594,7 +594,7 @@
         { "type": "Psychic",  "name": "Mew" },
         { "type": "Rock",     "name": "Tyrantrum" },
         { "type": "Steel",    "name": "Scizor" },
-        { "type": "Water",    "name": "Wailord" }
+        { "type": "Water",    "name": "Starmie" }
       ]
     },
     {
