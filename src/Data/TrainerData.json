@@ -224,7 +224,7 @@
         { "type": "Ghost",    "name": "Gengar" },
         { "type": "Grass",    "name": "Tsareena" },
         { "type": "Ground",   "name": "Nidoking" },
-        { "type": "Ice",      "name": "Dewgong" },
+        { "type": "Ice",      "name": "Eiscue" },
         { "type": "Normal",   "name": "Indeedee" },
         { "type": "Poison",   "name": "Venomoth" },
         { "type": "Psychic",  "name": "Mega Medicham" },
@@ -376,7 +376,7 @@
         { "type": "Fairy",    "name": "Gardevoir" },
         { "type": "Fighting", "name": "Conkeldurr" },
         { "type": "Fire",     "name": "Rotom-Heat" },
-        { "type": "Flying",   "name": "Staraptor" },
+        { "type": "Flying",   "name": "Xatu" },
         { "type": "Ghost",    "name": "Cofagrigus" },
         { "type": "Grass",    "name": "Cacturne" },
         { "type": "Ground",   "name": "Whiscash" },
@@ -410,7 +410,7 @@
         { "type": "Normal",   "name": "Gumshoos" },
         { "type": "Poison",   "name": "Beedrill-Mega" },
         { "type": "Psychic",  "name": "Slowbro" },
-        { "type": "Rock",     "name": "Rampardos" },
+        { "type": "Rock",     "name": "Stakataka" },
         { "type": "Steel",    "name": "Bastiodon" },
         { "type": "Water",    "name": "Sharpedo" }
       ]
@@ -423,7 +423,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Scizor-Mega" },
         { "type": "Dark",     "name": "Persian-Alola" },
-        { "type": "Dragon",   "name": "Dragalge" },
+        { "type": "Dragon",   "name": "Dracozolt" },
         { "type": "Electric", "name": "Lanturn" },
         { "type": "Fairy",    "name": "Weezing-Galar" },
         { "type": "Fighting", "name": "Virizion" },
@@ -473,7 +473,7 @@
       "team": 22,
       "division": "pool-1",
       "pokemons": [
-        { "type": "Bug",      "name": "Leavanny" },
+        { "type": "Bug",      "name": "Scizor" },
         { "type": "Dark",     "name": "Obstagoon" },
         { "type": "Dragon",   "name": "Kingdra" },
         { "type": "Electric", "name": "Dracozolt" },
@@ -608,7 +608,7 @@
         { "type": "Dragon",   "name": "Tyrantrum" },
         { "type": "Electric", "name": "Arctozolt" },
         { "type": "Fairy",    "name": "Weezing-Galar" },
-        { "type": "Fighting", "name": "Hitmonlee" },
+        { "type": "Fighting", "name": "Conkeldurr" },
         { "type": "Fire",     "name": "Simisear" },
         { "type": "Flying",   "name": "Mothim" },
         { "type": "Ghost",    "name": "Chandelure" },

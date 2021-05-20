@@ -44,7 +44,7 @@
       { "trainer": "RynnnyD",                 "type": "dark",           "previousPokemon": "Grimmsnarl",              "newPokemon": "Zoroark" },
       { "trainer": "RossBoss00",              "type": "rock",           "previousPokemon": "Shuckle",                 "newPokemon": "Carracosta" },
       { "trainer": "Zanderc0rn",              "type": "dragon",         "previousPokemon": "Turtonator",              "newPokemon": "Flygon" },
-      { "trainer": "mcguineeplasto",          "type": "ghost",          "previousPokemon": "Golurk",                  "newPokemon": "Cofagrigus" }
+      { "trainer": "mcguineeplasto",          "type": "ghost",          "pEiscuereviousPokemon": "Golurk",                  "newPokemon": "Cofagrigus" }
     ]
   },
   {
@@ -52,7 +52,13 @@
     "rerolls": [
       { "trainer": "PapierJoe",              "type": "dragon",          "previousPokemon": "Noivern",                 "newPokemon": "Dragonite" },
       { "trainer": "pokedoh",                "type": "fighting",        "previousPokemon": "Crabominable",            "newPokemon": "Passimian" },
-      { "trainer": "mcguineeplasto",         "type": "water",           "previousPokemon": "Wailord",                 "newPokemon": "Starmie" }
+      { "trainer": "mcguineeplasto",         "type": "water",           "previousPokemon": "Wailord",                 "newPokemon": "Starmie" },
+      { "trainer": "QuestionableSpecimen",   "type": "ice",             "previousPokemon": "Dewgong",                 "newPokemon": "Eiscue" },
+      { "trainer": "TheLoooon",              "type": "dragon",          "previousPokemon": "Dragalge",                "newPokemon": "Dracozolt" },
+      { "trainer": "r3z3n15",                "type": "flying",          "previousPokemon": "Staraptor",               "newPokemon": "Xatu" },
+      { "trainer": "MercuryPlus1",           "type": "fighting",        "previousPokemon": "Hitmonlee",               "newPokemon": "Conkeldurr" },
+      { "trainer": "sweetbeanzz",            "type": "rock",            "previousPokemon": "Rampardos",               "newPokemon": "Stakataka" },
+      { "trainer": "Vinomatic101",           "type": "bug",             "previousPokemon": "Leavanny",                "newPokemon": "Scizor" }
     ]
   }
 ]
