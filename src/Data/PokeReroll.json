@@ -44,7 +44,7 @@
       { "trainer": "RynnnyD",                 "type": "dark",           "previousPokemon": "Grimmsnarl",              "newPokemon": "Zoroark" },
       { "trainer": "RossBoss00",              "type": "rock",           "previousPokemon": "Shuckle",                 "newPokemon": "Carracosta" },
       { "trainer": "Zanderc0rn",              "type": "dragon",         "previousPokemon": "Turtonator",              "newPokemon": "Flygon" },
-      { "trainer": "mcguineeplasto",          "type": "ghost",          "pEiscuereviousPokemon": "Golurk",                  "newPokemon": "Cofagrigus" }
+      { "trainer": "mcguineeplasto",          "type": "ghost",          "previousPokemon": "Golurk",                  "newPokemon": "Cofagrigus" }
     ]
   },
   {
