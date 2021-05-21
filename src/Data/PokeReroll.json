@@ -58,7 +58,9 @@
       { "trainer": "r3z3n15",                "type": "flying",          "previousPokemon": "Staraptor",               "newPokemon": "Xatu" },
       { "trainer": "MercuryPlus1",           "type": "fighting",        "previousPokemon": "Hitmonlee",               "newPokemon": "Conkeldurr" },
       { "trainer": "sweetbeanzz",            "type": "rock",            "previousPokemon": "Rampardos",               "newPokemon": "Stakataka" },
-      { "trainer": "Vinomatic101",           "type": "bug",             "previousPokemon": "Leavanny",                "newPokemon": "Scizor" }
+      { "trainer": "Vinomatic101",           "type": "bug",             "previousPokemon": "Leavanny",                "newPokemon": "Scizor" },
+      { "trainer": "s3xtopher",              "type": "fighting",        "previousPokemon": "Sawk",                    "newPokemon": "Cobalion" },
+      { "trainer": "tree4beard",             "type": "ground",          "previousPokemon": "Stunfisk",                "newPokemon": "Swampert" }
     ]
   }
 ]
