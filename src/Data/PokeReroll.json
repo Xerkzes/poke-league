@@ -60,7 +60,11 @@
       { "trainer": "sweetbeanzz",            "type": "rock",            "previousPokemon": "Rampardos",               "newPokemon": "Stakataka" },
       { "trainer": "Vinomatic101",           "type": "bug",             "previousPokemon": "Leavanny",                "newPokemon": "Scizor" },
       { "trainer": "s3xtopher",              "type": "fighting",        "previousPokemon": "Sawk",                    "newPokemon": "Cobalion" },
-      { "trainer": "tree4beard",             "type": "ground",          "previousPokemon": "Stunfisk",                "newPokemon": "Swampert" }
+      { "trainer": "tree4beard",             "type": "ground",          "previousPokemon": "Stunfisk",                "newPokemon": "Swampert" },
+      { "trainer": "JarppiVene",             "type": "normal",          "previousPokemon": "Purugly",                 "newPokemon": "Slaking" },
+      { "trainer": "FearlessFearow",         "type": "ground",          "previousPokemon": "Torterra",                "newPokemon": "Gastrodon" },
+      { "trainer": "Mannat",                 "type": "grass",           "previousPokemon": "Lilligant",               "newPokemon": "Decidueye" },
+      { "trainer": "daddybeefcakes123",      "type": "rock",            "previousPokemon": "Magcargo",                "newPokemon": "Stonjourner" }
     ]
   }
 ]
