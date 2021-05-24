@@ -52,5 +52,23 @@
             { "trainer1": "leftytheman",				 "trainer2": "tree4beard",					 "winner": "tree4beard" },
             { "trainer1": "RynnnyD",					 "trainer2": "mcguineeplasto",				 "winner": "mcguineeplasto" }
         ]
+    },
+    {
+        "header":"Week 4: May 24-31 ",
+        "matches": [
+            { "trainer1": "ryguyxdlive",				 "trainer2": "QuestionableSpecimen",		"winner": "" },
+            { "trainer1": "RossBoss00",					 "trainer2": "runanbun_",					"winner": "" },
+            { "trainer1": "Liljaka",					 "trainer2": "Pokemon_Nuzlocke",			"winner": "" },
+            { "trainer1": "pokedoh",					 "trainer2": "s3xtopher",					"winner": "" },
+            { "trainer1": "Zanderc0rn",					 "trainer2": "PapierJoe",					"winner": "" },
+            { "trainer1": "TheLoooon",					 "trainer2": "TheTired_",					"winner": "" },
+            { "trainer1": "zefil_",						 "trainer2": "leftytheman",				    "winner": "" },
+            { "trainer1": "Mannat",						 "trainer2": "r3z3n15",					    "winner": "" },
+            { "trainer1": "JarppiVene",					 "trainer2": "FatherGung",					"winner": "" },
+            { "trainer1": "FearlessFearow",				 "trainer2": "MercuryPlus1",				"winner": "" },
+            { "trainer1": "daddybeefcakes123",			 "trainer2": "RynnnyD",					    "winner": "" },
+            { "trainer1": "sweetbeanzz",				 "trainer2": "tree4beard",					"winner": "" },
+            { "trainer1": "Vinomatic101",			     "trainer2": "mcguineeplasto",				"winner": "" }
+        ]
     }
 ]
