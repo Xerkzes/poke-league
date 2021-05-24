@@ -48,7 +48,7 @@
         { "type": "Psychic",  "name": "Hatterene" },
         { "type": "Rock",     "name": "Carracosta" },
         { "type": "Steel",    "name": "Forretress" },
-        { "type": "Water",    "name": "Swanna" }
+        { "type": "Water",    "name": "Suicune" }
       ]
     },
     {
@@ -163,12 +163,12 @@
       "pokemons": [
         { "type": "Bug",      "name": "Frosmoth" },
         { "type": "Dark",     "name": "Drapion" },
-        { "type": "Dragon",   "name": "Altaria" },
+        { "type": "Dragon",   "name": "Drampa" },
         { "type": "Electric", "name": "Regieleki" },
         { "type": "Fairy",    "name": "Clefable" },
         { "type": "Fighting", "name": "Virizion" },
         { "type": "Fire",     "name": "Charizard" },
-        { "type": "Flying",   "name": "Tropius" },
+        { "type": "Flying",   "name": "Farfetch'd" },
         { "type": "Ghost",    "name": "Spiritomb" },
         { "type": "Grass",    "name": "Chesnaught" },
         { "type": "Ground",   "name": "Camerupt-Mega" },

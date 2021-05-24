@@ -65,7 +65,16 @@
       { "trainer": "FearlessFearow",         "type": "ground",          "previousPokemon": "Torterra",                "newPokemon": "Gastrodon" },
       { "trainer": "Mannat",                 "type": "grass",           "previousPokemon": "Lilligant",               "newPokemon": "Decidueye" },
       { "trainer": "daddybeefcakes123",      "type": "rock",            "previousPokemon": "Magcargo",                "newPokemon": "Stonjourner" },
-      { "trainer": "RossBoss00",             "type": "fire",            "previousPokemon": "Marowak-Alola",           "newPokemon": "Pyroar" }
+      { "trainer": "RossBoss00",             "type": "fire",            "previousPokemon": "Marowak-Alola",           "newPokemon": "Pyroar" },
+      { "trainer": "runanbun_",              "type": "dragon",          "previousPokemon": "Altaria",                 "newPokemon": "Drampa" }
+      
+    ]
+  },
+  {
+    "week": 4,
+    "rerolls": [
+      { "trainer": "RossBoss00",              "type": "water",           "previousPokemon": "Swanna",                  "newPokemon": "Suicune" },
+      { "trainer": "runanbun_",               "type": "flying",          "previousPokemon": "Tropius",                 "newPokemon": "Farfetch'd" }
     ]
   }
 ]
