@@ -74,7 +74,9 @@
     "week": 4,
     "rerolls": [
       { "trainer": "RossBoss00",              "type": "water",           "previousPokemon": "Swanna",                  "newPokemon": "Suicune" },
-      { "trainer": "runanbun_",               "type": "flying",          "previousPokemon": "Tropius",                 "newPokemon": "Farfetch'd" }
+      { "trainer": "runanbun_",               "type": "flying",          "previousPokemon": "Tropius",                 "newPokemon": "Farfetch'd" },
+      { "trainer": "pokedoh",                 "type": "poison",          "previousPokemon": "Qwilfish",                "newPokemon": "Toxapex" },
+      { "trainer": "s3xtopher",               "type": "dragon",          "previousPokemon": "Dragalge",                "newPokemon": "Flygon" }
     ]
   }
 ]

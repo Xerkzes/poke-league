@@ -70,7 +70,7 @@
         { "type": "Ground",   "name": "Flygon" },
         { "type": "Ice",      "name": "Ninetales-Alola" },
         { "type": "Normal",   "name": "Braviary" },
-        { "type": "Poison",   "name": "Qwilfish" },
+        { "type": "Poison",   "name": "Toxapex" },
         { "type": "Psychic",  "name": "Hoopa-Unbound" },
         { "type": "Rock",     "name": "Bastiodon" },
         { "type": "Steel",    "name": "Dugtrio-Alola" },
@@ -631,7 +631,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Beedrill" },
         { "type": "Dark",     "name": "Guzzlord" },
-        { "type": "Dragon",   "name": "Dragalge" },
+        { "type": "Dragon",   "name": "Flygon" },
         { "type": "Electric", "name": "Electrode" },
         { "type": "Fairy",    "name": "Comfey" },
         { "type": "Fighting", "name": "Cobalion" },
