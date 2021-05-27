@@ -76,7 +76,12 @@
       { "trainer": "RossBoss00",              "type": "water",           "previousPokemon": "Swanna",                  "newPokemon": "Suicune" },
       { "trainer": "runanbun_",               "type": "flying",          "previousPokemon": "Tropius",                 "newPokemon": "Farfetch'd" },
       { "trainer": "pokedoh",                 "type": "poison",          "previousPokemon": "Qwilfish",                "newPokemon": "Toxapex" },
-      { "trainer": "s3xtopher",               "type": "dragon",          "previousPokemon": "Dragalge",                "newPokemon": "Flygon" }
+      { "trainer": "s3xtopher",               "type": "dragon",          "previousPokemon": "Dragalge",                "newPokemon": "Flygon" },
+      { "trainer": "QuestionableSpecimen",    "type": "flying",          "previousPokemon": "Delibird",                "newPokemon": "Chatot" },
+      { "trainer": "PapierJoe",               "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Bronzong" },
+      { "trainer": "TheTired",                "type": "ground",          "previousPokemon": "Camerupt",                "newPokemon": "Golem" },
+      { "trainer": "Mannat",                  "type": "flying",          "previousPokemon": "Swellow",                 "newPokemon": "Mandibuzz" },
+      { "trainer": "r3z3n15",                 "type": "fairy",           "previousPokemon": "Gardevoir",               "newPokemon": "Slurpuff" }
     ]
   }
 ]
