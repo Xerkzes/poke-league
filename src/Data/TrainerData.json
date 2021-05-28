@@ -411,7 +411,7 @@
         { "type": "Poison",   "name": "Beedrill-Mega" },
         { "type": "Psychic",  "name": "Slowbro" },
         { "type": "Rock",     "name": "Stakataka" },
-        { "type": "Steel",    "name": "Bastiodon" },
+        { "type": "Steel",    "name": "Klefki" },
         { "type": "Water",    "name": "Sharpedo" }
       ]
     },
@@ -532,7 +532,7 @@
         { "type": "Fairy",    "name": "Magearna" },
         { "type": "Fighting", "name": "Chesnaught" },
         { "type": "Fire",     "name": "Delphox" },
-        { "type": "Flying",   "name": "Unfezant" },
+        { "type": "Flying",   "name": "Vivillon" },
         { "type": "Ghost",    "name": "Gourgeist" },
         { "type": "Grass",    "name": "Abomasnow" },
         { "type": "Ground",   "name": "Swampert" },

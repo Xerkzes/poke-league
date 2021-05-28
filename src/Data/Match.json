@@ -67,7 +67,7 @@
             { "trainer1": "JarppiVene",					 "trainer2": "FatherGung",					"winner": "" },
             { "trainer1": "FearlessFearow",				 "trainer2": "MercuryPlus1",				"winner": "" },
             { "trainer1": "daddybeefcakes123",			 "trainer2": "RynnnyD",					    "winner": "" },
-            { "trainer1": "sweetbeanzz",				 "trainer2": "tree4beard",					"winner": "" },
+            { "trainer1": "sweetbeanzz",				 "trainer2": "tree4beard",					"winner": "sweetbeanzz" },
             { "trainer1": "Vinomatic101",			     "trainer2": "mcguineeplasto",				"winner": "" }
         ]
     }

@@ -81,7 +81,9 @@
       { "trainer": "PapierJoe",               "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Bronzong" },
       { "trainer": "TheTired",                "type": "ground",          "previousPokemon": "Camerupt",                "newPokemon": "Golem" },
       { "trainer": "Mannat",                  "type": "flying",          "previousPokemon": "Swellow",                 "newPokemon": "Mandibuzz" },
-      { "trainer": "r3z3n15",                 "type": "fairy",           "previousPokemon": "Gardevoir",               "newPokemon": "Slurpuff" }
+      { "trainer": "r3z3n15",                 "type": "fairy",           "previousPokemon": "Gardevoir",               "newPokemon": "Slurpuff" },
+      { "trainer": "tree4beard",              "type": "flying",          "previousPokemon": "Unfezant",                "newPokemon": "Vivillon" },
+      { "trainer": "sweetbeanzz",             "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Klefki" }
     ]
   }
 ]
