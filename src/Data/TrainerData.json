@@ -143,7 +143,7 @@
         { "type": "Fighting", "name": "Grapploct" },
         { "type": "Fire",     "name": "Marowak-Alola" },
         { "type": "Flying",   "name": "Pelipper" },
-        { "type": "Ghost",    "name": "Sableye" },
+        { "type": "Ghost",    "name": "Mismagius" },
         { "type": "Grass",    "name": "Abomasnow-Mega" },
         { "type": "Ground",   "name": "Mamoswine" },
         { "type": "Ice",      "name": "Glastrier" },
@@ -308,7 +308,7 @@
         { "type": "Psychic",  "name": "Azelf" },
         { "type": "Rock",     "name": "Crustle" },
         { "type": "Steel",    "name": "Forretress" },
-        { "type": "Water",    "name": "Octillery" }
+        { "type": "Water",    "name": "Seismitoad" }
       ]
     },
     {
@@ -607,7 +607,7 @@
         { "type": "Dark",     "name": "Hydreigon" },
         { "type": "Dragon",   "name": "Tyrantrum" },
         { "type": "Electric", "name": "Arctozolt" },
-        { "type": "Fairy",    "name": "Weezing-Galar" },
+        { "type": "Fairy",    "name": "Tapu-Koko" },
         { "type": "Fighting", "name": "Conkeldurr" },
         { "type": "Fire",     "name": "Simisear" },
         { "type": "Flying",   "name": "Mothim" },

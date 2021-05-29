@@ -83,7 +83,10 @@
       { "trainer": "Mannat",                  "type": "flying",          "previousPokemon": "Swellow",                 "newPokemon": "Mandibuzz" },
       { "trainer": "r3z3n15",                 "type": "fairy",           "previousPokemon": "Gardevoir",               "newPokemon": "Slurpuff" },
       { "trainer": "tree4beard",              "type": "flying",          "previousPokemon": "Unfezant",                "newPokemon": "Vivillon" },
-      { "trainer": "sweetbeanzz",             "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Klefki" }
+      { "trainer": "sweetbeanzz",             "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Klefki" },
+      { "trainer": "Zanderc0rn",              "type": "ghost",           "previousPokemon": "Sableye",                 "newPokemon": "Mismagius" },
+      { "trainer": "zefil_",                  "type": "water",           "previousPokemon": "Octillery",               "newPokemon": "Seismitoad" },
+      { "trainer": "MercuryPlus1",            "type": "fairy",           "previousPokemon": "Weezing-Galar",           "newPokemon": "Tapu-Koko" }
     ]
   }
 ]
