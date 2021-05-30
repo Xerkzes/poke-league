@@ -84,7 +84,7 @@
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Buzzwole" },
-        { "type": "Dark",     "name": "Mightyena" },
+        { "type": "Dark",     "name": "Obstagoon" },
         { "type": "Dragon",   "name": "Kommo-o" },
         { "type": "Electric", "name": "Xurkitree" },
         { "type": "Fairy",    "name": "Sylveon" },
@@ -344,7 +344,7 @@
       "division": "pool-3",
       "pokemons": [
         { "type": "Bug",      "name": "Ninjask" },
-        { "type": "Dark",     "name": "Raticate-Alola" },
+        { "type": "Dark",     "name": "Cacturne" },
         { "type": "Dragon",   "name": "Kingdra" },
         { "type": "Electric", "name": "Xurkitree" },
         { "type": "Fairy",    "name": "Ninetales-Alola" },

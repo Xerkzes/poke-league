@@ -87,7 +87,9 @@
       { "trainer": "Zanderc0rn",              "type": "ghost",           "previousPokemon": "Sableye",                 "newPokemon": "Mismagius" },
       { "trainer": "zefil_",                  "type": "water",           "previousPokemon": "Octillery",               "newPokemon": "Seismitoad" },
       { "trainer": "MercuryPlus1",            "type": "fairy",           "previousPokemon": "Weezing-Galar",           "newPokemon": "Tapu-Koko" },
-      { "trainer": "daddybeefcakes123",       "type": "grass",           "previousPokemon": "Celebi",                  "newPokemon": "Gogoat" }
+      { "trainer": "daddybeefcakes123",       "type": "grass",           "previousPokemon": "Celebi",                  "newPokemon": "Gogoat" },
+      { "trainer": "Liljaka",                 "type": "dark",            "previousPokemon": "Mightyena",               "newPokemon": "Obstagoon" },
+      { "trainer": "Pokemon_Nuzlocke",        "type": "dark",            "previousPokemon": "Raticate-Alola",          "newPokemon": "Cacturne" }
     ]
   }
 ]
