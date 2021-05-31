@@ -92,7 +92,9 @@
       { "trainer": "Pokemon_Nuzlocke",        "type": "dark",            "previousPokemon": "Raticate-Alola",          "newPokemon": "Cacturne" },
       { "trainer": "TheTired",          	    "type": "steel",           "previousPokemon": "Forretress",              "newPokemon": "Stakataka" },
       { "trainer": "TheLoooon",          	    "type": "ghost",           "previousPokemon": "Rotom",                   "newPokemon": "Decidueye" },
-      { "trainer": "FatherGung",          	  "type": "normal",          "previousPokemon": "Noctowl",                 "newPokemon": "Diggersby" }
+      { "trainer": "FatherGung",          	  "type": "normal",          "previousPokemon": "Noctowl",                 "newPokemon": "Diggersby" },
+      { "trainer": "Vinomatic101",          	"type": "poison",          "previousPokemon": "Swalot",                  "newPokemon": "Salazzle" },
+      { "trainer": "mcguineeplasto",          "type": "dark",            "previousPokemon": "Pangoro",                 "newPokemon": "Sharpedo" }
     ]
   }
 ]

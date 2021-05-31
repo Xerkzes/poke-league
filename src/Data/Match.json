@@ -68,7 +68,25 @@
             { "trainer1": "FearlessFearow",				 "trainer2": "MercuryPlus1",				"winner": "FearlessFearow" },
             { "trainer1": "daddybeefcakes123",			 "trainer2": "RynnnyD",					    "winner": "RynnnyD" },
             { "trainer1": "sweetbeanzz",				 "trainer2": "tree4beard",					"winner": "sweetbeanzz" },
-            { "trainer1": "Vinomatic101",			     "trainer2": "mcguineeplasto",				"winner": "" }
+            { "trainer1": "Vinomatic101",			     "trainer2": "mcguineeplasto",				"winner": "mcguineeplasto" }
+        ]
+    },
+    {
+        "header":"WeeK 5: May 31-June 7",
+        "matches": [
+            { "trainer1": "ryguyxdlive",				 "trainer2": "Pokemon_Nuzlocke",			"winner": "" },
+            { "trainer1": "RossBoss00",					 "trainer2": "Liljaka",					    "winner": "" },
+            { "trainer1": "runanbun_",					 "trainer2": "QuestionableSpecimen",		"winner": "" },
+            { "trainer1": "pokedoh",					 "trainer2": "TheTired",					"winner": "" },
+            { "trainer1": "Zanderc0rn",					 "trainer2": "TheLoooon",					"winner": "" },
+            { "trainer1": "PapierJoe",					 "trainer2": "s3xtopher",					"winner": "" },
+            { "trainer1": "r3z3n15",					 "trainer2": "RynnnyD",					    "winner": "" },
+            { "trainer1": "Mannat",						 "trainer2": "zefil_",						"winner": "" },
+            { "trainer1": "JarppiVene",					 "trainer2": "MercuryPlus1",				"winner": "" },
+            { "trainer1": "FatherGung",					 "trainer2": "FearlessFearow",				"winner": "" },
+            { "trainer1": "daddybeefcakes123",			 "trainer2": "leftytheman",				    "winner": "" },
+            { "trainer1": "sweetbeanzz",				 "trainer2": "mcguineeplasto",				"winner": "" },
+            { "trainer1": "Vinomatic101",			     "trainer2": "tree4beard",					"winner": "" }
         ]
     }
 ]

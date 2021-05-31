@@ -486,7 +486,7 @@
         { "type": "Ground",   "name": "Nidoking" },
         { "type": "Ice",      "name": "Vanilluxe" },
         { "type": "Normal",   "name": "Ambipom" },
-        { "type": "Poison",   "name": "Swalot" },
+        { "type": "Poison",   "name": "Salazzle" },
         { "type": "Psychic",  "name": "Mr. Mime" },
         { "type": "Rock",     "name": "Minior" },
         { "type": "Steel",    "name": "Kartana" },
@@ -578,7 +578,7 @@
       "division": "pool-1",
       "pokemons": [
         { "type": "Bug",      "name": "Ledian" },
-        { "type": "Dark",     "name": "Pangoro" },
+        { "type": "Dark",     "name": "Sharpedo" },
         { "type": "Dragon",   "name": "Goodra" },
         { "type": "Electric", "name": "Galvantula" },
         { "type": "Fairy",    "name": "Shiinotic" },
