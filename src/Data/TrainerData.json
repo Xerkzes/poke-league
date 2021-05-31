@@ -329,7 +329,7 @@
         { "type": "Grass",    "name": "Abomasnow-Mega" },
         { "type": "Ground",   "name": "Sandslash" },
         { "type": "Ice",      "name": "Articuno" },
-        { "type": "Normal",   "name": "Noctowl" },
+        { "type": "Normal",   "name": "Diggersby" },
         { "type": "Poison",   "name": "Victreebel" },
         { "type": "Psychic",  "name": "Reuniclus" },
         { "type": "Rock",     "name": "Cradily" },
@@ -429,7 +429,7 @@
         { "type": "Fighting", "name": "Virizion" },
         { "type": "Fire",     "name": "Darmanitan" },
         { "type": "Flying",   "name": "Swoobat" },
-        { "type": "Ghost",    "name": "Rotom" },
+        { "type": "Ghost",    "name": "Decidueye" },
         { "type": "Grass",    "name": "Victreebel" },
         { "type": "Ground",   "name": "Excadrill" },
         { "type": "Ice",      "name": "Walrein" },
@@ -671,7 +671,7 @@
         { "type": "Poison",   "name": "Toxapex" },
         { "type": "Psychic",  "name": "Victini" },
         { "type": "Rock",     "name": "Terrakion" },
-        { "type": "Steel",    "name": "Forretress" },
+        { "type": "Steel",    "name": "Stakataka" },
         { "type": "Water",    "name": "Wailord" }
       ]
     }

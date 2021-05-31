@@ -89,7 +89,10 @@
       { "trainer": "MercuryPlus1",            "type": "fairy",           "previousPokemon": "Weezing-Galar",           "newPokemon": "Tapu-Koko" },
       { "trainer": "daddybeefcakes123",       "type": "grass",           "previousPokemon": "Celebi",                  "newPokemon": "Gogoat" },
       { "trainer": "Liljaka",                 "type": "dark",            "previousPokemon": "Mightyena",               "newPokemon": "Obstagoon" },
-      { "trainer": "Pokemon_Nuzlocke",        "type": "dark",            "previousPokemon": "Raticate-Alola",          "newPokemon": "Cacturne" }
+      { "trainer": "Pokemon_Nuzlocke",        "type": "dark",            "previousPokemon": "Raticate-Alola",          "newPokemon": "Cacturne" },
+      { "trainer": "TheTired",          	    "type": "steel",           "previousPokemon": "Forretress",              "newPokemon": "Stakataka" },
+      { "trainer": "TheLoooon",          	    "type": "ghost",           "previousPokemon": "Rotom",                   "newPokemon": "Decidueye" },
+      { "trainer": "FatherGung",          	  "type": "normal",          "previousPokemon": "Noctowl",                 "newPokemon": "Diggersby" }
     ]
   }
 ]
