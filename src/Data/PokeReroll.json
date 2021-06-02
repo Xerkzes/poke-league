@@ -96,5 +96,17 @@
       { "trainer": "Vinomatic101",          	"type": "poison",          "previousPokemon": "Swalot",                  "newPokemon": "Salazzle" },
       { "trainer": "mcguineeplasto",          "type": "dark",            "previousPokemon": "Pangoro",                 "newPokemon": "Sharpedo" }
     ]
+  },
+  {
+    "week": 5,
+    "rerolls": [
+      { "trainer": "runanbun_",               "type": "Flying",          "previousPokemon": "Farfetch'd",              "newPokemon": "Chatot" },
+      { "trainer": "Mannat",                  "type": "Fighting",        "previousPokemon": "Medicham",                "newPokemon": "Emboar" },
+      { "trainer": "zefil_",                  "type": "Fighting",        "previousPokemon": "Hitmonchan",              "newPokemon": "Keldeo" },
+      { "trainer": "daddybeefcakes123",       "type": "Grass",           "previousPokemon": "Gogoat",                  "newPokemon": "Shiftry" },
+      { "trainer": "sweetbeanzz",             "type": "Fire",            "previousPokemon": "Centiskorch",             "newPokemon": "Incineroar" },
+      { "trainer": "leftytheman",             "type": "Fire",            "previousPokemon": "Arcanine",                "newPokemon": "Heatran" },
+      { "trainer": "mcguineeplasto",          "type": "Fairy",           "previousPokemon": "Shiinotic",               "newPokemon": "Togekiss" }
+    ]
   }
 ]
