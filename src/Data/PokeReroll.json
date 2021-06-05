@@ -106,7 +106,10 @@
       { "trainer": "daddybeefcakes123",       "type": "Grass",           "previousPokemon": "Gogoat",                  "newPokemon": "Shiftry" },
       { "trainer": "sweetbeanzz",             "type": "Fire",            "previousPokemon": "Centiskorch",             "newPokemon": "Incineroar" },
       { "trainer": "leftytheman",             "type": "Fire",            "previousPokemon": "Arcanine",                "newPokemon": "Heatran" },
-      { "trainer": "mcguineeplasto",          "type": "Fairy",           "previousPokemon": "Shiinotic",               "newPokemon": "Togekiss" }
+      { "trainer": "mcguineeplasto",          "type": "Fairy",           "previousPokemon": "Shiinotic",               "newPokemon": "Togekiss" },
+      { "trainer": "RossBoss00",              "type": "Dragon",          "previousPokemon": "Kingdra",                 "newPokemon": "Turtonator" },
+      { "trainer": "pokedoh",                 "type": "Steel",           "previousPokemon": "Dugtrio-Alola",           "newPokemon": "Forretress" },
+      { "trainer": "TheTired",                "type": "Fighting",        "previousPokemon": "Hariyama",                "newPokemon": "Zapdos-Galar" }
     ]
   }
 ]

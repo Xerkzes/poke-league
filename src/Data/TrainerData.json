@@ -33,7 +33,7 @@
       "pokemons": [
         { "type": "Bug",      "name": "Dustox" },
         { "type": "Dark",     "name": "Bisharp" },
-        { "type": "Dragon",   "name": "Kingdra" },
+        { "type": "Dragon",   "name": "Turtonator" },
         { "type": "Electric", "name": "Ampharos-Mega" },
         { "type": "Fairy",    "name": "Ninetales-Alola" },
         { "type": "Fighting", "name": "Passimian" },
@@ -73,7 +73,7 @@
         { "type": "Poison",   "name": "Toxapex" },
         { "type": "Psychic",  "name": "Hoopa-Unbound" },
         { "type": "Rock",     "name": "Bastiodon" },
-        { "type": "Steel",    "name": "Dugtrio-Alola" },
+        { "type": "Steel",    "name": "Forretress" },
         { "type": "Water",    "name": "Ludicolo" }
       ]
     },
@@ -660,7 +660,7 @@
         { "type": "Dragon",   "name": "Goodra" },
         { "type": "Electric", "name": "Electivire" },
         { "type": "Fairy",    "name": "Tapu-Bulu" },
-        { "type": "Fighting", "name": "Hariyama" },
+        { "type": "Fighting", "name": "Zapdos-Galar" },
         { "type": "Fire",     "name": "Flareon" },
         { "type": "Flying",   "name": "Swellow" },
         { "type": "Ghost",    "name": "Banette" },
