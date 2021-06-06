@@ -82,9 +82,9 @@
             { "trainer1": "PapierJoe",					 "trainer2": "s3xtopher",					"winner": "PapierJoe" },
             { "trainer1": "r3z3n15",					 "trainer2": "RynnnyD",					    "winner": "r3z3n15" },
             { "trainer1": "Mannat",						 "trainer2": "zefil_",						"winner": "zefil_" },
-            { "trainer1": "JarppiVene",					 "trainer2": "MercuryPlus1",				"winner": "" },
-            { "trainer1": "FatherGung",					 "trainer2": "FearlessFearow",				"winner": "" },
-            { "trainer1": "daddybeefcakes123",			 "trainer2": "leftytheman",				    "winner": "" },
+            { "trainer1": "JarppiVene",					 "trainer2": "MercuryPlus1",				"winner": "MercuryPlus1" },
+            { "trainer1": "FatherGung",					 "trainer2": "FearlessFearow",				"winner": "FearlessFearow" },
+            { "trainer1": "daddybeefcakes123",			 "trainer2": "leftytheman",				    "winner": "daddybeefcakes123" },
             { "trainer1": "sweetbeanzz",				 "trainer2": "mcguineeplasto",				"winner": "mcguineeplasto" },
             { "trainer1": "Vinomatic101",			     "trainer2": "tree4beard",					"winner": "" }
         ]
