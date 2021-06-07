@@ -18,6 +18,7 @@ export interface PokemonTypeCardDataInterface {
 export interface TrainerPokemonInterface {
   type: string;
   name: string;
+  pokemon: string;
 }
 
 export interface TrainerInterface {
@@ -51,7 +52,6 @@ export interface Division {
   "border-color": string;
 }
 
-
 export interface TrainerExpandedInterface extends TrainerInterface {
   expanded: boolean;
 }
@@ -63,7 +63,7 @@ export interface LeagueExpandedInterface extends LeagueInterface {
 // Generator-Options
 export interface iBtn {
   name: string;
-  active: boolean
+  active: boolean;
 }
 
 export interface iHeaderBtn {
@@ -90,7 +90,7 @@ export interface iCustomOptions {
   btnName: string;
   active: boolean;
   amount: number;
-  criteria: string
+  criteria: string;
 }
 
 // card

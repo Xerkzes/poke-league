@@ -6,6 +6,7 @@ import AllPokemonData from "../../../../Data/Pokemons.json";
 interface PokemonProps {
   pokemon: {
     type: string;
+    pokemon: string;
     name: string;
     zMove?: boolean | undefined;
   };
@@ -19,7 +20,7 @@ export const Pokemon: React.FC<PokemonProps> = ({ pokemon }) => {
     async function loadPokemons() {
       // get Data from the specific Pokemon
       const pokemonData = AllPokemonData.filter((data: PokemonDataInterface) => {
-        if (data.name === pokemon.name) {
+        if (data.name === pokemon.pokemon) {
           return data;
         }
       });

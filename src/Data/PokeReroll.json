@@ -66,8 +66,8 @@
       { "trainer": "Mannat",                 "type": "grass",           "previousPokemon": "Lilligant",               "newPokemon": "Decidueye" },
       { "trainer": "daddybeefcakes123",      "type": "rock",            "previousPokemon": "Magcargo",                "newPokemon": "Stonjourner" },
       { "trainer": "RossBoss00",             "type": "fire",            "previousPokemon": "Marowak-Alola",           "newPokemon": "Pyroar" },
-      { "trainer": "runanbun_",              "type": "dragon",          "previousPokemon": "Altaria",                 "newPokemon": "Drampa" }
-      
+      { "trainer": "runanbun_",              "type": "dragon",          "previousPokemon": "Altaria",                 "newPokemon": "Drampa" },
+      { "trainer": "TheTired_",              "type": "ground",          "previousPokemon": "Camerupt",                "newPokemon": "Golem" }
     ]
   },
   {
@@ -79,7 +79,6 @@
       { "trainer": "s3xtopher",               "type": "dragon",          "previousPokemon": "Dragalge",                "newPokemon": "Flygon" },
       { "trainer": "QuestionableSpecimen",    "type": "flying",          "previousPokemon": "Delibird",                "newPokemon": "Chatot" },
       { "trainer": "PapierJoe",               "type": "steel",           "previousPokemon": "Bastiodon",               "newPokemon": "Bronzong" },
-      { "trainer": "TheTired",                "type": "ground",          "previousPokemon": "Camerupt",                "newPokemon": "Golem" },
       { "trainer": "Mannat",                  "type": "flying",          "previousPokemon": "Swellow",                 "newPokemon": "Mandibuzz" },
       { "trainer": "r3z3n15",                 "type": "fairy",           "previousPokemon": "Gardevoir",               "newPokemon": "Slurpuff" },
       { "trainer": "tree4beard",              "type": "flying",          "previousPokemon": "Unfezant",                "newPokemon": "Vivillon" },
@@ -90,7 +89,7 @@
       { "trainer": "daddybeefcakes123",       "type": "grass",           "previousPokemon": "Celebi",                  "newPokemon": "Gogoat" },
       { "trainer": "Liljaka",                 "type": "dark",            "previousPokemon": "Mightyena",               "newPokemon": "Obstagoon" },
       { "trainer": "Pokemon_Nuzlocke",        "type": "dark",            "previousPokemon": "Raticate-Alola",          "newPokemon": "Cacturne" },
-      { "trainer": "TheTired",          	    "type": "steel",           "previousPokemon": "Forretress",              "newPokemon": "Stakataka" },
+      { "trainer": "TheTired_",          	    "type": "steel",           "previousPokemon": "Forretress",              "newPokemon": "Stakataka" },
       { "trainer": "TheLoooon",          	    "type": "ghost",           "previousPokemon": "Rotom",                   "newPokemon": "Decidueye" },
       { "trainer": "FatherGung",          	  "type": "normal",          "previousPokemon": "Noctowl",                 "newPokemon": "Diggersby" },
       { "trainer": "Vinomatic101",          	"type": "poison",          "previousPokemon": "Swalot",                  "newPokemon": "Salazzle" },
@@ -109,12 +108,10 @@
       { "trainer": "mcguineeplasto",          "type": "Fairy",           "previousPokemon": "Shiinotic",               "newPokemon": "Togekiss" },
       { "trainer": "RossBoss00",              "type": "Dragon",          "previousPokemon": "Kingdra",                 "newPokemon": "Turtonator" },
       { "trainer": "pokedoh",                 "type": "Steel",           "previousPokemon": "Dugtrio-Alola",           "newPokemon": "Forretress" },
-      { "trainer": "TheTired",                "type": "Fighting",        "previousPokemon": "Hariyama",                "newPokemon": "Zapdos-Galar" },
+      { "trainer": "TheTired_",                "type": "Fighting",        "previousPokemon": "Hariyama",                "newPokemon": "Zapdos-Galar" },
       { "trainer": "Pokemon_Nuzlocke",        "type": "Bug",             "previousPokemon": "Ninjask",                 "newPokemon": "Escavalier" },
       { "trainer": "PapierJoe",            "type": "Steel",           "previousPokemon": "Bronzong",          "newPokemon": "Ferrothorn" },
       { "trainer": "s3xtopher",            "type": "Electric",           "previousPokemon": "Electrode",          "newPokemon": "Zapdos" },
-
-
       { "trainer": "JarppiVene",            "type": "Fighting",           "previousPokemon": "Grapploct",          "newPokemon": "Buzzwole" },
       { "trainer": "FearlessFearow",            "type": "Rock",           "previousPokemon": "Lunatone",          "newPokemon": "Omastar" },
       { "trainer": "FatherGung",            "type": "Normal",           "previousPokemon": "Diggersby",          "newPokemon": "Pyroar" },
