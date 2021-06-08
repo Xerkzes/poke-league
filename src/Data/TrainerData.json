@@ -123,7 +123,7 @@
         { "type": "Ice",      "pokemon": "Beartic",    "name": "Beartic" },
         { "type": "Normal",   "pokemon": "Slaking",    "name": "Slaking" },
         { "type": "Poison",   "pokemon": "Dragalge",    "name": "Dragalge" },
-        { "type": "Psychic",  "pokemon": "Wobbuffet",    "name": "Wobbuffet" },
+        { "type": "Psychic",  "pokemon": "Beheeyem",    "name": "Beheeyem" },
         { "type": "Rock",     "pokemon": "Stakataka",    "name": "Stakataka" },
         { "type": "Steel",    "pokemon": "Probopass",    "name": "Probopass" },
         { "type": "Water",    "pokemon": "Jellicent",    "name": "Jellicent" }
@@ -425,7 +425,7 @@
         { "type": "Dark",     "pokemon": "Persian-Alola",    "name": "Alolan Persian" },
         { "type": "Dragon",   "pokemon": "Dracozolt",    "name": "Dracozolt" },
         { "type": "Electric", "pokemon": "Lanturn",    "name": "Lanturn" },
-        { "type": "Fairy",    "pokemon": "Weezing-Galar",    "name": "Galarian Weezing" },
+        { "type": "Fairy",    "pokemon": "Klefki",    "name": "Klefki" },
         { "type": "Fighting", "pokemon": "Virizion",    "name": "Virizion" },
         { "type": "Fire",     "pokemon": "Darmanitan",    "name": "Darmanitan" },
         { "type": "Flying",   "pokemon": "Swoobat",    "name": "Swoobat" },
