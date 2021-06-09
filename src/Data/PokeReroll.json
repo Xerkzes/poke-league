@@ -124,7 +124,9 @@
   {
     "week": 6,
     "rerolls": [
-      { "trainer": "Mannat",                  "type": "Psychic",         "previousPokemon": "Wobbuffet",               "newPokemon": "Beheeyem" }
+      { "trainer": "Mannat",                  "type": "Psychic",         "previousPokemon": "Wobbuffet",               "newPokemon": "Beheeyem" },
+      { "trainer": "runanbun_",               "type": "Flying",          "previousPokemon": "Chatot",                  "newPokemon": "Aerodactyl" },
+      { "trainer": "PapierJoe",               "type": "Electric",        "previousPokemon": "Pincurchin",              "newPokemon": "Rotom-Mow" }
     ]
   }
 ]
