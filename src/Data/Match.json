@@ -94,17 +94,17 @@
         "matches": [
             { "trainer1": "ryguyxdlive",				"trainer2": "pokedoh",					    "winner": "" },
             { "trainer1": "RossBoss00",					"trainer2": "Zanderc0rn",					"winner": "" },
-            { "trainer1": "Liljaka",					"trainer2": "TheLoooon",					"winner": "" },
+            { "trainer1": "Liljaka",					"trainer2": "TheLoooon",					"winner": "TheLoooon" },
             { "trainer1": "runanbun_",					"trainer2": "PapierJoe",					"winner": "PapierJoe" },
             { "trainer1": "QuestionableSpecimen",		"trainer2": "s3xtopher",					"winner": "" },
             { "trainer1": "Pokemon_Nuzlocke",			"trainer2": "TheTired_",					"winner": "" },
             { "trainer1": "JarppiVene",					"trainer2": "sweetbeanzz",				    "winner": "" },
             { "trainer1": "FearlessFearow",				"trainer2": "Vinomatic101",					"winner": "" },
-            { "trainer1": "zefil_",						"trainer2": "r3z3n15",					    "winner": "" },
+            { "trainer1": "zefil_",						"trainer2": "r3z3n15",					    "winner": "r3z3n15" },
             { "trainer1": "Mannat",						"trainer2": "daddybeefcakes123",			"winner": "" },
             { "trainer1": "MercuryPlus1",				"trainer2": "FatherGung",					"winner": "" },
             { "trainer1": "mcguineeplasto",				"trainer2": "tree4beard",					"winner": "" },
-            { "trainer1": "RynnnyD",					"trainer2": "leftytheman",				    "winner": "" }
+            { "trainer1": "RynnnyD",					"trainer2": "leftytheman",				    "winner": "RynnnyD" }
         ]
     }
 ]

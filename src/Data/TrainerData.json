@@ -306,7 +306,7 @@
         { "type": "Normal",   "pokemon": "Audino-Mega",    "name": "Mega Audino" },
         { "type": "Poison",   "pokemon": "Weezing",    "name": "Weezing" },
         { "type": "Psychic",  "pokemon": "Azelf",    "name": "Azelf" },
-        { "type": "Rock",     "pokemon": "Crustle",    "name": "Crustle" },
+        { "type": "Rock",     "pokemon": "Minior",    "name": "Minior" },
         { "type": "Steel",    "pokemon": "Forretress",    "name": "Forretress" },
         { "type": "Water",    "pokemon": "Seismitoad",    "name": "Seismitoad" }
       ]
@@ -382,7 +382,7 @@
         { "type": "Ground",   "pokemon": "Whiscash",    "name": "Whiscash" },
         { "type": "Ice",      "pokemon": "Beartic",    "name": "Beartic" },
         { "type": "Normal",   "pokemon": "Pidgeot-Mega",    "name": "Mega Pidgeot" },
-        { "type": "Poison",   "pokemon": "Skuntank",    "name": "Skuntank" },
+        { "type": "Poison",   "pokemon": "Muk",    "name": "Muk" },
         { "type": "Psychic",  "pokemon": "Oricorio-Pa'u",    "name": "Oricorio (Psychic)" },
         { "type": "Rock",     "pokemon": "Stakataka",    "name": "Stakataka" },
         { "type": "Steel",    "pokemon": "Jirachi",    "name": "Jirachi" },
@@ -508,7 +508,7 @@
         { "type": "Fire",     "pokemon": "Heatran",    "name": "Heatran" },
         { "type": "Flying",   "pokemon": "Zapdos",    "name": "Zapdos" },
         { "type": "Ghost",    "pokemon": "Dragapult",    "name": "Dragapult" },
-        { "type": "Grass",    "pokemon": "Tropius",    "name": "Tropius" },
+        { "type": "Grass",    "pokemon": "Gourgeist",    "name": "Gourgeist" },
         { "type": "Ground",   "pokemon": "Nidoqueen",    "name": "Nidoqueen" },
         { "type": "Ice",      "pokemon": "Lapras",    "name": "Lapras" },
         { "type": "Normal",   "pokemon": "Miltank",    "name": "Miltank" },

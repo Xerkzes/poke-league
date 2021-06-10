@@ -126,7 +126,10 @@
     "rerolls": [
       { "trainer": "Mannat",                  "type": "Psychic",         "previousPokemon": "Wobbuffet",               "newPokemon": "Beheeyem" },
       { "trainer": "runanbun_",               "type": "Flying",          "previousPokemon": "Chatot",                  "newPokemon": "Aerodactyl" },
-      { "trainer": "PapierJoe",               "type": "Electric",        "previousPokemon": "Pincurchin",              "newPokemon": "Rotom-Mow" }
+      { "trainer": "PapierJoe",               "type": "Electric",        "previousPokemon": "Pincurchin",              "newPokemon": "Rotom-Mow" },
+      { "trainer": "zefil_",                  "type": "Rock",            "previousPokemon": "Crustle",                 "newPokemon": "Minior" },
+      { "trainer": "r3z3n15",                 "type": "Poison",          "previousPokemon": "Skuntank",                "newPokemon": "Muk" },
+      { "trainer": "leftytheman",             "type": "Grass",           "previousPokemon": "Tropius",                 "newPokemon": "Gourgeist" }
     ]
   }
 ]
