@@ -129,7 +129,15 @@
       { "trainer": "PapierJoe",               "type": "Electric",        "previousPokemon": "Pincurchin",              "newPokemon": "Rotom-Mow" },
       { "trainer": "zefil_",                  "type": "Rock",            "previousPokemon": "Crustle",                 "newPokemon": "Minior" },
       { "trainer": "r3z3n15",                 "type": "Poison",          "previousPokemon": "Skuntank",                "newPokemon": "Muk" },
-      { "trainer": "leftytheman",             "type": "Grass",           "previousPokemon": "Tropius",                 "newPokemon": "Gourgeist" }
+      { "trainer": "leftytheman",             "type": "Grass",           "previousPokemon": "Tropius",                 "newPokemon": "Gourgeist" },
+      { "trainer": "RossBoss00",              "type": "Dragon",          "previousPokemon": "Turtonator",              "newPokemon": "Tyrantrum" },
+      { "trainer": "QuestionableSpecimen",    "type": "Dragon",          "previousPokemon": "Noivern",                 "newPokemon": "Tyrantrum " },
+      { "trainer": "pokedoh",                 "type": "Fighting",        "previousPokemon": "Passimian",               "newPokemon": "Buzzwole" },
+      { "trainer": "JarppiVene",              "type": "Fire",            "previousPokemon": "Simisear",                "newPokemon": "Magcargo" },
+      { "trainer": "FatherGung",              "type": "Bug",             "previousPokemon": "Ledian",                  "newPokemon": "Araquanid" },
+      { "trainer": "MercuryPlus1",            "type": "Ground",          "previousPokemon": "Marowak",                 "newPokemon": "Garchomp" },
+      { "trainer": "sweetbeanzz",             "type": "Fighting",        "previousPokemon": "Bewear",                  "newPokemon": "Scrafty" },
+      { "trainer": "tree4beard",              "type": "Dark",            "previousPokemon": "Umbreon",                 "newPokemon": "Alolan Muk" }
     ]
   }
 ]
