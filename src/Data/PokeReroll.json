@@ -137,7 +137,7 @@
       { "trainer": "FatherGung",              "type": "Bug",             "previousPokemon": "Ledian",                  "newPokemon": "Araquanid" },
       { "trainer": "MercuryPlus1",            "type": "Ground",          "previousPokemon": "Marowak",                 "newPokemon": "Garchomp" },
       { "trainer": "sweetbeanzz",             "type": "Fighting",        "previousPokemon": "Bewear",                  "newPokemon": "Scrafty" },
-      { "trainer": "tree4beard",              "type": "Dark",            "previousPokemon": "Umbreon",                 "newPokemon": "Alolan Muk" }
+      { "trainer": "tree4beard",              "type": "Dark",            "previousPokemon": "Umbreon",                 "newPokemon": "Muk-Alola" }
     ]
   }
 ]
