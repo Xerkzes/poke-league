@@ -137,7 +137,11 @@
       { "trainer": "FatherGung",              "type": "Bug",             "previousPokemon": "Ledian",                  "newPokemon": "Araquanid" },
       { "trainer": "MercuryPlus1",            "type": "Ground",          "previousPokemon": "Marowak",                 "newPokemon": "Garchomp" },
       { "trainer": "sweetbeanzz",             "type": "Fighting",        "previousPokemon": "Bewear",                  "newPokemon": "Scrafty" },
-      { "trainer": "tree4beard",              "type": "Dark",            "previousPokemon": "Umbreon",                 "newPokemon": "Muk-Alola" }
+      { "trainer": "tree4beard",              "type": "Dark",            "previousPokemon": "Umbreon",                 "newPokemon": "Muk-Alola" },
+      { "trainer": "Pokemon_Nuzlocke",        "type": "Fighting",        "previousPokemon": "Toxicroak",               "newPokemon": "Terrakion" },
+      { "trainer": "TheTired_",               "type": "Electric",        "previousPokemon": "Electivire",              "newPokemon": "Dracozolt" },
+      { "trainer": "FearlessFearow",          "type": "Dragon",          "previousPokemon": "Appletun",                "newPokemon": "Druddigon" },
+      { "trainer": "Vinomatic101",            "type": "Psychic",         "previousPokemon": "Mr. Mime",                "newPokemon": "Indeedee" }
     ]
   }
 ]
