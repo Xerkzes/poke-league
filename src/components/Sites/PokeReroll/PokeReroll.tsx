@@ -17,7 +17,7 @@ export interface iReroll {
 }
 
 export interface iPokemonReroll {
-  week: number;
+  header: string;
   rerolls: iReroll[];
 }
 
@@ -33,7 +33,7 @@ const rerollWeekConent = (reroll: iPokemonReroll) => {
   return (
     <div className="poke-reroll-week-container">
       {reroll.rerolls.map((re: iReroll) => {
-        return <WeekReroll key={re.trainer} reroll={re} />;
+        return <WeekReroll key={re.trainer + re.newPokemon} reroll={re} />;
       })}
     </div>
   );
@@ -59,12 +59,8 @@ const tabs: Tab[] = [
 
 export const PokeReroll: React.FC<PokeRerollProps> = ({}) => {
   const [activeComponent, setActiveComponent] = useState<Tab>(tabs[0]);
-  const [pokemonRerolls, setPokemonRerolls] = useState<PokemonRerollExpanded[]>(
-    []
-  );
-  const [trainerRerolls, setTrainerRerolls] = useState<
-    TrainerInterfaceExpanded[]
-  >([]);
+  const [pokemonRerolls, setPokemonRerolls] = useState<PokemonRerollExpanded[]>([]);
+  const [trainerRerolls, setTrainerRerolls] = useState<TrainerInterfaceExpanded[]>([]);
 
   useEffect(() => {
     // weeks
@@ -98,8 +94,8 @@ export const PokeReroll: React.FC<PokeRerollProps> = ({}) => {
         return pokemonRerolls.map((reroll: iPokemonReroll, idx: number) => {
           return (
             <Accordion
-              key={reroll.week}
-              header={`Week ${reroll.week}`}
+              key={reroll.header}
+              header={`${reroll.header}`}
               content={rerollWeekConent(reroll)}
             />
           );
@@ -151,9 +147,7 @@ export const PokeReroll: React.FC<PokeRerollProps> = ({}) => {
                 <span
                   aria-hidden="true"
                   className={classNames(
-                    tab.name === activeComponent.name
-                      ? "bg-red-500"
-                      : "bg-transparent",
+                    tab.name === activeComponent.name ? "bg-red-500" : "bg-transparent",
                     "absolute inset-x-0 bottom-0 h-1.5"
                   )}
                 />

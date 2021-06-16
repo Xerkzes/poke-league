@@ -9,7 +9,7 @@ interface TrainerRerollProps {
 }
 
 export interface weekIReroll extends iReroll {
-  week: number;
+  week: string;
 }
 
 export const TrainerReroll: React.FC<TrainerRerollProps> = ({ trainer }) => {
@@ -19,7 +19,7 @@ export const TrainerReroll: React.FC<TrainerRerollProps> = ({ trainer }) => {
     Rerolls.forEach((data) => {
       data.rerolls.forEach((reroll) => {
         if (trainer.name.toLowerCase() === reroll.trainer.toLowerCase()) {
-          const tempData = { ...reroll, week: data.week };
+          const tempData = { ...reroll, week: data.header };
           setTrainerRerolls((previousData) => [...previousData, tempData]);
         }
       });
@@ -29,7 +29,7 @@ export const TrainerReroll: React.FC<TrainerRerollProps> = ({ trainer }) => {
   return (
     <>
       {trainerRerolls.map((el: weekIReroll, idx: number) => {
-        return <Trainer key={el.trainer} el={el} idx={idx} />;
+        return <Trainer key={el.trainer + el.newPokemon} el={el} idx={idx} />;
       })}
     </>
   );

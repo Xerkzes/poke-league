@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 interface AccordionProps {
   header: string;
@@ -17,9 +17,7 @@ export const Accordion: React.FC<AccordionProps> = ({ header, content }) => {
   return (
     // header
     <div
-      className={
-        "trainer-container" + (expanded ? " trainer-container-expanded" : "")
-      }
+      className={"trainer-container" + (expanded ? " trainer-container-expanded" : "")}
       style={
         expanded
           ? {}
@@ -28,21 +26,14 @@ export const Accordion: React.FC<AccordionProps> = ({ header, content }) => {
             }
       }
     >
-      <div
-        className="trainer-header cursor-pointer"
-        onClick={() => headerWasClicked()}
-      >
+      <div className="trainer-header cursor-pointer" onClick={() => headerWasClicked()}>
         <p className="trainer-title">{header}</p>
-        <p className={expanded ? "trainer-carrot-up" : "trainer-carrot-down"}>
-          &#9660;
-        </p>
+        <p className={expanded ? "trainer-carrot-up" : "trainer-carrot-down"}>&#9660;</p>
       </div>
 
       {/* content */}
       <div
-        className={
-          "trainer-content" + (expanded ? " trainer-content-expanded" : "")
-        }
+        className={"trainer-content" + (expanded ? " trainer-content-expanded" : "")}
         style={
           expanded
             ? {
@@ -53,11 +44,7 @@ export const Accordion: React.FC<AccordionProps> = ({ header, content }) => {
               }
         }
       >
-        <div
-          className={
-            "trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")
-          }
-        >
+        <div className={"trainer-pokemons" + (expanded ? " trainer-pokemons-expanded" : "")}>
           {contentLoaded && <>{content}</>}
         </div>
       </div>

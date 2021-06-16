@@ -21,7 +21,7 @@ export const Trainer: React.FC<TrainerProps> = ({ el, idx }) => {
 
   return (
     <div className="reroll-container" key={idx}>
-      <p className="text-xl">{`Week ${el.week}:`}</p>
+      <p className="text-xl">{`${el.week}:`}</p>
       <p
         className="trainer-pokemon-type reroll-type"
         style={{ backgroundColor: typeColors[el.type.toLowerCase()] }}
