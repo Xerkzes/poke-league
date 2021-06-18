@@ -160,7 +160,15 @@
       { "trainer": "sweetbeanzz",             "type": "Electric",        "previousPokemon": "Stunfisk",                "newPokemon": "Golem-Alola" },
       { "trainer": "sweetbeanzz",             "type": "Ground",          "previousPokemon": "Marowak",                 "newPokemon": "Seismitoad" },
       { "trainer": "mcguineeplasto",          "type": "Fighting",        "previousPokemon": "Falinks",                 "newPokemon": "Cobalion" },
-      { "trainer": "TheLoooon",               "type": "Flying",          "previousPokemon": "Swoobat",                 "newPokemon": "Talonflame" }
+      { "trainer": "TheLoooon",               "type": "Flying",          "previousPokemon": "Swoobat",                 "newPokemon": "Talonflame" },
+      { "trainer": "Liljaka",                 "type": "Fighting",        "previousPokemon": "Toxicroak",               "newPokemon": "Falinks" },
+      { "trainer": "QuestionableSpecimen",    "type": "Dark",            "previousPokemon": "Shiftry",                 "newPokemon": "Cacturne" },
+      { "trainer": "QuestionableSpecimen",    "type": "Flying",          "previousPokemon": "Chatot",                  "newPokemon": "Landorus-Therian" },
+      { "trainer": "pokedoh",                 "type": "Electric",        "previousPokemon": "Zebstrika",               "newPokemon": "Dracozolt" },
+      { "trainer": "PapierJoe",               "type": "Psychic",         "previousPokemon": "Claydol",                 "newPokemon": "Starmie" },
+      { "trainer": "zefil_",                  "type": "Grass",           "previousPokemon": "Shiinotic",               "newPokemon": "Maractus" },
+      { "trainer": "zefil_",                  "type": "Ground",          "previousPokemon": "Steelix",                 "newPokemon": "Nidoqueen" },
+      { "trainer": "r3z3n15",                 "type": "Dark",            "previousPokemon": "Morpeko",                 "newPokemon": "Skuntank" }
     ]
   }
 ]
