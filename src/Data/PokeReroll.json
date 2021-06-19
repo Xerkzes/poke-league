@@ -168,7 +168,12 @@
       { "trainer": "PapierJoe",               "type": "Psychic",         "previousPokemon": "Claydol",                 "newPokemon": "Starmie" },
       { "trainer": "zefil_",                  "type": "Grass",           "previousPokemon": "Shiinotic",               "newPokemon": "Maractus" },
       { "trainer": "zefil_",                  "type": "Ground",          "previousPokemon": "Steelix",                 "newPokemon": "Nidoqueen" },
-      { "trainer": "r3z3n15",                 "type": "Dark",            "previousPokemon": "Morpeko",                 "newPokemon": "Skuntank" }
+      { "trainer": "r3z3n15",                 "type": "Dark",            "previousPokemon": "Morpeko",                 "newPokemon": "Sableye" },
+      { "trainer": "r3z3n15",                 "type": "Normal",          "previousPokemon": "Pidgeot-Mega",            "newPokemon": "Braviary" },
+      { "trainer": "MercuryPlus1",            "type": "Bug",             "previousPokemon": "Beedrill-Mega",           "newPokemon": "Kricketune" },
+      { "trainer": "MercuryPlus1",            "type": "Poison",          "previousPokemon": "Swalot",                  "newPokemon": "Vileplume" },
+      { "trainer": "RynnnyD",                 "type": "Normal",          "previousPokemon": "Pidgeot",                 "newPokemon": "Stoutland" },
+      { "trainer": "RynnnyD",                 "type": "Water",           "previousPokemon": "Lumineon",                "newPokemon": "Simipour" }
     ]
   }
 ]

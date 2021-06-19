@@ -370,7 +370,7 @@
       "division": "pool-2",
       "pokemons": [
         { "type": "Bug",      "pokemon": "Leavanny",    "name": "Leavanny" },
-        { "type": "Dark",     "pokemon": "Skuntank",    "name": "Skuntank" },
+        { "type": "Dark",     "pokemon": "Sableye-Mega",    "name": "Mega Sableye" },
         { "type": "Dragon",   "pokemon": "Haxorus",    "name": "Haxorus" },
         { "type": "Electric", "pokemon": "Luxray",    "name": "Luxray" },
         { "type": "Fairy",    "pokemon": "Slurpuff",    "name": "Slurpuff" },
@@ -381,7 +381,7 @@
         { "type": "Grass",    "pokemon": "Cacturne",    "name": "Cacturne" },
         { "type": "Ground",   "pokemon": "Whiscash",    "name": "Whiscash" },
         { "type": "Ice",      "pokemon": "Beartic",    "name": "Beartic" },
-        { "type": "Normal",   "pokemon": "Pidgeot-Mega",    "name": "Mega Pidgeot" },
+        { "type": "Normal",   "pokemon": "Braviary",    "name": "Braviary" },
         { "type": "Poison",   "pokemon": "Muk",    "name": "Muk" },
         { "type": "Psychic",  "pokemon": "Oricorio-Pa'u",    "name": "Oricorio (Psychic)" },
         { "type": "Rock",     "pokemon": "Stakataka",    "name": "Stakataka" },
@@ -563,12 +563,12 @@
         { "type": "Grass",    "pokemon": "Sceptile-Mega",    "name": "Mega Sceptile" },
         { "type": "Ground",   "pokemon": "Flygon",    "name": "Flygon" },
         { "type": "Ice",      "pokemon": "Delibird",    "name": "Delibird" },
-        { "type": "Normal",   "pokemon": "Pidgeot",    "name": "Pidgeot" },
+        { "type": "Normal",   "pokemon": "Stoutland",    "name": "Stoutland" },
         { "type": "Poison",   "pokemon": "Drapion",    "name": "Drapion" },
         { "type": "Psychic",  "pokemon": "Xatu",    "name": "Xatu" },
         { "type": "Rock",     "pokemon": "Rampardos",    "name": "Rampardos" },
         { "type": "Steel",    "pokemon": "Togedemaru",    "name": "Togedemaru" },
-        { "type": "Water",    "pokemon": "Lumineon",    "name": "Lumineon" }
+        { "type": "Water",    "pokemon": "Simipour",    "name": "Simipour" }
       ]
     },
     {
@@ -603,7 +603,7 @@
       "team": 19,
       "division": "pool-2",
       "pokemons": [
-        { "type": "Bug",      "pokemon": "Beedrill-Mega",    "name": "Mega Beedrill" },
+        { "type": "Bug",      "pokemon": "Kricketune",    "name": "Kricketune" },
         { "type": "Dark",     "pokemon": "Hydreigon",    "name": "Hydreigon" },
         { "type": "Dragon",   "pokemon": "Tyrantrum",    "name": "Tyrantrum" },
         { "type": "Electric", "pokemon": "Arctozolt",    "name": "Arctozolt" },
@@ -613,10 +613,10 @@
         { "type": "Flying",   "pokemon": "Swellow",    "name": "Swellow" },
         { "type": "Ghost",    "pokemon": "Chandelure",    "name": "Chandelure" },
         { "type": "Grass",    "pokemon": "Lurantis",    "name": "Lurantis" },
-        { "type": "Ground",   "pokemon": "Garchomp",    "name": "Garchomp" },
+        { "type": "Ground",   "pokemon": "Garchomp-Mega",    "name": "Mega Garchomp" },
         { "type": "Ice",      "pokemon": "Mr. Rime",    "name": "Mr. Rime" },
         { "type": "Normal",   "pokemon": "Tauros",    "name": "Tauros" },
-        { "type": "Poison",   "pokemon": "Swalot",    "name": "Swalot" },
+        { "type": "Poison",   "pokemon": "Vileplume",    "name": "Vileplume" },
         { "type": "Psychic",  "pokemon": "Starmie",    "name": "Starmie" },
         { "type": "Rock",     "pokemon": "Crustle",    "name": "Crustle" },
         { "type": "Steel",    "pokemon": "Ferrothorn",    "name": "Ferrothorn" },

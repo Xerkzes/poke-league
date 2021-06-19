@@ -110,7 +110,7 @@
     {
         "header":"Week 7: June 14-21 ",
         "matches": [
-            { "trainer1": "s3xtopher",					 "trainer2": "MercuryPlus1",			    "winner": "" },
+            { "trainer1": "s3xtopher",					 "trainer2": "MercuryPlus1",			    "winner": "MercuryPlus1" },
             { "trainer1": "runanbun_",					 "trainer2": "Mannat",					    "winner": "runanbun_" },
             { "trainer1": "Zanderc0rn",					 "trainer2": "leftytheman",				    "winner": "" },
             { "trainer1": "TheLoooon",					 "trainer2": "mcguineeplasto",				"winner": "TheLoooon" },
