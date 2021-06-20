@@ -10,6 +10,7 @@ interface NavigationProps {
 const links = [
   { text: "Participants", location: "/", icon: "account_circle" },
   { text: "Divisions", location: "/divisions", icon: "table_chart" },
+  { text: "Draft", location: "/draftleague", icon: "share" },
   { text: "Matches", location: "/matches", icon: "sports_esports" },
   { text: "Rules", location: "/rulesets", icon: "event_note" },
   { text: "Rerolls", location: "/poke-rerolls", icon: "casino" },
@@ -22,16 +23,9 @@ const links = [
   // { text: "Test Page", location: "/test", icon: "bug_report" },
 ];
 
-export const Navigation: React.FC<NavigationProps> = ({
-  navbarOutwards,
-  setNavbarOutwards,
-}) => {
+export const Navigation: React.FC<NavigationProps> = ({ navbarOutwards, setNavbarOutwards }) => {
   return (
-    <div
-      className={
-        "navbar-container" + (navbarOutwards ? " navbar-container-maximum" : "")
-      }
-    >
+    <div className={"navbar-container" + (navbarOutwards ? " navbar-container-maximum" : "")}>
       <div className="navbar-btn-expand-div">
         {navbarOutwards ? (
           <span
@@ -54,26 +48,14 @@ export const Navigation: React.FC<NavigationProps> = ({
         {links.map((link) => {
           return (
             <li key={link.text}>
-              <NavLink
-                exact
-                to={`${link.location}`}
-                activeClassName="navbar-link-active"
-              >
+              <NavLink exact to={`${link.location}`} activeClassName="navbar-link-active">
                 <div className="navbar-item">
                   {/* icon */}
-                  {link?.icon ? (
-                    <span className="material-icons nav-icon">{link.icon}</span>
-                  ) : (
-                    ""
-                  )}
+                  {link?.icon ? <span className="material-icons nav-icon">{link.icon}</span> : ""}
 
                   {/* sprite */}
                   {link?.sprite ? (
-                    <img
-                      className="nav-icon"
-                      src={link.sprite}
-                      alt={`${link.alt}`}
-                    />
+                    <img className="nav-icon" src={link.sprite} alt={`${link.alt}`} />
                   ) : (
                     ""
                   )}
