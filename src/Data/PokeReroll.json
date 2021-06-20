@@ -173,7 +173,9 @@
       { "trainer": "MercuryPlus1",            "type": "Bug",             "previousPokemon": "Beedrill-Mega",           "newPokemon": "Kricketune" },
       { "trainer": "MercuryPlus1",            "type": "Poison",          "previousPokemon": "Swalot",                  "newPokemon": "Vileplume" },
       { "trainer": "RynnnyD",                 "type": "Normal",          "previousPokemon": "Pidgeot",                 "newPokemon": "Stoutland" },
-      { "trainer": "RynnnyD",                 "type": "Water",           "previousPokemon": "Lumineon",                "newPokemon": "Simipour" }
+      { "trainer": "RynnnyD",                 "type": "Water",           "previousPokemon": "Lumineon",                "newPokemon": "Simipour" },
+      { "trainer": "FearlessFearow",          "type": "Psychic",         "previousPokemon": "Delphox",                 "newPokemon": "Girafarig" },
+      { "trainer": "FearlessFearow",          "type": "Water",           "previousPokemon": "Lumineon",                "newPokemon": "Golduck" }
     ]
   }
 ]

@@ -279,10 +279,10 @@
         { "type": "Ice",      "pokemon": "Mr. Rime",    "name": "Mr. Rime" },
         { "type": "Normal",   "pokemon": "Dubwool",    "name": "Dubwool" },
         { "type": "Poison",   "pokemon": "Nihilego",    "name": "Nihilego" },
-        { "type": "Psychic",  "pokemon": "Delphox",    "name": "Delphox" },
+        { "type": "Psychic",  "pokemon": "Girafarig",    "name": "Girafarig" },
         { "type": "Rock",     "pokemon": "Omastar",    "name": "Omastar" },
         { "type": "Steel",    "pokemon": "Steelix",    "name": "Steelix" },
-        { "type": "Water",    "pokemon": "Lumineon",    "name": "Lumineon" }
+        { "type": "Water",    "pokemon": "Golduck",    "name": "Golduck" }
       ]
     },
     {
