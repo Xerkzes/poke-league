@@ -27,7 +27,6 @@ export const Website: React.FC<WebsiteProps> = ({}) => {
             <Route path="/" exact component={Participants} />
             <Route path="/divisions" exact component={Divisions} />
             <Route path="/matches" exact component={Matches} />
-            <Route path="/draftleague" exact component={DraftLeague} />
             <Route path="/rulesets" exact component={Rules} />
             <Route path="/poke-rerolls" exact component={PokeReroll} />
             <Route path="/random_pokemon_generator" exact component={RandoPokeGenerator} />

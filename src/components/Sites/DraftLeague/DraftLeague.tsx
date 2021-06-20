@@ -8,8 +8,6 @@ export const DraftLeague: React.FC<DraftLeagueProps> = ({}) => {
 
   return (
     <div>
-      <h1>Draft League</h1>
-
       {loadIframe && (
         <div
           className="pokemon-cards-loader"
