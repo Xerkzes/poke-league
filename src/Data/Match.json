@@ -124,23 +124,5 @@
             { "trainer1": "JarppiVene",					 "trainer2": "tree4beard",					"winner": "JarppiVene" },
             { "trainer1": "daddybeefcakes123",			 "trainer2": "sweetbeanzz",				    "winner": "sweetbeanzz" }
         ]
-    },
-    {
-        "header":"Week 7: June 14-21 ",
-        "matches": [
-            { "trainer1": "s3xtopher",					 "trainer2": "MercuryPlus1",				"winner": "" },
-            { "trainer1": "runanbun_",					 "trainer2": "Mannat",						"winner": "" },
-            { "trainer1": "Zanderc0rn",					 "trainer2": "leftytheman",				    "winner": "" },
-            { "trainer1": "TheLoooon",					 "trainer2": "mcguineeplasto",				"winner": "" },
-            { "trainer1": "PapierJoe",					 "trainer2": "r3z3n15",					    "winner": "" },
-            { "trainer1": "QuestionableSpecimen",		 "trainer2": "pokedoh",					    "winner": "" },
-            { "trainer1": "Liljaka",					 "trainer2": "TheTired_",					"winner": "" },
-            { "trainer1": "ryguyxdlive",				 "trainer2": "RynnnyD",					    "winner": "" },
-            { "trainer1": "Pokemon_Nuzlocke",			 "trainer2": "FearlessFearow",				"winner": "" },
-            { "trainer1": "RossBoss00",					 "trainer2": "FatherGung",					"winner": "" },
-            { "trainer1": "zefil_",						 "trainer2": "Vinomatic101",				"winner": "" },
-            { "trainer1": "JarppiVene",					 "trainer2": "tree4beard",					"winner": "" },
-            { "trainer1": "daddybeefcakes123",			 "trainer2": "sweetbeanzz",				    "winner": "" }
-        ]
     }
 ]
